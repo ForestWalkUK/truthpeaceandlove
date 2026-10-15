@@ -24,7 +24,8 @@ I have now walked with the LORD for more than twenty years. He has been merciful
 
 Don’t just take my word for it. Read the Holy Bible, seek the Lord yourself (John 6:37). Nobody is guaranteed tomorrow.
 
-> He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him. (John 3:36)
+> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+> (John 3:16).
 
 Carl H, Inverness
 
