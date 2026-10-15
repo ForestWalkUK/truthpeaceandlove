@@ -68,7 +68,8 @@ I have now walked with the LORD for more than twenty years. The LORD has been in
 
 I can personally assure you that God, the Holy Bible, the spiritual realm, afterlife, Judgement Day, Heaven, Hell and eternity are real and true. The historical facts of the life, death and resurrection of the Lord Jesus Christ prove it. But don’t just take my word for it. Read the Holy Bible, seek the Lord yourself (John 6:37). Nobody is guaranteed tomorrow. I urge all to seek the Lord Jesus Christ without delay.
 
-> He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him. (John 3:36)
+> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+> (John 3:16).
 
 Carl H, Inverness
 
