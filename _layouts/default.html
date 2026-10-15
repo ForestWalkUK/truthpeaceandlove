@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+<a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<nav>
+<a href="{{ '/' | relative_url }}">Home</a>
+<a href="{{ '/my-story/' | relative_url }}">My Story</a>
+<a href="{{ '/notes/' | relative_url }}">Notes</a>
+</nav>
+</header>
+{% if page.verses != false %}
+<div class="verses">
+<p class="verse">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.<span class="ref">John 14:6</span></p>
+<p class="verse">Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:<span class="ref">Romans 5:1</span></p>
+<p class="verse">In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.<span class="ref">1 John 4:9</span></p>
+</div>
+{% endif %}
+<main>
+{{ content }}
+</main>
+<footer class="site-footer">
+<p>Version {{ site.site_version }}</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+title: Truth, Peace and Love
+lang: en-GB
+url: "https://forestwalkuk.github.io"
+baseurl: "/truthpeaceandlove"
+markdown: kramdown
+site_version: "0.1"
+exclude:
+  - README.md
