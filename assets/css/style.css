@@ -1,4 +1,4 @@
-:root{--bg:#fdfcf9;--text:#1c1c1c;--muted:#5a5a5a;--link:#1a4a7a;--line:#d8d4c8;--pop-bg:#f6f1e3;--pop-head:#e8dfc6;--pop-text:#1c1c1c}
+:root{--pop-size:1.15rem;--bg:#fdfcf9;--text:#1c1c1c;--muted:#5a5a5a;--link:#1a4a7a;--line:#d8d4c8;--pop-bg:#f6f1e3;--pop-head:#e8dfc6;--pop-text:#1c1c1c}
 @media (prefers-color-scheme:dark){:root{--bg:#161616;--text:#ececec;--muted:#a8a8a8;--link:#8fbfee;--line:#3a3a3a;--pop-bg:#242321;--pop-head:#33312d;--pop-text:#ececec}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -24,8 +24,8 @@ hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
 /* VerseClick (v0.2): links and pop-ups follow the site theme, light and dark */
 .vcVerseLink{color:var(--link)!important;border-bottom:1px dotted var(--link);text-decoration:none!important}
 .vcVerseLink:hover{border-bottom-style:solid}
-.vcPopupVerseText{background-color:var(--pop-bg)!important;color:var(--pop-text)!important;font-family:Georgia,"Times New Roman",serif!important;line-height:1.5!important;padding:10px 14px!important}
-.vcPopupHeaderText{background-color:var(--pop-head)!important;color:var(--pop-text)!important;font-family:Georgia,"Times New Roman",serif!important}
+.vcPopupVerseText{background-color:var(--pop-bg)!important;color:var(--pop-text)!important;font-family:Georgia,"Times New Roman",serif!important;font-size:var(--pop-size)!important;line-height:1.5!important;padding:12px 16px!important}
+.vcPopupHeaderText{background-color:var(--pop-head)!important;color:var(--pop-text)!important;font-family:Georgia,"Times New Roman",serif!important;font-size:var(--pop-size)!important}
 /* Blog (v0.3) */
 .post-date{color:var(--muted);font-size:.9rem;margin:0}
 .post>h1{margin-bottom:.25rem}
