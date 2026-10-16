@@ -3,6 +3,6 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "0.1"
+site_version: "0.2"
 exclude:
   - README.md
