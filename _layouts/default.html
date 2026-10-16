@@ -11,6 +11,7 @@
 <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 <nav>
 <a href="{{ '/' | relative_url }}">Home</a>
+<a href="{{ '/gospels/' | relative_url }}">Gospels</a>
 <a href="{{ '/my-story/' | relative_url }}">My Story</a>
 <a href="{{ '/blog/' | relative_url }}">Blog</a>
 <a href="{{ '/notes/' | relative_url }}">Notes</a>
@@ -27,9 +28,16 @@
 {{ content }}
 </main>
 <footer class="site-footer">
+{% unless page.verseclick == false %}
 <p>Scripture pop-ups by <a href="https://av1611.com/verseclick/">VerseClick</a>™ from AV1611.com (Authorised Version).</p>
+{% endunless %}
+{% if page.bible == "geneva" %}
+<p>Gospel text: Geneva Bible (1599) from <a href="https://ebible.org/">eBible.org</a>, public domain. Spelling modernised.</p>
+{% endif %}
 <p>Version {{ site.site_version }}</p>
 </footer>
+{% unless page.verseclick == false %}
 <script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>
+{% endunless %}
 </body>
 </html>

@@ -34,3 +34,13 @@ hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
 .post-list{list-style:none;padding:0;margin:1rem 0}
 .post-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
 .post-list .post-date{display:block}
+/* Gospels (v0.5) */
+.gv{margin:0 0 .7rem}
+.vn{font-size:.7em;font-weight:bold;vertical-align:super;color:var(--muted);margin-right:.3em}
+.bible-note{font-size:.9rem;color:var(--muted)}
+.chapter-list,.book-list{list-style:none;padding:0;margin:1rem 0}
+.chapter-list{display:flex;flex-wrap:wrap;gap:.5rem}
+.chapter-list a{display:inline-block;min-width:2.75rem;min-height:44px;line-height:44px;text-align:center;border:1px solid var(--line);border-radius:.35rem;text-decoration:none}
+.book-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
+.chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1rem;margin:2rem 0 1rem}
+.chapter-nav a{display:inline-flex;align-items:center;min-height:44px}
