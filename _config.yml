@@ -3,7 +3,7 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "0.7"
+site_version: "0.8"
 exclude:
   - README.md
 permalink: /blog/:title/
