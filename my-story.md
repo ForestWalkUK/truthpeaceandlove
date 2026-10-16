@@ -10,6 +10,8 @@ By Carl H, Inverness
 
 ## The short version
 
+[Read the longer account](#the-longer-account)
+
 From my earliest memories I believed that God existed. I was taken to church as a child, baptised aged seven, and compelled to attend weekly; as soon as I was able, I stopped. Twice, as a boy and again at about thirteen, I made a commitment to Christ, but each time it was soon abandoned.
 
 Through my teens and twenties I sought happiness, fulfilment and meaning through work, relationships, music and hobbies, and always ended up empty. I became a regular binge-drinker and a drunkard, and took illegal drugs. I had some surprising career success as an advertising art director and graphic designer in the video game industry, but it only heightened my disillusionment. On a work exchange in San Francisco, I sat on my lunch break with my head in my hands, thinking, ‘Is this it? Is this all there is?’ I began to realise that I was powerfully enslaved to my sins.
@@ -28,8 +30,6 @@ I can personally assure you that God, the Holy Bible, the spiritual realm, after
 > (John 3:16).
 
 Carl H, Inverness
-
-[Read the longer account](#the-longer-account)
 
 ---
 
