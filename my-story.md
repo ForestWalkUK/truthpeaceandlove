@@ -27,7 +27,7 @@ I have now walked with the LORD for more than twenty years. He has been merciful
 I can personally assure you that God, the Holy Bible, the spiritual realm, afterlife, Judgement Day, heaven, hell and eternity are real and true. Don’t just take my word for it. Read the Holy Bible, seek the Lord yourself (John 6:37). Nobody is guaranteed tomorrow.
 
 > For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
-> (John 3:16).
+> (John 3:16, KJV).
 
 Carl H, Inverness
 
@@ -35,7 +35,7 @@ Carl H, Inverness
 
 ## The longer account
 
-> Great *is* the LORD, and greatly to be praised; and his greatness *is* unsearchable. (Psalm 145:3)
+> Great *is* the LORD, and greatly to be praised; and his greatness *is* unsearchable. (Psalm 145:3, KJV)
 
 ### Testimony of salvation from sin by the Lord Jesus Christ on 14th May 2004
 
@@ -70,7 +70,7 @@ I have now walked with the LORD for more than twenty years. The LORD has been in
 I can personally assure you that God, the Holy Bible, the spiritual realm, afterlife, Judgement Day, heaven, hell and eternity are real and true. The historical facts of the life, death and resurrection of the Lord Jesus Christ prove it. But don’t just take my word for it. Read the Holy Bible, seek the Lord yourself (John 6:37). Nobody is guaranteed tomorrow. I urge all to seek the Lord Jesus Christ without delay.
 
 > For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
-> (John 3:16).
+> (John 3:16, KJV).
 
 Carl H, Inverness
 
