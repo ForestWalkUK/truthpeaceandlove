@@ -1,0 +1,48 @@
+Truth, Peace and Love - PROJECT STATE
+=====================================
+Version: 0.9 (17th October, A.D. 2026)
+Archive: truthpeaceandlove-v0.9.zip
+
+What the site is
+----------------
+A Jekyll site for GitHub Pages, written for readers who are not Christians.
+Live address (from _config.yml): https://forestwalkuk.github.io/truthpeaceandlove
+Pages: Home, Gospels (Geneva Bible 1599, spelling modernised), My Story, Blog, Notes.
+
+How to publish a new version
+----------------------------
+1. Unzip the archive.
+2. Copy its contents over the repository (keep the .git folder).
+3. Commit and push. GitHub Pages builds the site itself; nothing to install locally.
+4. Check the footer says "Version 0.9" on your phone, in light and dark mode.
+
+Settled design decisions
+------------------------
+- Typeface: Source Serif 4, self-hosted (assets/fonts).
+- Title in small capitals; strapline "Found in Jesus Christ" beneath it (_config.yml).
+- Red (--rubric) is reserved for Scripture; LORD and KJV are set in small capitals
+  automatically by the layout.
+- Three fading verses under the header define the name: John 14:6 (truth),
+  Romans 5:1 (peace), 1 John 4:9 (love).
+- Light/dark switch in the header; the choice is remembered on the reader's device.
+- VerseClick pop-ups for Authorised Version references.
+- Home-page picture panel, 16:9: blue sunrise (light), moonlit mountains (dark),
+  by yayangart on Pixabay, credited in the footer. Not to be used as a logo,
+  favicon or social-media image (Pixabay licence forbids use as a mark).
+- Avoid in any future pictures: eyes, faces in the sun or moon, crescent-and-star,
+  rows of moon phases, pentagrams, zodiac signs, the lotus, strong sunburst rays,
+  portraits. Plain sun, moon, stars and landscapes are fine.
+
+How to add or change a picture
+------------------------------
+Pictures live in assets/images/illustrations/ as 1280 x 720 WebP files.
+The file names are set in assets/css/style.css under "Home-page picture".
+To show the panel on another page, add "illustration: true" to its front matter.
+
+Next steps (open)
+-----------------
+- Browse more of yayangart's work; if more pictures are wanted, the panel can
+  rotate through a set for each mode (needs a small data file and a few lines of script).
+- Finish My Story, Blog and Notes content.
+- Possible future: a custom handwritten title logo.
+- Carl to consider a donation and thank-you to yayangart if the pictures stay.

@@ -1,0 +1,26 @@
+Truth, Peace and Love - CHANGELOG
+=================================
+
+Version 0.9 (17th October, A.D. 2026)
+--------------------------------------
+Feature: Strapline "Found in Jesus Christ" under the site title on every page.
+  Set in _config.yml (strapline:), so it can be changed in one place.
+Feature: Home-page picture panel above the fading verses.
+  Light mode shows the blue sunrise; dark mode shows the moonlit mountains.
+  Each is a separate file and the browser downloads only the one in use.
+  Pictures by yayangart on Pixabay (Pixabay Content License), cropped to 16:9.
+  Credit line appears in the footer of any page that shows the panel.
+  Turned on per page with "illustration: true" in the front matter (home only).
+Change: New home-page welcome text and signature
+  ("Every blessing in Christ Jesus, Carl H (an unprofitable servant, Luke 17:10)").
+  The visible "Welcome" heading is replaced by a hidden heading for screen readers,
+  because the paragraph itself now begins "Welcome."
+  Order: welcome, "still being built" line, signature last.
+Improvement: The picture panel is hidden when printing.
+Files changed: _config.yml, _layouts/default.html, assets/css/style.css, index.md
+Files added: assets/images/illustrations/sunrise-light.webp,
+  assets/images/illustrations/moon-dark.webp, CHANGELOG.txt, PROJECT-STATE.txt
+
+Version 0.8 and earlier
+-----------------------
+Not recorded in this file. See earlier chats in the Project.

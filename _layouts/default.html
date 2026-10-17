@@ -18,6 +18,7 @@
 <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
 </button>
 </div>
+{% if site.strapline %}<p class="strap">{{ site.strapline }}</p>{% endif %}
 <nav aria-label="Main">
 <ul>
 <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
@@ -28,6 +29,7 @@
 </ul>
 </nav>
 </header>
+{% if page.illustration %}<div class="hero" aria-hidden="true"></div>{% endif %}
 {% if page.verses != false %}
 <div class="verses">
 <p class="verse">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.<span class="ref">John 14:6, <span class="kjv">KJV</span></span></p>
@@ -45,6 +47,9 @@
 {% endunless %}
 {% if page.bible == "geneva" %}
 <p>Gospel text: Geneva Bible (1599) from <a href="https://ebible.org/">eBible.org</a>, public domain. Spelling modernised.</p>
+{% endif %}
+{% if page.illustration %}
+<p>Pictures by <a href="https://pixabay.com/users/yayangart-13477958/">yayangart</a> on Pixabay.</p>
 {% endif %}
 <p>Version {{ site.site_version }}</p>
 </footer>

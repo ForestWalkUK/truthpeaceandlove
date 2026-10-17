@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 0.8 */
+/* Truth, Peace and Love - style.css - version 0.9 */
 
 /* Typeface: Source Serif 4 (SIL Open Font Licence, see assets/fonts/OFL.txt), self-hosted */
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
@@ -54,6 +54,7 @@ nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;column-gap
 nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);text-decoration:none;font-size:.95em}
 nav a:hover{text-decoration:underline}
 nav a[aria-current]{text-decoration:underline;text-decoration-color:var(--rubric);text-decoration-thickness:2px;text-underline-offset:.4em}
+.strap{margin:-.15rem 0 .1rem;font-size:.86em;line-height:1.35;color:var(--muted);text-wrap:balance}
 @media (max-width:25em){.site-title{font-size:1.15em;letter-spacing:.04em}nav ul{column-gap:.85em}nav a{font-size:.9em}}
 
 /* Fading verses beneath the header */
@@ -114,11 +115,23 @@ sup{line-height:0}
 .chapter-nav.top{margin:.25rem 0 1.25rem}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px}
 
+/* Home-page picture (v0.9). Light and dark modes each have their own picture; the browser downloads only the one in use. */
+.hero{margin:1rem -1.15rem 0;aspect-ratio:16/9;background:url("../images/illustrations/sunrise-light.webp") center/cover no-repeat}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero{background-image:url("../images/illustrations/moon-dark.webp")}}
+:root[data-theme="dark"] .hero{background-image:url("../images/illustrations/moon-dark.webp")}
+@media (min-width:36.5em){.hero{margin:1.1rem 0 0;border-radius:3px}}
+.hero + .verses{margin-top:1.3em}
+
+/* Home-page welcome */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.welcome{margin-top:1.4em}
+.sign{margin:1.4em 0 1em}
+
 /* Printing: black on white, no menus or buttons */
 @media print{
   :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--link:#000;--rubric:#000;--line:#999;color-scheme:light}
   body{max-width:none;padding:0;font-size:11pt;line-height:1.45}
-  nav,.theme-toggle,.verses,.chapter-nav,.skip{display:none!important}
+  nav,.theme-toggle,.verses,.chapter-nav,.skip,.hero{display:none!important}
   a{text-decoration:none}
   .vcVerseLink{border-bottom:0}
   h1,h2,h3{break-after:avoid}
