@@ -236,9 +236,9 @@ A. Jesus is the eternal Son of God, who became a real man without ceasing to be 
 
 **Q. 35. What is our great need?**
 
-A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves.
+A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. That law is summed up in the Ten Commandments. These sins spring from a sinful nature we have had from the very start of our lives, passed down from Adam, the first man. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves, nor change our own hearts.
 
-*Bible references: Romans 3:10, 23; Exodus 20:1-17; Isaiah 59:2; Romans 6:23; Galatians 3:10; Mark 9:43-49; Revelation 20:11-15.*
+*Bible references: Romans 3:10, 23; Exodus 20:1-17; Psalm 51:5; Romans 5:12; Jeremiah 17:9; Isaiah 59:2; Romans 6:23; Galatians 3:10; Mark 9:43-49; Revelation 20:11-15.*
 
 **Q. 36. What has Jesus done about it?**
 
