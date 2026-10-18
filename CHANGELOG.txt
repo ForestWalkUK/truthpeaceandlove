@@ -1,6 +1,13 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 1.1 (18th October, A.D. 2026)
+--------------------------------------
+Feature: new .gloss style (style.css). Words wrapped in <span class="gloss">...</span>
+  show in the muted text colour, so explanatory words in square brackets sit quieter
+  than the Scripture around them. Readable contrast in light, dark and print.
+Files changed: _config.yml, assets/css/style.css.
+
 Version 1.0 (18th October, A.D. 2026)
 --------------------------------------
 Fix: Bold italic text (e.g. the italic "them" inside a bold Scripture quotation) no longer
