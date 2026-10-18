@@ -26,55 +26,55 @@ A. Jesus promises His followers that whatever they ask for in prayer, trusting t
 
 A. Jesus made this promise in Jerusalem, in the last week before His death. He had just entered the city as its promised King, cursed a fig tree that was full of leaves but bore no fruit, and driven the traders out of the temple.
 
-*Bible references: Zechariah 9:9; Mark 11:1–21.*
+*Bible references: Zechariah 9:9; Mark 11:1-21.*
 
 **Q. 3. Who was it that came to Jerusalem that week?**
 
 A. It was the Lord God Almighty, made man, coming in person to His own people. He came to judge, and to be crucified for sinners, and to rise again from the dead the third day.
 
-*Bible references: Malachi 3:1; John 1:1, 14; Luke 19:41–44; Mark 10:33–34.*
+*Bible references: Malachi 3:1; 1 Timothy 3:16; Luke 19:41-44; Mark 10:33-34.*
 
 **Q. 4. Why had God formed the nation of Israel?**
 
 A. God called Abraham and promised that through his family all the families of the earth would be blessed. Israel was the nation through which God would give His Word to the world, and from which the Saviour Himself would be born.
 
-*Bible references: Genesis 12:1–3; Romans 3:1–2; Romans 9:4–5.*
+*Bible references: Genesis 12:1-3; Romans 3:1-2; Romans 9:4-5.*
 
 **Q. 5. How did God show His patience towards Israel?**
 
 A. Over many centuries, God rescued Israel from slavery in Egypt, gave them a good land, and kept sending His prophets to call them back to Himself, early and late, because He had compassion on them. For many years He bore with them.
 
-*Bible references: Exodus 20:2; Jeremiah 7:25; 2 Chronicles 36:15; Nehemiah 9:30; Isaiah 5:1–4.*
+*Bible references: Exodus 20:2; Jeremiah 7:25; 2 Chronicles 36:15; Nehemiah 9:30; Isaiah 5:1-4.*
 
 **Q. 6. How did Israel respond to God’s patience?**
 
 A. Again and again they turned away. Within weeks of leaving Egypt they worshipped a golden calf. Later they served other gods, even sacrificing their own children to them. They mocked God’s messengers, despised His words, and killed many of His prophets.
 
-*Bible references: Exodus 32:1–8; Jeremiah 7:31; Psalm 106:37–38; 2 Chronicles 36:16; Nehemiah 9:26; Acts 7:51–52.*
+*Bible references: Exodus 32:1-8; Jeremiah 7:31; Psalm 106:37-38; 2 Chronicles 36:16; Nehemiah 9:26; Acts 7:51-52.*
 
 **Q. 7. How did they respond when God’s own Son came to them?**
 
 A. They rejected Him too. He came to His own, and His own did not receive Him. His home town tried to throw Him from a cliff; the religious leaders said His miracles were the work of the devil, and for a long time they had been plotting to kill Him. On the very day He cleansed the temple, they looked for a way to destroy Him.
 
-*Bible references: John 1:11; Luke 4:28–30; Mark 3:6, 22; John 11:53; Mark 11:18.*
+*Bible references: John 1:11; Luke 4:28-30; Mark 3:6, 22; John 11:53; Mark 11:18.*
 
 **Q. 8. What did they do in the days that followed?**
 
 A. Within days they had Him arrested, condemned and crucified, just as He had foretold in His parable of the vineyard owner’s beloved son. Yet even on the cross He prayed for them, “Father, forgive them; for they know not what they do,” and soon afterwards thousands of them repented and were saved.
 
-*Bible references: Mark 12:1–9; Mark 14:1, 43–64; Mark 15:12–15; Luke 23:34; Acts 2:23, 36–41.*
+*Bible references: Mark 12:1-9; Mark 14:1, 43-64; Mark 15:12-15; Luke 23:34; Acts 2:23, 36-41.*
 
 **Q. 9. What does the withered fig tree picture?**
 
 A. It pictures God’s judgement on a people who looked religious outwardly but bore no fruit for God, after all His patience. That judgement came in two stages: God gave the nation over to the blindness it had chosen, and later, in A.D. 70, Jerusalem and its temple were destroyed. Yet God did not cast away every one of them.
 
-*Bible references: Jeremiah 8:13; John 12:37–40; Luke 19:43–44; Romans 11:1–2.*
+*Bible references: Jeremiah 8:13; John 12:37-40; Luke 19:43-44; Romans 11:1-2.*
 
 **Q. 10. What does this history mean for us?**
 
 A. It is a mirror for every one of us. God shows the same patience to us, not willing that any should perish, and His kindness is meant to lead us to turn back to Him. But His patience is not endless, and it is not to be presumed upon.
 
-*Bible references: 2 Peter 3:9; Romans 2:4–5; Romans 11:20–22; Hebrews 3:15.*
+*Bible references: 2 Peter 3:9; Romans 2:4-5; Romans 11:20-22; Hebrews 3:15.*
 
 ## Faith in God
 
@@ -82,7 +82,7 @@ A. It is a mirror for every one of us. God shows the same patience to us, not wi
 
 A. The fig tree withered at Jesus’ word alone. It shows that the power behind this promise is God’s power, not ours, and that our trust is to be in God Himself, not in how strongly we believe.
 
-*Bible references: Mark 11:20–23; Psalm 33:9; Luke 1:37.*
+*Bible references: Mark 11:20-23; Psalm 33:9; Luke 1:37.*
 
 **Q. 12. What is the first thing Jesus asks of those who pray?**
 
@@ -94,31 +94,31 @@ A. Jesus begins with the words “Have faith in God.” Faith in God, rather tha
 
 A. No. Jesus made this promise to His own disciples, who trusted in Him. The Bible is honest that God does not welcome the prayers of those who turn their backs on Him and His Word. That is a sobering truth, and by nature it is true of every one of us.
 
-*Bible references: Mark 11:22; John 14:13–14; Proverbs 15:8; Proverbs 28:9.*
+*Bible references: Mark 11:22; John 14:13-14; Proverbs 15:8; Proverbs 28:9.*
 
 **Q. 14. Is there any prayer God will hear from someone who does not yet know Him?**
 
 A. Yes, and gladly. God has promised to hear anyone, from anywhere, who turns to Him and asks for mercy, like the tax collector who prayed, “God be merciful to me a sinner.” No one who comes to Him in that way is ever turned away.
 
-*Bible references: Luke 18:13–14; Romans 10:13; Isaiah 55:6–7; John 6:37.*
+*Bible references: Luke 18:13-14; Romans 10:13; Isaiah 55:6-7; John 6:37.*
 
 **Q. 15. Why does God accept the prayers of those who trust Him?**
 
 A. God accepts them only because of what Jesus has done. Jesus took upon Himself the curse that our wrongdoing deserved, so that all who trust Him can come to God as their Father.
 
-*Bible references: Galatians 3:13; John 14:13–14; Ephesians 2:18; Hebrews 4:14–16.*
+*Bible references: Galatians 3:13; John 14:13-14; Ephesians 2:18; Hebrews 4:14-16.*
 
 **Q. 16. What should we ask for in prayer?**
 
 A. Above all, we should ask for the things that matter most to God: that His name be honoured, His kingdom come, and His will be done. Alongside these, we may ask for anything good and right, for others as well as for ourselves.
 
-*Bible references: Matthew 6:9–13, 33; Philippians 2:4; 1 John 5:14.*
+*Bible references: Matthew 6:9-13, 33; Philippians 2:4; 1 John 5:14.*
 
 **Q. 17. Where do right desires in prayer come from?**
 
 A. They come from God Himself. He works in His people, shaping both what they want and what they do, and His Spirit helps them to pray when they don’t know what to ask.
 
-*Bible references: Philippians 2:13; Psalm 10:17; Romans 8:26–27.*
+*Bible references: Philippians 2:13; Psalm 10:17; Romans 8:26-27.*
 
 **Q. 18. Are all the desires of Christians from God?**
 
@@ -130,19 +130,19 @@ A. No. Christians still struggle with wrong desires, and their prayers are often
 
 A. It means trusting God Himself, His power, goodness, wisdom and faithfulness, rather than the strength of our feelings or the outcome we hope for. It is being confident that He hears us, and that He will answer in keeping with His good purposes.
 
-*Bible references: Mark 11:22–24; 1 John 5:14–15; Matthew 7:11; Hebrews 11:6.*
+*Bible references: Mark 11:22-24; 1 John 5:14-15; Matthew 7:11; Hebrews 11:6.*
 
 **Q. 20. Does believing prayer make things happen by its own power?**
 
 A. No. Prayer has no power in itself; it is God alone who answers. Yet God has chosen to work through the prayers of His people, so prayer really does change things.
 
-*Bible references: Psalm 115:3; Ezekiel 36:37; James 5:16–18.*
+*Bible references: Psalm 115:3; Ezekiel 36:37; James 5:16-18.*
 
 **Q. 21. What mistakes should we avoid in prayer?**
 
 A. There are two opposite mistakes. The first is presumptive optimism: assuming a result is guaranteed because we want it so much, or have claimed it so confidently. The second is presumptive pessimism: expecting the worst so as never to be disappointed, and calling it humility. Both fix their eyes on the outcome rather than on God.
 
-*Bible references: James 4:13–16; Proverbs 27:1; Psalm 77:7–10; Matthew 25:24–25.*
+*Bible references: James 4:13-16; Proverbs 27:1; Psalm 77:7-10; Matthew 25:24-25.*
 
 ## Hope in God
 
@@ -150,19 +150,19 @@ A. There are two opposite mistakes. The first is presumptive optimism: assuming 
 
 A. The Bible’s alternative is hopeful optimism in God: hope that rests on God Himself and His promises, rather than on any particular outcome. The Bible calls this hope an anchor of the soul, both sure and steadfast.
 
-*Bible references: Psalm 42:5; Hebrews 6:18–19; Romans 15:13.*
+*Bible references: Psalm 42:5; Hebrews 6:18-19; Romans 15:13.*
 
 **Q. 23. How is biblical hope different from wishing, or from feeling that something is already ours?**
 
 A. In everyday speech, hope often means a wish. In the Bible, hope is a confident expectation resting on God’s character and promises. It is honest that we do not yet see what we hope for, and it waits patiently for God, rather than trying to bring things about by feeling.
 
-*Bible references: Romans 8:24–25; Lamentations 3:22–26; Psalm 27:13.*
+*Bible references: Romans 8:24-25; Lamentations 3:22-26; Psalm 27:13.*
 
 **Q. 24. What is biblical hope certain of, and what does it leave in God’s hands?**
 
 A. It is certain of God’s goodness and faithfulness, and that He will work all things together for good to those who love Him, making them like Christ and bringing them safely home to glory. But it leaves the details of each request in God’s hands, like the three young men in Babylon who said, in effect, “Our God is able to deliver us; but if not, we will still trust Him.” Pain is still pain, and the Bible never pretends otherwise; yet this hope can look pain in the face.
 
-*Bible references: Romans 8:28–29; Daniel 3:17–18; Habakkuk 3:17–18; Job 13:15; Hebrews 12:11.*
+*Bible references: Romans 8:28-29; Daniel 3:17-18; Habakkuk 3:17-18; Job 13:15; Hebrews 12:11.*
 
 **Q. 25. Does the size of our faith matter?**
 
@@ -176,13 +176,13 @@ A. It isn’t the size of our faith that moves mountains, but the greatness of t
 
 A. Sometimes God answers in the very details of what was asked. Where He does not, He always answers the deepest heart of the prayer, giving something better, which brings Him greater honour and does His people greater good.
 
-*Bible references: James 5:17–18; Mark 14:36; 2 Corinthians 12:8–9; Romans 8:28.*
+*Bible references: James 5:17-18; Mark 14:36; 2 Corinthians 12:8-9; Romans 8:28.*
 
 **Q. 27. Why does God sometimes say no to the details?**
 
 A. Sometimes it is because we have asked wrongly, misled by our own desires, by the world around us, or by the devil. But sometimes we have asked rightly, and God simply has a greater purpose than we can yet see.
 
-*Bible references: James 4:3; Mark 8:33; 2 Corinthians 12:7–9; Deuteronomy 29:29.*
+*Bible references: James 4:3; Mark 8:33; 2 Corinthians 12:7-9; Deuteronomy 29:29.*
 
 **Q. 28. Does a Christian’s closeness to God make a difference?**
 
@@ -194,13 +194,13 @@ A. Yes. The more closely a Christian walks with God, the more their desires are 
 
 A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full, and through the cross He gained the joy set before Him: the salvation of His people.
 
-*Bible references: Mark 14:36; Luke 22:42–44; Hebrews 5:7; Hebrews 12:2.*
+*Bible references: Mark 14:36; Luke 22:42-44; Hebrews 5:7; Hebrews 12:2.*
 
 **Q. 30. Is this promise only for individuals?**
 
 A. No. Jesus spoke to His disciples together, so the promise belongs to His people as a whole: to churches and families, as well as to each believer.
 
-*Bible references: Mark 11:22–24; Matthew 18:19–20; Acts 4:24–31; Acts 12:5.*
+*Bible references: Mark 11:22-24; Matthew 18:19-20; Acts 4:24-31; Acts 12:5.*
 
 **Q. 31. When will Christians fully understand God’s answers to their prayers?**
 
@@ -212,7 +212,7 @@ A. In glory. There, with hearts and wills made perfect, they will see that what 
 
 A. With its meaning drawn out in square brackets, the verse reads like this: “Therefore I say unto you [who have faith in God], What things soever ye desire [savouring first and foremost the things of God: desires which God Himself works in you who trust Him], when ye pray, believe that ye receive *them* [resting not on the strength of your conviction, but on Him who prepares the heart to pray], and ye shall have *them* [for what God works in you to will, He also works to do, of His good pleasure. Sometimes this is in the very detail of your asking. Sometimes, as in Gethsemane, He answers the deepest substance of your prayer but not its specific details, refusing your present wish for something far better, more to God’s honour and the good of His people, which in glory you will see was what you most truly wanted].”
 
-*Bible references: Mark 11:22–24; Philippians 2:13; Mark 14:36; John 13:7.*
+*Bible references: Mark 11:22-24; Philippians 2:13; Mark 14:36; John 13:7.*
 
 ## The good news
 
@@ -226,31 +226,31 @@ A. Jesus is the eternal Son of God, who became a real man without ceasing to be 
 
 A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves.
 
-*Bible references: Romans 3:10, 23; Exodus 20:1–17; Isaiah 59:2; Romans 6:23; Galatians 3:10.*
+*Bible references: Romans 3:10, 23; Exodus 20:1-17; Isaiah 59:2; Romans 6:23; Galatians 3:10.*
 
 **Q. 35. What has Jesus done about it?**
 
 A. Jesus died on the cross in the place of sinners, bearing the curse and punishment their sins deserved. Then God raised Him from the dead the third day, showing that the debt was paid in full.
 
-*Bible references: Galatians 3:13; 1 Peter 3:18; 1 Corinthians 15:3–4; Romans 4:25.*
+*Bible references: Galatians 3:13; 1 Peter 3:18; 1 Corinthians 15:3-4; Romans 4:25.*
 
 **Q. 36. How can I receive this salvation?**
 
 A. Salvation is God’s free gift, which cannot be earned. You receive it by turning from your sin and trusting in Jesus Christ alone. Whoever believes in Him will not perish, but have everlasting life.
 
-*Bible references: Mark 1:15; Acts 16:31; Ephesians 2:8–9; John 3:16; Romans 10:9–13.*
+*Bible references: Mark 1:15; Acts 16:31; Ephesians 2:8-9; John 3:16; Romans 10:9-13.*
 
 **Q. 37. Will Jesus receive me, whatever I have done?**
 
 A. Yes. Jesus promises, “Him that cometh to me I will in no wise cast out.” He invites all who are weary and burdened to come to Him for rest, and no sin is too great for His blood to cleanse.
 
-*Bible references: John 6:37; Matthew 11:28–30; Isaiah 1:18; 1 John 1:7–9; 1 Timothy 1:15.*
+*Bible references: John 6:37; Matthew 11:28-30; Isaiah 1:18; 1 John 1:7-9; 1 Timothy 1:15.*
 
 **Q. 38. What should I do now?**
 
 A. Come to Him today, while there is time, and ask Him for mercy, as the tax collector did: “God be merciful to me a sinner.” Read the Gospels to get to know Him, and seek out a faithful church where His Word is preached. Then you too may pray with faith in God, and find in Him a hope that will never disappoint you.
 
-*Bible references: 2 Corinthians 6:2; Luke 18:13; John 20:31; Hebrews 10:24–25; Romans 5:5.*
+*Bible references: 2 Corinthians 6:2; Luke 18:13; John 20:31; Hebrews 10:24-25; Romans 5:5.*
 
 ---
 
