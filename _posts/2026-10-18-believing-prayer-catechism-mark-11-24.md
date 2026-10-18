@@ -197,57 +197,63 @@ A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus 
 
 *Bible references: Mark 14:36; Luke 22:42-44; John 17:1-5; John 17:24; John 18:1; Hebrews 5:7; Hebrews 12:2.*
 
-**Q. 30. Is this promise only for individuals?**
+**Q. 30. Did Jesus “have” what He asked for in Gethsemane?**
+
+A. Yes, in the deepest sense. Set beside Mark 11:24, His prayer reads like this: “What things soever ye desire <span class="gloss">[take away this cup from me]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[Abba, Father, all things are possible unto thee]</span>, and ye shall have *them* <span class="gloss">[nevertheless not what I will, but what thou wilt]</span>.” Scripture tells us that He prayed “unto him that was able to save him from death, and was heard in that he feared”. He was not spared from death, but He was saved out of it, rising again the third day. That was exactly what His Father willed, and so it was what Jesus Himself most truly desired.
+
+*Bible references: Mark 14:36; Hebrews 5:7; Acts 2:24.*
+
+**Q. 31. Is this promise only for individuals?**
 
 A. No. Jesus spoke to His disciples together, so the promise belongs to His people as a whole: to Christian nations, churches and families, as well as to each believer.
 
 *Bible references: Mark 11:22-24; Matthew 28:19-20; Matthew 18:19-20; Acts 4:24-31; Acts 12:5.*
 
-**Q. 31. When will Christians fully understand God’s answers to their prayers?**
+**Q. 32. When will Christians fully understand God’s answers to their prayers?**
 
 A. In glory. There, with hearts and wills made perfect, they will see that what God gave them was what they most truly wanted all along. As Jesus said, “What I do thou knowest not now; but thou shalt know hereafter.”
 
 *Bible references: John 13:7; 1 Corinthians 13:12; Psalm 17:15.*
 
-**Q. 32. So what, in sum, does Mark 11:24 mean?**
+**Q. 33. So what, in sum, does Mark 11:24 mean?**
 
-A. With its meaning drawn out in square brackets, the verse reads like this: “Therefore I say unto you [who have faith in God], What things soever ye desire [savouring first and foremost the things of God: desires which God Himself works in you who trust Him], when ye pray, believe that ye receive *them* [resting not on the strength of your conviction, but on Him who prepares the heart to pray], and ye shall have *them* [for what God works in you to will, He also works to do, of His good pleasure. Sometimes this is in the very detail of your asking. Sometimes, as in Gethsemane, He answers the deepest substance of your prayer but not its specific details, refusing your present wish for something far better, more to God’s honour and the good of His people, which in glory you will see was what you most truly wanted].”
+A. With its meaning drawn out in square brackets, the verse reads like this: “Therefore I say unto you <span class="gloss">[who have faith in God]</span>, What things soever ye desire <span class="gloss">[savouring first and foremost the things of God: desires which God Himself works in you who trust Him]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[resting not on the strength of your conviction, but on Him who prepares the heart to pray]</span>, and ye shall have *them* <span class="gloss">[for what God works in you to will, He also works to do, of His good pleasure. Sometimes this is in the very detail of your asking. Sometimes, as in Gethsemane, He answers the deepest substance of your prayer but not its specific details, refusing your present wish for something far better, more to God’s honour and the good of His people, which in glory you will see was what you most truly wanted]</span>.”
 
 *Bible references: Mark 11:22-24; Philippians 2:13; Mark 14:36; John 13:7.*
 
 ## The good news
 
-**Q. 33. Who is Jesus?**
+**Q. 34. Who is Jesus?**
 
 A. Jesus is the eternal Son of God, who became a real man without ceasing to be God. He lived a perfect life, never once sinning, and He is the only Saviour of the world.
 
 *Bible references: John 1:1, 14; Colossians 2:9; Hebrews 4:15; Acts 4:12.*
 
-**Q. 34. What is our great need?**
+**Q. 35. What is our great need?**
 
 A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves.
 
 *Bible references: Romans 3:10, 23; Exodus 20:1-17; Isaiah 59:2; Romans 6:23; Galatians 3:10.*
 
-**Q. 35. What has Jesus done about it?**
+**Q. 36. What has Jesus done about it?**
 
 A. Jesus died on the cross in the place of sinners, bearing the curse and punishment their sins deserved. Then God raised Him from the dead the third day, showing that the debt was paid in full.
 
 *Bible references: Galatians 3:13; 1 Peter 3:18; 1 Corinthians 15:3-4; Romans 4:25.*
 
-**Q. 36. How can I receive this salvation?**
+**Q. 37. How can I receive this salvation?**
 
 A. Salvation is God’s free gift, which cannot be earned. You receive it by turning from your sin and trusting in Jesus Christ alone. Whoever believes in Him will not perish, but have everlasting life.
 
 *Bible references: Mark 1:15; Acts 16:31; Ephesians 2:8-9; John 3:16; Romans 10:9-13.*
 
-**Q. 37. Will Jesus receive me, whatever I have done?**
+**Q. 38. Will Jesus receive me, whatever I have done?**
 
 A. Yes. Jesus promises, “Him that cometh to me I will in no wise cast out.” He invites all who are weary and burdened to come to Him for rest, and no sin is too great for His blood to cleanse.
 
 *Bible references: John 6:37; Matthew 11:28-30; Isaiah 1:18; 1 John 1:7-9; 1 Timothy 1:15.*
 
-**Q. 38. What should I do now?**
+**Q. 39. What should I do now?**
 
 A. Don’t put it off, for “behold, now *is* the accepted time; behold, now *is* the day of salvation.” Come to Christ today, and ask Him for mercy as the tax collector did: “God be merciful to me a sinner.” Read the Gospels to get to know Him, and search the Scriptures daily, asking His blessing on your reading and testing everything you hear by them, for not everyone who speaks in Christ’s name speaks His truth.
 
