@@ -193,9 +193,9 @@ A. Yes. The more closely a Christian walks with God, the more their desires are 
 
 **Q. 29. What does Jesus’ prayer in Gethsemane teach us?**
 
-A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full, and through the cross He gained the joy set before Him: the salvation of His people.
+A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. Earlier that same night He had prayed, “Father, the hour is come; glorify thy Son, that thy Son also may glorify thee”, and through the cross He gained the joy set before Him: first the glory of His Father, and with it the salvation of His people.
 
-*Bible references: Mark 14:36; Luke 22:42-44; Hebrews 5:7; Hebrews 12:2.*
+*Bible references: Mark 14:36; Luke 22:42-44; John 17:1-5; John 17:24; John 18:1; Hebrews 5:7; Hebrews 12:2.*
 
 **Q. 30. Is this promise only for individuals?**
 
