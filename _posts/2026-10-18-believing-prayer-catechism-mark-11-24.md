@@ -217,7 +217,12 @@ A. In glory. There, with hearts and wills made perfect, they will see that what 
 
 **Q. 33. So what, in sum, does Mark 11:24 mean?**
 
-A. With its meaning drawn out in square brackets, the verse reads like this: “Therefore I say unto you <span class="gloss">[who have faith in God]</span>, What things soever ye desire <span class="gloss">[savouring first and foremost the things of God: desires which God Himself works in you who trust Him]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[resting not on the strength of your conviction, but on Him who prepares the heart to pray]</span>, and ye shall have *them* <span class="gloss">[for what God works in you to will, He also works to do, of His good pleasure. Sometimes this is in the very detail of your asking. Sometimes, as in Gethsemane, He answers the deepest substance of your prayer but not its specific details, refusing your present wish for something far better, more to God’s honour and the good of His people, which in glory you will see was what you most truly wanted]</span>.”
+A. Jesus said, “Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive *them*, and ye shall have *them*.” Taken a phrase at a time, this is what He meant:
+
+- “I say unto you”: He is speaking to those who trust God.
+- “What things soever ye desire”: whatever they long for, once God Himself has shaped their wishes so that His will comes first.
+- “believe that ye receive *them*”: they rest on God to answer, not on how strongly they feel.
+- “ye shall have *them*”: God will give what He has led them to ask. Sometimes He gives the very thing asked for. Sometimes, as with Jesus in Gethsemane, He grants the deepest heart of the prayer but says no to its details, in order to give something better, and one day they will see that it was what they most truly wanted.
 
 *Bible references: Mark 11:22-24; Philippians 2:13; Mark 14:36; John 13:7.*
 
@@ -267,4 +272,4 @@ Count the cost, for “if any *man* will come after me, let him deny himself, an
 
 ---
 
-*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the bracketed paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
+*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the phrase-by-phrase paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
