@@ -73,9 +73,9 @@ A. It pictures God’s judgement on a people who looked religious outwardly but 
 
 **Q. 10. What does this history mean for us?**
 
-A. It is a mirror for every one of us. God shows the same patience to us, not willing that any should perish, and His kindness is meant to lead us to turn back to Him. But His patience is not endless, and it is not to be presumed upon.
+A. It is a mirror for every one of us. God shows the same patience to us, and His kindness is meant to lead us to turn back to Him. But His patience is not endless, and it is not to be presumed upon. While He waits, His call stands open: “To day if ye will hear his voice, harden not your hearts.”
 
-*Bible references: 2 Peter 3:9; Romans 2:4-5; Romans 11:20-22; Hebrews 3:15.*
+*Bible references: Romans 2:4-5; Romans 11:20-22; Hebrews 3:15; 2 Peter 3:15.*
 
 ## Faith in God
 
