@@ -161,7 +161,7 @@ A. In everyday speech, hope often means a wish. In the Bible, hope is a confiden
 
 **Q. 24. What is biblical hope certain of, and what does it leave in God’s hands?**
 
-A. It is certain of God’s goodness and faithfulness, and that He will work all things together for good to those who love Him, making them like Christ and bringing them safely home to glory. But it leaves the details of each request in God’s hands, like the three young men in Babylon who said, in effect, “Our God is able to deliver us; but if not, we will still trust Him.” Pain is still pain, and the Bible never pretends otherwise; yet this hope can look pain in the face.
+A. It is certain of God’s goodness and faithfulness, and that He will work all things together for good to those who love Him, making them like Christ and bringing them safely home to glory. But it leaves the outcome of each request in God’s hands, like the three young men in Babylon who said, in effect, “Our God is able to deliver us; but if not, we will still trust Him.” Pain is still pain, and the Bible never pretends otherwise; yet this hope can look pain in the face.
 
 *Bible references: Romans 8:28-29; Daniel 3:17-18; Habakkuk 3:17-18; Job 13:15; Hebrews 12:11.*
 
@@ -175,11 +175,11 @@ A. It isn’t the size of our faith that moves mountains, but the greatness of t
 
 **Q. 26. How does God answer the prayers of those who trust Him?**
 
-A. Sometimes God answers in the very details of what was asked. Where He does not, He always answers the deepest heart of the prayer, giving something better, which brings Him greater honour and does His people greater good.
+A. Sometimes God gives the very thing that was asked. Where He does not, He always answers the deepest heart of a prayer offered in faith, giving something better, which brings Him greater honour and does His people greater good.
 
-*Bible references: James 5:17-18; Mark 14:36; 2 Corinthians 12:8-9; Romans 8:28.*
+*Bible references: James 1:6-7; James 5:15-18; Mark 14:36; 2 Corinthians 12:8-9; Romans 8:28.*
 
-**Q. 27. Why does God sometimes say no to the details?**
+**Q. 27. Why does God sometimes refuse what we ask?**
 
 A. Sometimes it is because we have asked wrongly, misled by our own desires, by the world around us, or by the devil. But sometimes we have asked rightly, and God simply has a greater purpose than we can yet see.
 
@@ -222,7 +222,7 @@ A. Jesus said, “Therefore I say unto you, What things soever ye desire, when y
 - “I say unto you”: He is speaking to those who trust God.
 - “What things soever ye desire”: whatever they long for, once God Himself has shaped their wishes so that His will comes first.
 - “believe that ye receive *them*”: they rest on God to answer, not on how strongly they feel.
-- “ye shall have *them*”: God will give what He has led them to ask. Sometimes He gives the very thing asked for. Sometimes, as with Jesus in Gethsemane, He grants the deepest heart of the prayer but says no to its details, in order to give something better, and one day they will see that it was what they most truly wanted.
+- “ye shall have *them*”: God will give what He has led them to ask. Sometimes He gives the very thing asked for. Sometimes, as with Jesus in Gethsemane, He refuses the very thing asked for, yet grants the deepest heart of the prayer, giving something far better; and one day they will see that it was what they most truly wanted.
 
 *Bible references: Mark 11:22-24; Philippians 2:13; Mark 14:36; John 13:7.*
 
