@@ -149,9 +149,9 @@ A. There are two opposite mistakes. The first is presumptive optimism: assuming 
 
 **Q. 22. What is the Bible’s alternative to presumptive optimism and presumptive pessimism?**
 
-A. The Bible’s alternative is hopeful optimism in God: hope that rests on God Himself and His promises, rather than on any particular outcome. The Bible calls this hope an anchor of the soul, both sure and steadfast.
+A. The Bible’s alternative is confidence in God: hope that rests on God Himself and His promises, rather than on any particular outcome. The Bible calls this hope an anchor of the soul, both sure and steadfast.
 
-*Bible references: Psalm 42:5; Hebrews 6:18-19; Romans 15:13.*
+*Bible references: Psalm 42:5; Jeremiah 17:7; Hebrews 6:18-19; Hebrews 10:35; Romans 15:13.*
 
 **Q. 23. How is biblical hope different from wishing, or from feeling that something is already ours?**
 
@@ -261,4 +261,4 @@ Count the cost, for “if any *man* will come after me, let him deny himself, an
 
 ---
 
-*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the bracketed paraphrase of the verse, and the terms “presumptive optimism”, “presumptive pessimism” and “hopeful optimism in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
+*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the bracketed paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
