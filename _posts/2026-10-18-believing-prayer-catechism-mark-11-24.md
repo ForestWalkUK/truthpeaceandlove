@@ -31,9 +31,9 @@ A. Jesus made this promise in Jerusalem, in the last week before His death. He h
 
 **Q. 3. Who was it that came to Jerusalem that week?**
 
-A. It was the Lord God Almighty, made man, coming in person to His own people. He came to judge, and to be crucified for sinners, and to rise again from the dead the third day.
+A. It was the Lord Jesus Christ, the eternal Son of God, who became man. He came not to judge the world but to save it: to be crucified for sinners, and to rise again from the dead the third day. Yet He came also as the Lord of His temple, and He wept over the city as He warned it of the judgement that would fall on it for rejecting Him.
 
-*Bible references: Malachi 3:1; 1 Timothy 3:16; Luke 19:41-44; Mark 10:33-34.*
+*Bible references: Malachi 3:1; John 1:14; Galatians 4:4; 1 Timothy 3:16; John 3:17; John 12:47-48; Mark 10:33-34; Luke 19:41-44.*
 
 **Q. 4. Why had God formed the nation of Israel?**
 
