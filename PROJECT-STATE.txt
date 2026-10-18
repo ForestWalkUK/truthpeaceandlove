@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 1.1 (18th October, A.D. 2026)
-Archive: truthpeaceandlove-v1.1.zip
+Version: 1.2 (18th October, A.D. 2026)
+Archive: truthpeaceandlove-v1.2.zip
 
 What the site is
 ----------------
@@ -14,7 +14,7 @@ How to publish a new version
 1. Unzip the archive.
 2. Copy its contents over the repository (keep the .git folder).
 3. Commit and push. GitHub Pages builds the site itself; nothing to install locally.
-4. Check the footer says "Version 1.1" on your phone, in light and dark mode.
+4. Check the footer says "Version 1.2" on your phone, in light and dark mode.
 
 Settled design decisions
 ------------------------
@@ -66,3 +66,4 @@ Version 1.1 (18th October, A.D. 2026)
 - New .gloss class: in a post, write <span class="gloss">[explanatory words]</span> to show
   words inserted into a Bible verse in the quieter muted colour (used in the Believing Prayer
   catechism, Q. 30 and Q. 33).
+- v1.2: .gloss now uses its own lighter --gloss colour token (set in the three theme blocks and print).

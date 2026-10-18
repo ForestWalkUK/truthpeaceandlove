@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 1.1 */
+/* Truth, Peace and Love - style.css - version 1.2 */
 
 /* Typeface: Source Serif 4 (SIL Open Font Licence, see assets/fonts/OFL.txt), self-hosted */
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
@@ -10,17 +10,17 @@
 :root{
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
-  --paper:#fdfcf9;--ink:#1f1d1a;--muted:#5f5a52;--link:#1a4a7a;--rubric:#9b2318;--line:#ddd7ca;
+  --paper:#fdfcf9;--ink:#1f1d1a;--muted:#5f5a52;--gloss:#7a746a;--link:#1a4a7a;--rubric:#9b2318;--line:#ddd7ca;
   --pop-bg:#f6f1e3;--pop-head:#e8dfc6;--pop-text:#1f1d1a;
   color-scheme:light;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
 /* Dark colours (the same values appear twice: once for the device setting, once for the button) */
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
+  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--gloss:#857f74;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
   --pop-bg:#24211c;--pop-head:#332f28;--pop-text:#e8e3d8;color-scheme:dark}}
 :root[data-theme="dark"]{
-  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
+  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--gloss:#857f74;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
   --pop-bg:#24211c;--pop-head:#332f28;--pop-text:#e8e3d8;color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
@@ -130,7 +130,7 @@ sup{line-height:0}
 
 /* Printing: black on white, no menus or buttons */
 @media print{
-  :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--link:#000;--rubric:#000;--line:#999;color-scheme:light}
+  :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--gloss:#666;--link:#000;--rubric:#000;--line:#999;color-scheme:light}
   body{max-width:none;padding:0;font-size:11pt;line-height:1.45}
   nav,.theme-toggle,.verses,.chapter-nav,.skip,.hero{display:none!important}
   a{text-decoration:none}
@@ -140,4 +140,4 @@ sup{line-height:0}
 }
 
 /* Explanatory words inserted into a Bible verse, e.g. [who have faith in God]: quieter than the Scripture itself */
-.gloss{color:var(--muted)}
+.gloss{color:var(--gloss)}

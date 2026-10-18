@@ -1,6 +1,13 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 1.2 (18th October, A.D. 2026)
+--------------------------------------
+Improvement: .gloss text was too close to the body text. New --gloss colour token, lighter
+  than --muted: #7a746a on light (4.5:1, the minimum for comfortable reading), #857f74 on
+  dark (4.6:1), #666 in print.
+Files changed: _config.yml, assets/css/style.css.
+
 Version 1.1 (18th October, A.D. 2026)
 --------------------------------------
 Feature: new .gloss style (style.css). Words wrapped in <span class="gloss">...</span>
