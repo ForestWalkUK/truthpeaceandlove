@@ -111,7 +111,7 @@ A. God accepts them only because of what Jesus has done. Jesus took upon Himself
 
 **Q. 16. What should we ask for in prayer?**
 
-A. Above all, we should ask for the things that matter most to God: that His name be honoured, His kingdom come, and His will be done. Alongside these, we may ask for anything good and right, for others as well as for ourselves.
+A. Above all, we should ask for the things that matter most to God: that His name be hallowed, His kingdom come, and His will be done. Alongside these, we may ask for anything good and right, for others as well as for ourselves.
 
 *Bible references: Matthew 6:9-13, 33; Philippians 2:4; 1 John 5:14.*
 
