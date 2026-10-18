@@ -1,6 +1,14 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 1.3 (18th October, A.D. 2026)
+--------------------------------------
+Improvement: .gloss lighter again, about the look of 50% opacity: #8e8a84 light (3.4:1),
+  #716b62 dark (3.4:1), #888 print. Suited to short bracketed glosses.
+Change: the ZIP no longer contains the _posts folder, so an update can never add, replace
+  or disturb posts. (v1.2 carried the old test post.)
+Files changed: _config.yml, assets/css/style.css.
+
 Version 1.2 (18th October, A.D. 2026)
 --------------------------------------
 Improvement: .gloss text was too close to the body text. New --gloss colour token, lighter
