@@ -187,9 +187,9 @@ A. Sometimes it is because we have asked wrongly, misled by our own desires, by 
 
 **Q. 28. Does a Christian’s closeness to God make a difference?**
 
-A. Yes. The more closely a Christian walks with God, the more their desires are shaped by His Word, and the better they understand what God is doing in their life; and so the more often their prayers match His purposes in detail. Even so, a “no” is not in itself a sign that they asked wrongly.
+A. Yes, as a general rule. The more closely a Christian walks with God, the more their desires are shaped by His Word, and so the more often their prayers agree with His will. But it is a general rule, not a promise for every case. Nor does closeness to God mean that a Christian will always understand what God is doing in their life. God Himself said of Job that there was none like him in the earth, yet Job was never told why he suffered. When God answered him, He gave him no reason, but showed him His own wisdom and power, and Job humbled himself before Him. So a “no”, or a long silence, is not in itself a sign that a Christian has asked wrongly, or that they are far from God.
 
-*Bible references: John 15:7; 1 John 3:22; James 5:16; Mark 14:36.*
+*Bible references: John 15:7; 1 John 3:22; James 5:16; Job 1:8; Job 30:20; Job 38:1-4; Job 42:1-6; Mark 14:36.*
 
 **Q. 29. What does Jesus’ prayer in Gethsemane teach us?**
 
