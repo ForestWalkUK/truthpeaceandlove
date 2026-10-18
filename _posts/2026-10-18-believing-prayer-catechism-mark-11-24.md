@@ -111,9 +111,9 @@ A. God accepts them only because of what Jesus has done. Jesus took upon Himself
 
 **Q. 16. What should we ask for in prayer?**
 
-A. Above all, we should ask for the things that matter most to God: that His name be hallowed, His kingdom come, and His will be done. Alongside these, we may ask for anything good and right, for others as well as for ourselves.
+A. The whole Bible guides us in prayer, but the special rule is the prayer Jesus taught His disciples, called the Lord’s Prayer. It may be prayed as it stands, with understanding and faith, and it is also the pattern for all our other prayers. It teaches us to ask first for the things that matter most to God: that His name be hallowed, that is, honoured as holy; that His kingdom come; and that His will be done on earth, as it is in heaven. Then it teaches us to ask for what we need: our daily bread, the forgiveness of our sins as we forgive others, and to be kept from temptation and delivered from evil. Following that pattern, we may ask for anything that serves God’s glory and the good of His people, for others as well as for ourselves, but never for anything His Word forbids.
 
-*Bible references: Matthew 6:9-13, 33; Philippians 2:4; 1 John 5:14.*
+*Bible references: Matthew 6:9-13, 33; Luke 11:1-4; 1 Timothy 2:1-2; Philippians 2:4; 1 John 5:14.*
 
 **Q. 17. Where do right desires in prayer come from?**
 
