@@ -199,9 +199,9 @@ A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus 
 
 **Q. 30. Is this promise only for individuals?**
 
-A. No. Jesus spoke to His disciples together, so the promise belongs to His people as a whole: to churches and families, as well as to each believer.
+A. No. Jesus spoke to His disciples together, so the promise belongs to His people as a whole: to Christian nations, churches and families, as well as to each believer.
 
-*Bible references: Mark 11:22-24; Matthew 18:19-20; Acts 4:24-31; Acts 12:5.*
+*Bible references: Mark 11:22-24; Matthew 28:19-20; Matthew 18:19-20; Acts 4:24-31; Acts 12:5.*
 
 **Q. 31. When will Christians fully understand God’s answers to their prayers?**
 
