@@ -1,6 +1,20 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 1.0 (18th October, A.D. 2026)
+--------------------------------------
+Fix: Bold italic text (e.g. the italic "them" inside a bold Scripture quotation) no longer
+  looks smeared. The site had no Semibold Italic font, so browsers faked one by thickening
+  the regular italic. Added assets/fonts/SourceSerif4-SemiboldItalic.woff2 (Source Serif 4,
+  same version 4.004, SIL Open Font Licence, Latin set from Fontsource, about 21 KB; it is
+  downloaded only on pages that use bold italic) and its @font-face rule.
+Improvement: font-synthesis:small-caps on html, so browsers never fake bold or italic
+  again (small capitals are still allowed).
+Fix (post, not in this ZIP): the Believing Prayer post had no front matter, so Jekyll made
+  a title from the file name and the layout showed it above the post's own # heading.
+  Front matter title added (in quote marks because of the colons) and the # line removed.
+Files changed: _config.yml, assets/css/style.css. File added: the font above.
+
 Version 0.9 (17th October, A.D. 2026)
 --------------------------------------
 Feature: Strapline "Found in Jesus Christ" under the site title on every page.

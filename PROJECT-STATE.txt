@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 0.9 (17th October, A.D. 2026)
-Archive: truthpeaceandlove-v0.9.zip
+Version: 1.0 (18th October, A.D. 2026)
+Archive: truthpeaceandlove-v1.0.zip
 
 What the site is
 ----------------
@@ -14,7 +14,7 @@ How to publish a new version
 1. Unzip the archive.
 2. Copy its contents over the repository (keep the .git folder).
 3. Commit and push. GitHub Pages builds the site itself; nothing to install locally.
-4. Check the footer says "Version 0.9" on your phone, in light and dark mode.
+4. Check the footer says "Version 1.0" on your phone, in light and dark mode.
 
 Settled design decisions
 ------------------------
@@ -46,3 +46,17 @@ Next steps (open)
 - Finish My Story, Blog and Notes content.
 - Possible future: a custom handwritten title logo.
 - Carl to consider a donation and thank-you to yayangart if the pictures stay.
+
+Version 1.0 (18th October, A.D. 2026)
+-------------------------------------
+- Added assets/fonts/SourceSerif4-SemiboldItalic.woff2 and its @font-face rule, so bold italic
+  (italic words inside a bold Scripture quotation) is a real typeface, not a browser fake.
+  font-synthesis:small-caps on html stops browsers faking bold or italic again.
+- Posting rule: every post begins with front matter giving the title, and does NOT repeat
+  the title as a # heading in the text (the layout prints it). A title with a colon goes
+  in plain double quotes:
+    ---
+    title: "Believing Prayer: A Catechism on Mark 11:24"
+    ---
+  Without a title Jekyll invents one from the file name, dropping the colons.
+- Version numbering: 0.9 + .1 taken as 1.0 (Carl may renumber to 0.10 if he prefers).
