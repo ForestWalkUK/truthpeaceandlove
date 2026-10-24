@@ -1,6 +1,31 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.1 (24th October, A.D. 2026) - full door structure, three colour choices
+---------------------------------------------------------------------------------
+Feature: the structure of the canvas specimen. All six doors now show on the home page and
+  #deeper is in the menu. New section pages (layout: section), each with its door sentence:
+  never-thought/, weary/, other-beliefs/, shut-out/, deeper/. Pages not yet written say so
+  and point to the Gospels and My Story.
+Feature: the agreed distress note is on the #weary page, above everything else.
+Feature: a section page also lists blog posts whose front matter names it, e.g.
+  sections: [otherbeliefs, deeper]
+Feature: colours. Dark is now the default for everyone. The masthead button (#dark, #light,
+  #soft) moves through dark, light and a new soft light (warm grey paper, softer black ink)
+  for readers who find bright white too strong. The choice is remembered on the device.
+  The site no longer follows the device's own light/dark setting.
+Restored: the post "Believing Prayer: A Catechism on Mark 11:24", exactly as last committed
+  (b70595e, Q. 35 "sinful nature from Adam"), plus one new front-matter line,
+  sections: [otherbeliefs, deeper], so it is listed on those two pages. The v2.0 commit had
+  removed it from the repository.
+Change: My Story footnote 1 now links the words "Going Deeper" to /deeper/.
+Improvement: slightly wider word spacing in the big italic headings (tight at large sizes).
+Files added: never-thought/index.md, weary/index.md, other-beliefs/index.md,
+  shut-out/index.md, deeper/index.md, _posts/2026-10-18-believing-prayer-catechism-mark-11-24.md.
+Files changed: _config.yml, _layouts/default.html, _layouts/section.html,
+  assets/css/style.css, my-story.md.
+Note: this ZIP DOES contain _posts (the one post), to restore it.
+
 Version 2.0 (24th October, A.D. 2026) - new typographic design
 --------------------------------------------------------------
 Feature: whole new look, typography only (no pictures). Bold black italic hashtags

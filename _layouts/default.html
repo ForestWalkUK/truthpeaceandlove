@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 {% if page.deck %}<meta name="description" content="{{ page.deck | strip_html | escape }}">{% endif %}
-<script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="soft")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <link rel="preload" href="{{ '/assets/fonts/SourceSerif4-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/Inter-900-Italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -20,10 +20,7 @@
 <li><a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"{% if page.url == item.url %} aria-current="page"{% elsif item.url != "/" and page.url contains item.url %} aria-current="true"{% endif %}><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a></li>{% endif %}{% endfor %}
 </ul>
 </nav>
-<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark colours" hidden>
-<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
-<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
-</button>
+<button type="button" class="theme-toggle" id="theme-toggle" hidden><span class="hash" aria-hidden="true">#</span><span id="theme-name">dark</span></button>
 </header>
 <main id="main" class="wrap">
 {% comment %} LORD and KJV are set in small capitals automatically on every page. Type them normally. {% endcomment %}
@@ -40,12 +37,14 @@
 <p>Version {{ site.site_version }}</p>
 </footer>
 <script>
-(function(){var b=document.getElementById("theme-toggle");if(!b)return;var r=document.documentElement,m=window.matchMedia("(prefers-color-scheme: dark)");
-function cur(){return r.getAttribute("data-theme")||(m.matches?"dark":"light")}
-function label(){b.setAttribute("aria-label",cur()==="dark"?"Switch to light colours":"Switch to dark colours")}
-b.hidden=false;label();
-b.addEventListener("click",function(){var t=cur()==="dark"?"light":"dark";r.setAttribute("data-theme",t);try{localStorage.setItem("tpl-theme",t)}catch(e){}label()});
-if(m.addEventListener)m.addEventListener("change",label);})();
+/* Colours: dark (default), light, soft. Each tap moves to the next; the choice is remembered on this device. */
+(function(){var b=document.getElementById("theme-toggle");if(!b)return;var r=document.documentElement,n=document.getElementById("theme-name"),
+order=["dark","light","soft"],names={dark:"dark colours",light:"light colours",soft:"soft light colours"};
+function cur(){var t=r.getAttribute("data-theme");return t==="light"||t==="soft"?t:"dark"}
+function next(){return order[(order.indexOf(cur())+1)%order.length]}
+function show(){n.textContent=cur();b.setAttribute("aria-label","Now showing "+names[cur()]+". Switch to "+names[next()]+".")}
+b.hidden=false;show();
+b.addEventListener("click",function(){var t=next();if(t==="dark")r.removeAttribute("data-theme");else r.setAttribute("data-theme",t);try{localStorage.setItem("tpl-theme",t)}catch(e){}show()});})();
 </script>
 {% unless page.verseclick == false %}
 <script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>

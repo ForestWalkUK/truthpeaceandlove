@@ -1,28 +1,30 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 2.0 (24th October, A.D. 2026)
-Archive: truthpeaceandlove-v2.0.zip
+Version: 2.1 (24th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.1.zip
 
 What the site is
 ----------------
 A Jekyll site for GitHub Pages, written for readers who are not Christians.
 Live address (from _config.yml): https://forestwalkuk.github.io/truthpeaceandlove
-Menu: #home #gospels #creation #mystory #blog. Footer: #notes.
+Menu: #home #gospels #creation #deeper #mystory #blog. Footer: #notes.
+Doors (home page): #neverthought #weary #isittrue #otherbeliefs #shutout #readjesus.
 
 How to publish a new version
 ----------------------------
 1. Pull origin in GitHub Desktop first.
 2. Unzip the archive and copy its contents over the repository (keep the .git folder).
-   The ZIP holds no _posts folder, so blog posts are never touched.
-3. Delete assets/images/illustrations/ by hand (no longer used).
-4. Commit and push. Check the footer says "Version 2.0" on phone and desktop,
-   in light and dark.
+   Copy over; do not replace the folder.
+3. Before committing, look down the list in GitHub Desktop. Anything shown as DELETED
+   (red) that you did not mean to delete, especially in _posts, untick it.
+4. Commit and push. Check the footer shows the new version number.
 
 The design (v2.0)
 -----------------
 - Typography only, no pictures. Hashtags and headings: Inter Black Italic (and Extra Bold
   Italic for the menu), self-hosted. Reading text: Source Serif 4, self-hosted.
-- Black on white; white on black in dark mode. The colour of every # is set by --hash
+- Colours: dark by default (white on black). Masthead button cycles #dark, #light,
+  #soft (muted light); the reader's choice is remembered on their device. The colour of every # is set by --hash
   at the top of style.css (black now; var(--rubric) would make them red).
 - Red is reserved for Scripture (and the menu marker). LORD and KJV are set in small
   capitals automatically.
@@ -47,6 +49,8 @@ A new page in a section (e.g. Creation):
 A new section:
   Make a folder with index.md (layout: section, title, tag, deck, permalink /name/),
   then add the section to the menu in _data/sections.yml (tag, name, url).
+A blog post on a section page:
+  Add to the post's front matter, e.g.  sections: [otherbeliefs, deeper]
 A new door on the home page:
   It is already listed in _data/sections.yml; it appears as soon as a page exists at
   its url. To add or reword a door, edit that file.
@@ -60,3 +64,7 @@ Open
 - creation/index.md introduction is also Claude's draft wording.
 - Geneva text: "camels hear" in Mark 1:6 and Matthew 3:4 should probably read
   "camels hair" (spelling modernisation slip). Carl to confirm.
+- Door pages and Going Deeper are placeholders (Claude's one-line deck and intro wording).
+- For Claude: the repository is public. At the start of a session, Claude can download
+  https://github.com/ForestWalkUK/truthpeaceandlove and build from the live files, so that
+  posts and hand edits are never lost.

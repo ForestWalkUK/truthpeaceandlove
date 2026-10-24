@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.0 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.1 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -11,25 +11,25 @@
 @font-face{font-family:"Inter";src:url("../fonts/Inter-800-Italic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap}
 @font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
 
-/* Colours. Light is the default; dark follows the device unless the reader chooses with the button.
+/* Colours. Dark is the default. The button in the masthead switches between three choices,
+   remembered on the reader's device: dark, light, and soft (a muted, less bright light).
    --hash is the colour of every # sign: set it to var(--rubric) for red, or var(--muted) for grey. */
 :root{
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --display:"Inter","Helvetica Neue",Arial,sans-serif;
-  --paper:#ffffff;--ink:#000000;--muted:#575757;--gloss:#8a8a8a;--rubric:#9b2318;
-  --pop-bg:#f2f2f2;--pop-head:#e0e0e0;--pop-text:#000000;
+  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
+  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;
   --hash:var(--ink);
-  color-scheme:light;
+  color-scheme:dark;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
-/* Dark colours (the same values appear twice: once for the device setting, once for the button) */
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
-  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;color-scheme:dark}}
-:root[data-theme="dark"]{
-  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
-  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;color-scheme:dark}
+:root[data-theme="light"]{
+  --paper:#ffffff;--ink:#000000;--muted:#575757;--gloss:#8a8a8a;--rubric:#9b2318;
+  --pop-bg:#f2f2f2;--pop-head:#e0e0e0;--pop-text:#000000;color-scheme:light}
+:root[data-theme="soft"]{
+  --paper:#dcd8cf;--ink:#252422;--muted:#57534c;--gloss:#7a766e;--rubric:#8a2a1f;
+  --pop-bg:#d0ccc2;--pop-head:#c3bfb4;--pop-text:#252422;color-scheme:light}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;font-synthesis:small-caps;background:var(--paper)}
@@ -64,14 +64,10 @@ main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max
 .menu a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:3px solid transparent}
 .menu a:hover{border-bottom-color:var(--ink)}
 .menu a[aria-current]{border-bottom-color:var(--rubric)}
-.theme-toggle{flex:0 0 auto;width:44px;height:44px;display:grid;place-items:center;padding:0;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer}
+.theme-toggle{flex:0 0 auto;min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0 .7rem;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer;font-family:var(--display);font-weight:800;font-style:italic;font-size:1rem;letter-spacing:-.02em}
 .theme-toggle[hidden]{display:none}
 .theme-toggle:hover{background:var(--ink);color:var(--paper)}
-.theme-toggle svg{width:20px;height:20px}
-.icon-sun{display:none}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .icon-sun{display:block}:root:not([data-theme="light"]) .icon-moon{display:none}}
-:root[data-theme="dark"] .icon-sun{display:block}
-:root[data-theme="dark"] .icon-moon{display:none}
+.theme-toggle:hover .hash{color:var(--paper)}
 @media (max-width:52em){
   .theme-toggle{order:2;margin-left:auto}
   .masthead nav{order:3;margin-left:0;flex-basis:100%}
@@ -79,7 +75,7 @@ main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max
 
 /* Display type: hashtags and headings */
 h1,h2,h3{text-wrap:balance}
-h1,h2,.hero-title,.tag-title,.door-tag,.list-tag,.list-title,.doors-h,.strap,.more-h{font-family:var(--display);font-style:italic;font-variant-numeric:lining-nums}
+h1,h2,.hero-title,.tag-title,.door-tag,.list-tag,.list-title,.doors-h,.strap,.more-h{font-family:var(--display);font-style:italic;font-variant-numeric:lining-nums;word-spacing:.08em}
 h1{font-weight:900;font-size:clamp(2.4rem,8vw,6rem);line-height:.92;letter-spacing:-.045em;margin:clamp(2.5rem,7vw,5.5rem) 0 .5em}
 h2{font-weight:900;font-size:clamp(1.75rem,3.8vw,3rem);line-height:1;letter-spacing:-.035em;margin:2em 0 .55em}
 h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
@@ -119,7 +115,12 @@ h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
 .more-h{margin:0 0 .75rem;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);letter-spacing:-.02em;color:var(--muted)}
 .more-h a{color:var(--ink);text-decoration:none}
 .more-h a:hover{text-decoration:underline}
-.empty{color:var(--muted);font-style:italic;margin-top:2rem}
+.empty{max-width:34em;margin-top:2rem}
+.empty p:first-child{font-style:italic;color:var(--muted)}
+.more .more-h + .list-big{margin-top:0}
+.list-big + .more-h{margin-top:clamp(2.5rem,5vw,4rem)}
+.distress-note{margin:0 0 1em;padding:1.1em 1.25em;border:2px solid var(--ink)}
+.distress-note p:last-child{margin-bottom:0}
 .back{margin-top:3rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.3rem}
 .back a{text-decoration:none}
 .back a:hover{text-decoration:underline}
@@ -189,7 +190,7 @@ sup{line-height:0}
 
 /* Printing: black on white, no menus or buttons */
 @media print{
-  :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
+  :root,:root[data-theme]{--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
   body{font-size:11pt;line-height:1.45}
   .wrap{max-width:none;padding:0}
   .masthead nav,.theme-toggle,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}

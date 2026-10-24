@@ -1,16 +1,34 @@
 ---
 layout: default
 ---
-{% comment %} A section's front page, e.g. creation/index.md. Its articles are listed automatically. {% endcomment %}
+{% comment %}
+A section's front page (a door page, Creation, Going Deeper...). It lists, automatically:
+  - pages whose front matter says   section: <this page's tag>
+  - blog posts whose front matter says   sections: [<this page's tag>, ...]
+{% endcomment %}
 {% include page-head.html %}
+{% assign body = content | strip %}{% if body != "" %}
 <div class="prose">
 {{ content }}
 </div>
+{% endif %}
 {% assign items = site.pages | where: "section", page.tag %}
-{% if items.size > 0 %}
+{% assign posts = site.posts | where_exp: "p", "p.sections contains page.tag" %}
+{% if items.size > 0 or posts.size > 0 %}
 <nav class="more" aria-label="Pages in this section">
-{% include section-list.html section=page.tag %}
+{% if items.size > 0 %}{% include section-list.html section=page.tag %}{% endif %}
+{% if posts.size > 0 %}
+<p class="more-h">From the <a href="{{ '/blog/' | relative_url }}" aria-label="Blog"><span class="hash" aria-hidden="true">#</span>blog</a></p>
+<ul class="list-big post-list">
+{% for post in posts %}
+<li><a href="{{ post.url | relative_url }}"><span class="list-title">{{ post.title }}</span><span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span></a></li>
+{% endfor %}
+</ul>
+{% endif %}
 </nav>
 {% else %}
-<p class="empty">The first pages in this section are being written.</p>
+<div class="empty">
+<p>This part of the site is still being written.</p>
+<p>In the meantime, you can read <a href="{{ '/gospels/' | relative_url }}">what Jesus said and did</a>, or <a href="{{ '/my-story/' | relative_url }}">my story</a>.</p>
+</div>
 {% endif %}
