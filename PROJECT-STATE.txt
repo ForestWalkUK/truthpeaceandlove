@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 2.1 (24th October, A.D. 2026)
-Archive: truthpeaceandlove-v2.1.zip
+Version: 2.2 (24th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.2.zip
 
 What the site is
 ----------------
@@ -55,7 +55,9 @@ A new door on the home page:
   It is already listed in _data/sections.yml; it appears as soon as a page exists at
   its url. To add or reword a door, edit that file.
 A page that is not ready: put "published: false" in its front matter.
-Blog posts: as before (_posts, front matter with title only).
+Blog posts: as before (_posts, front matter with title only). ZIPs normally carry no _posts.
+The stylesheet link carries ?v=<site_version>, so raising the version number in _config.yml
+makes browsers load the new styles straight away.
 
 Open
 ----

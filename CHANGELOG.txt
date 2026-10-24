@@ -1,6 +1,15 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.2 (24th October, A.D. 2026)
+-------------------------------------
+Fix: on phones, the #soft colours looked the same as #dark. The phone was still using its
+  saved copy of the v2.0 stylesheet, which has no soft colours (and, with the phone set to
+  dark, showed anything other than "light" as dark). The stylesheet address now carries the
+  version number (style.css?v=2.2), so every new version makes browsers fetch the new file.
+Files changed: _config.yml, _layouts/default.html, assets/css/style.css (version line only).
+Note: this ZIP has no _posts folder again (the restored post is safely in the repository).
+
 Version 2.1 (24th October, A.D. 2026) - full door structure, three colour choices
 ---------------------------------------------------------------------------------
 Feature: the structure of the canvas specimen. All six doors now show on the home page and
