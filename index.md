@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: home
 title: Home
 permalink: /
-illustration: true
 ---
-
-<h1 class="sr-only">Truth, Peace and Love</h1>
 
 <p class="welcome">Welcome. This site aims to bring you to the living God through the gospel (the good news) of the Lord Jesus Christ, the Saviour and King of kings. This good news is for anyone who will listen, whatever you believe or don’t believe today.</p>
 

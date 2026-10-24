@@ -1,0 +1,6 @@
+{% comment %} The giant hashtag title, built from "tag" (and "deck", if given) in a page's front matter. {% endcomment %}
+<header class="page-head">
+{% if page.tag %}<h1 class="tag-title{% if page.tag.size > 11 %} long{% endif %}"><span aria-hidden="true"><span class="hash">#</span>{{ page.tag }}</span><span class="sr-only">{{ page.title }}</span></h1>
+{% else %}<h1>{{ page.title }}</h1>{% endif %}
+{% if page.deck %}<p class="deck">{{ page.deck }}</p>{% endif %}
+</header>

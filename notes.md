@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Notes
+tag: notes
 permalink: /notes/
 ---
-
-# Notes
 
 ## Contact
 

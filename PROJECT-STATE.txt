@@ -1,70 +1,62 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 1.3 (18th October, A.D. 2026)
-Archive: truthpeaceandlove-v1.3.zip
+Version: 2.0 (24th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.0.zip
 
 What the site is
 ----------------
 A Jekyll site for GitHub Pages, written for readers who are not Christians.
 Live address (from _config.yml): https://forestwalkuk.github.io/truthpeaceandlove
-Pages: Home, Gospels (Geneva Bible 1599, spelling modernised), My Story, Blog, Notes.
+Menu: #home #gospels #creation #mystory #blog. Footer: #notes.
 
 How to publish a new version
 ----------------------------
-1. Unzip the archive.
-2. Copy its contents over the repository (keep the .git folder).
-3. Commit and push. GitHub Pages builds the site itself; nothing to install locally.
-4. Check the footer says "Version 1.3" on your phone, in light and dark mode.
+1. Pull origin in GitHub Desktop first.
+2. Unzip the archive and copy its contents over the repository (keep the .git folder).
+   The ZIP holds no _posts folder, so blog posts are never touched.
+3. Delete assets/images/illustrations/ by hand (no longer used).
+4. Commit and push. Check the footer says "Version 2.0" on phone and desktop,
+   in light and dark.
 
-Settled design decisions
-------------------------
-- Typeface: Source Serif 4, self-hosted (assets/fonts).
-- Title in small capitals; strapline "Found in Jesus Christ" beneath it (_config.yml).
-- Red (--rubric) is reserved for Scripture; LORD and KJV are set in small capitals
-  automatically by the layout.
-- Three fading verses under the header define the name: John 14:6 (truth),
-  Romans 5:1 (peace), 1 John 4:9 (love).
-- Light/dark switch in the header; the choice is remembered on the reader's device.
-- VerseClick pop-ups for Authorised Version references.
-- Home-page picture panel, 16:9: blue sunrise (light), moonlit mountains (dark),
-  by yayangart on Pixabay, credited in the footer. Not to be used as a logo,
-  favicon or social-media image (Pixabay licence forbids use as a mark).
-- Avoid in any future pictures: eyes, faces in the sun or moon, crescent-and-star,
-  rows of moon phases, pentagrams, zodiac signs, the lotus, strong sunburst rays,
-  portraits. Plain sun, moon, stars and landscapes are fine.
-
-How to add or change a picture
-------------------------------
-Pictures live in assets/images/illustrations/ as 1280 x 720 WebP files.
-The file names are set in assets/css/style.css under "Home-page picture".
-To show the panel on another page, add "illustration: true" to its front matter.
-
-Next steps (open)
+The design (v2.0)
 -----------------
-- Browse more of yayangart's work; if more pictures are wanted, the panel can
-  rotate through a set for each mode (needs a small data file and a few lines of script).
-- Finish My Story, Blog and Notes content.
-- Possible future: a custom handwritten title logo.
-- Carl to consider a donation and thank-you to yayangart if the pictures stay.
+- Typography only, no pictures. Hashtags and headings: Inter Black Italic (and Extra Bold
+  Italic for the menu), self-hosted. Reading text: Source Serif 4, self-hosted.
+- Black on white; white on black in dark mode. The colour of every # is set by --hash
+  at the top of style.css (black now; var(--rubric) would make them red).
+- Red is reserved for Scripture (and the menu marker). LORD and KJV are set in small
+  capitals automatically.
+- Three fading verses on the home page: John 14:6, Romans 5:1, 1 John 4:9.
+- VerseClick pop-ups for Authorised Version references (off on the Geneva Gospel pages).
 
-Version 1.0 (18th October, A.D. 2026)
--------------------------------------
-- Added assets/fonts/SourceSerif4-SemiboldItalic.woff2 and its @font-face rule, so bold italic
-  (italic words inside a bold Scripture quotation) is a real typeface, not a browser fake.
-  font-synthesis:small-caps on html stops browsers faking bold or italic again.
-- Posting rule: every post begins with front matter giving the title, and does NOT repeat
-  the title as a # heading in the text (the layout prints it). A title with a colon goes
-  in plain double quotes:
+How to add things
+-----------------
+A new page in a section (e.g. Creation):
+  Make creation/my-page.md beginning:
     ---
-    title: "Believing Prayer: A Catechism on Mark 11:24"
+    layout: article
+    title: My Page
+    tag: mypage
+    deck: One plain sentence shown under the hashtag.
+    section: creation
+    order: 4
+    permalink: /creation/my-page/
     ---
-  Without a title Jekyll invents one from the file name, dropping the colons.
-- Version numbering: 0.9 + .1 taken as 1.0 (Carl may renumber to 0.10 if he prefers).
+  Write the text below. "## words" makes a #words sub-heading. The section's front page
+  lists it automatically, in "order".
+A new section:
+  Make a folder with index.md (layout: section, title, tag, deck, permalink /name/),
+  then add the section to the menu in _data/sections.yml (tag, name, url).
+A new door on the home page:
+  It is already listed in _data/sections.yml; it appears as soon as a page exists at
+  its url. To add or reword a door, edit that file.
+A page that is not ready: put "published: false" in its front matter.
+Blog posts: as before (_posts, front matter with title only).
 
-Version 1.1 (18th October, A.D. 2026)
--------------------------------------
-- New .gloss class: in a post, write <span class="gloss">[explanatory words]</span> to show
-  words inserted into a Bible verse in the quieter muted colour (used in the Believing Prayer
-  catechism, Q. 30 and Q. 33).
-- v1.2: .gloss now uses its own lighter --gloss colour token (set in the three theme blocks and print).
-- v1.3: .gloss lighter (#8e8a84 light, #716b62 dark). ZIPs no longer include _posts at all.
+Open
+----
+- creation/theflood.md is a DRAFT by Claude: Carl to check doctrine and every quotation
+  (AV italics), then remove "published: false".
+- creation/index.md introduction is also Claude's draft wording.
+- Geneva text: "camels hear" in Mark 1:6 and Matthew 3:4 should probably read
+  "camels hair" (spelling modernisation slip). Carl to confirm.

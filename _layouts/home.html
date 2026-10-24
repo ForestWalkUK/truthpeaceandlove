@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="hero">
+<h1 class="hero-title">{{ site.title | replace: ", ", ",<br>" | replace: " and ", "<br>and " }}</h1>
+{% if site.strapline %}<p class="strap">{{ site.strapline }}</p>{% endif %}
+</section>
+<div class="verses" aria-label="Scripture">
+<p class="verse">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.<span class="ref">John 14:6, KJV</span></p>
+<p class="verse">Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:<span class="ref">Romans 5:1, KJV</span></p>
+<p class="verse">In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.<span class="ref">1 John 4:9, KJV</span></p>
+</div>
+<div class="prose home-welcome">
+{{ content }}
+</div>
+<section class="doors-block" aria-labelledby="doors-h">
+<h2 id="doors-h" class="doors-h">Where would you like to begin?</h2>
+<ul class="doors">
+{% for d in site.data.sections.doors %}{% assign target = site.pages | where: "url", d.url | first %}{% if target %}
+<li><a href="{{ d.url | relative_url }}"><span class="door-tag" aria-hidden="true"><span class="hash">#</span>{{ d.tag }}</span><span class="door-line">{{ d.line }}{% if d.sub %}<span class="door-sub">{{ d.sub }}</span>{% endif %}</span></a></li>{% endif %}{% endfor %}
+</ul>
+<div class="door-more">
+{% for m in site.data.sections.more %}{% assign target = site.pages | where: "url", m.url | first %}{% if target %}
+<p>{{ m.before }}<a href="{{ m.url | relative_url }}">{{ m.text }}</a>{{ m.after }}</p>{% endif %}{% endfor %}
+</div>
+</section>

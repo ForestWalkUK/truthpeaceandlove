@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: My Story
+tag: mystory
 permalink: /my-story/
 ---
-
-# My Story
 
 By Carl H, Inverness
 

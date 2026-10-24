@@ -1,0 +1,7 @@
+{% comment %} Lists the pages whose front matter says "section: <this section's tag>", in "order". {% endcomment %}
+{% assign items = site.pages | where: "section", include.section | sort: "order", "last" %}
+{% assign count = 0 %}
+<ul class="list-big">
+{% for p in items %}{% unless p.url == include.skip %}{% assign count = count | plus: 1 %}
+<li><a href="{{ p.url | relative_url }}"><span class="sr-only">{{ p.title }}. </span><span class="list-tag{% if p.tag.size > 14 %} long{% endif %}" aria-hidden="true"><span class="hash">#</span>{{ p.tag }}</span>{% if p.deck %}<span class="list-line">{{ p.deck }}</span>{% endif %}</a></li>{% endunless %}{% endfor %}
+</ul>

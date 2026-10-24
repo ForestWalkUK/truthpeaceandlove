@@ -2,11 +2,13 @@
 layout: default
 ---
 <article class="post">
-<h1>{{ page.title }}</h1>
+<header class="page-head post-head">
+<h1 class="post-title">{{ page.title }}</h1>
 <p class="post-date">{{ page.date | date: "%-d %B %Y" }}</p>
-<div class="post-content">
+</header>
+<div class="prose post-content">
 {% capture img_src %}src="{{ site.baseurl }}/assets/{% endcapture %}
 {{ content | replace: 'src="/assets/', img_src | replace: '<img ', '<img loading="lazy" ' }}
 </div>
 </article>
-<p><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
+<p class="back"><a href="{{ '/blog/' | relative_url }}" aria-label="All posts"><span class="hash" aria-hidden="true">#</span>blog</a></p>

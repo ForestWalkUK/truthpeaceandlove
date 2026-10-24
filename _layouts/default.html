@@ -3,53 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% if page.deck %}<meta name="description" content="{{ page.deck | strip_html | escape }}">{% endif %}
 <script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <link rel="preload" href="{{ '/assets/fonts/SourceSerif4-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/Inter-900-Italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the text</a>
-<header class="site-header">
-<div class="title-row">
-<a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark colours" hidden>
-<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
-<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
-</button>
-</div>
-{% if site.strapline %}<p class="strap">{{ site.strapline }}</p>{% endif %}
+<header class="masthead wrap">
+<a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">tpl</a>
 <nav aria-label="Main">
-<ul>
-<li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
-<li><a href="{{ '/gospels/' | relative_url }}"{% if page.url == '/gospels/' %} aria-current="page"{% elsif page.url contains '/gospels/' %} aria-current="true"{% endif %}>Gospels</a></li>
-<li><a href="{{ '/my-story/' | relative_url }}"{% if page.url == '/my-story/' %} aria-current="page"{% endif %}>My Story</a></li>
-<li><a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% elsif page.url contains '/blog/' %} aria-current="true"{% endif %}>Blog</a></li>
-<li><a href="{{ '/notes/' | relative_url }}"{% if page.url == '/notes/' %} aria-current="page"{% endif %}>Notes</a></li>
+<ul class="menu">
+{% for item in site.data.sections.menu %}{% assign target = site.pages | where: "url", item.url | first %}{% if target %}
+<li><a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"{% if page.url == item.url %} aria-current="page"{% elsif item.url != "/" and page.url contains item.url %} aria-current="true"{% endif %}><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a></li>{% endif %}{% endfor %}
 </ul>
 </nav>
+<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark colours" hidden>
+<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+</button>
 </header>
-{% if page.illustration %}<div class="hero" aria-hidden="true"></div>{% endif %}
-{% if page.verses != false %}
-<div class="verses">
-<p class="verse">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.<span class="ref">John 14:6, <span class="kjv">KJV</span></span></p>
-<p class="verse">Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:<span class="ref">Romans 5:1, <span class="kjv">KJV</span></span></p>
-<p class="verse">In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.<span class="ref">1 John 4:9, <span class="kjv">KJV</span></span></p>
-</div>
-{% endif %}
-<main id="main">
-{% comment %} LORD and KJV are set in small capitals automatically on every page (v0.8). Type them normally. {% endcomment %}
+<main id="main" class="wrap">
+{% comment %} LORD and KJV are set in small capitals automatically on every page. Type them normally. {% endcomment %}
 {{ content | replace: "LORD", "<span class='lord'>L<span>ORD</span></span>" | replace: "KJV", "<span class='kjv'>KJV</span>" }}
 </main>
-<footer class="site-footer">
+<footer class="site-footer wrap">
+<p class="footer-links">{% for item in site.data.sections.footer %}{% assign target = site.pages | where: "url", item.url | first %}{% if target %}<a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a> {% endif %}{% endfor %}</p>
 {% unless page.verseclick == false %}
 <p>Scripture pop-ups by <a href="https://av1611.com/verseclick/">VerseClick</a>™ from AV1611.com (Authorised Version).</p>
 {% endunless %}
 {% if page.bible == "geneva" %}
 <p>Gospel text: Geneva Bible (1599) from <a href="https://ebible.org/">eBible.org</a>, public domain. Spelling modernised.</p>
-{% endif %}
-{% if page.illustration %}
-<p>Pictures by <a href="https://pixabay.com/users/yayangart-13477958/">yayangart</a> on Pixabay.</p>
 {% endif %}
 <p>Version {{ site.site_version }}</p>
 </footer>

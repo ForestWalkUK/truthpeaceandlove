@@ -1,143 +1,203 @@
-/* Truth, Peace and Love - style.css - version 1.3 */
+/* Truth, Peace and Love - style.css - version 2.0 (typographic design) */
 
-/* Typeface: Source Serif 4 (SIL Open Font Licence, see assets/fonts/OFL.txt), self-hosted */
+/* Typefaces (SIL Open Font Licence), self-hosted:
+   Source Serif 4 for reading (assets/fonts/OFL.txt);
+   Inter Extra Bold and Black Italic for hashtags and headings (assets/fonts/Inter-OFL.txt),
+   trimmed to Latin letters and punctuation. */
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Semibold.woff2") format("woff2");font-weight:600 700;font-style:normal;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-SemiboldItalic.woff2") format("woff2");font-weight:600 700;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url("../fonts/Inter-800-Italic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
 
-/* Colours. Light is the default; dark follows the device unless the reader chooses with the button. */
+/* Colours. Light is the default; dark follows the device unless the reader chooses with the button.
+   --hash is the colour of every # sign: set it to var(--rubric) for red, or var(--muted) for grey. */
 :root{
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
-  --paper:#fdfcf9;--ink:#1f1d1a;--muted:#5f5a52;--gloss:#8e8a84;--link:#1a4a7a;--rubric:#9b2318;--line:#ddd7ca;
-  --pop-bg:#f6f1e3;--pop-head:#e8dfc6;--pop-text:#1f1d1a;
+  --display:"Inter","Helvetica Neue",Arial,sans-serif;
+  --paper:#ffffff;--ink:#000000;--muted:#575757;--gloss:#8a8a8a;--rubric:#9b2318;
+  --pop-bg:#f2f2f2;--pop-head:#e0e0e0;--pop-text:#000000;
+  --hash:var(--ink);
   color-scheme:light;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
 /* Dark colours (the same values appear twice: once for the device setting, once for the button) */
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--gloss:#716b62;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
-  --pop-bg:#24211c;--pop-head:#332f28;--pop-text:#e8e3d8;color-scheme:dark}}
+  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
+  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;color-scheme:dark}}
 :root[data-theme="dark"]{
-  --paper:#171512;--ink:#e8e3d8;--muted:#a9a296;--gloss:#716b62;--link:#9cc3ea;--rubric:#e58b78;--line:#3a352e;
-  --pop-bg:#24211c;--pop-head:#332f28;--pop-text:#e8e3d8;color-scheme:dark}
+  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
+  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;font-synthesis:small-caps;background:var(--paper)}
 body{
-  margin:0 auto;padding:0 1.15rem 1.5rem;max-width:34em;
-  background:var(--paper);color:var(--ink);font-family:var(--serif);
-  font-size:clamp(1.0625rem,.98rem + .4vw,1.1875rem);line-height:1.6;
+  margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+  font-size:clamp(1.0625rem,.95rem + .45vw,1.25rem);line-height:1.6;
   font-kerning:normal;font-variant-numeric:oldstyle-nums proportional-nums;
 }
+.wrap{max-width:82rem;margin-left:auto;margin-right:auto;padding-left:clamp(1.15rem,4vw,3rem);padding-right:clamp(1.15rem,4vw,3rem)}
 p{margin:0 0 1em;text-wrap:pretty}
-a{color:var(--link);text-decoration-thickness:.06em;text-underline-offset:.18em}
-a:hover{text-decoration-thickness:.11em}
-:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:2px}
+a{color:var(--ink);text-decoration-thickness:.06em;text-underline-offset:.18em}
+a:hover{text-decoration-thickness:.12em}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 img{max-width:100%;height:auto}
-.skip{position:absolute;left:-999px;top:.5rem;padding:.5rem .75rem;background:var(--paper);color:var(--link);z-index:5}
+.hash{color:var(--hash)}
+.skip{position:absolute;left:-999px;top:.5rem;padding:.5rem .75rem;background:var(--paper);color:var(--ink);z-index:5}
 .skip:focus{left:1rem}
+.sr-only,.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-/* Masthead */
-.site-header{padding:.6rem 0 .2rem;border-bottom:1px solid var(--line)}
-.title-row{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
-.site-title{display:inline-block;padding:.35rem 0;font-variant-caps:small-caps;letter-spacing:.06em;font-size:1.3em;font-weight:600;line-height:1.2;color:var(--ink);text-decoration:none}
-.theme-toggle{flex:0 0 auto;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--muted);cursor:pointer}
+/* Reading width: everything in the main column keeps a comfortable line length,
+   except the big typographic blocks, which run the full width. */
+main > *{max-width:34em}
+main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max-width:none}
+.prose{max-width:34em}
+
+/* Masthead: wordmark, hashtag menu, light/dark button */
+.masthead{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.5rem;padding-top:1rem}
+.wordmark{order:1;font-family:var(--display);font-weight:900;font-style:italic;font-size:2.5rem;line-height:1;letter-spacing:-.06em;text-decoration:none;padding:.1rem .15rem .1rem 0}
+.masthead nav{order:2;margin-left:auto}
+.theme-toggle{order:3}
+.menu{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;column-gap:1.1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.15rem;letter-spacing:-.02em;font-variant-numeric:normal}
+.menu a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:3px solid transparent}
+.menu a:hover{border-bottom-color:var(--ink)}
+.menu a[aria-current]{border-bottom-color:var(--rubric)}
+.theme-toggle{flex:0 0 auto;width:44px;height:44px;display:grid;place-items:center;padding:0;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer}
 .theme-toggle[hidden]{display:none}
-.theme-toggle:hover{color:var(--ink);border-color:var(--muted)}
+.theme-toggle:hover{background:var(--ink);color:var(--paper)}
 .theme-toggle svg{width:20px;height:20px}
 .icon-sun{display:none}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .icon-sun{display:block}:root:not([data-theme="light"]) .icon-moon{display:none}}
 :root[data-theme="dark"] .icon-sun{display:block}
 :root[data-theme="dark"] .icon-moon{display:none}
-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;column-gap:1.1em}
-nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);text-decoration:none;font-size:.95em}
-nav a:hover{text-decoration:underline}
-nav a[aria-current]{text-decoration:underline;text-decoration-color:var(--rubric);text-decoration-thickness:2px;text-underline-offset:.4em}
-.strap{margin:-.15rem 0 .1rem;font-size:.86em;line-height:1.35;color:var(--muted);text-wrap:balance}
-@media (max-width:25em){.site-title{font-size:1.15em;letter-spacing:.04em}nav ul{column-gap:.85em}nav a{font-size:.9em}}
+@media (max-width:52em){
+  .theme-toggle{order:2;margin-left:auto}
+  .masthead nav{order:3;margin-left:0;flex-basis:100%}
+}
 
-/* Fading verses beneath the header */
-.verses{display:grid;margin:1.6em auto 1.2em;max-width:30em;text-align:center}
-.verse{grid-area:1/1;margin:0;font-size:.97em;line-height:1.5;text-wrap:balance;opacity:0;visibility:hidden;animation:fade 36s infinite}
+/* Display type: hashtags and headings */
+h1,h2,h3{text-wrap:balance}
+h1,h2,.hero-title,.tag-title,.door-tag,.list-tag,.list-title,.doors-h,.strap,.more-h{font-family:var(--display);font-style:italic;font-variant-numeric:lining-nums}
+h1{font-weight:900;font-size:clamp(2.4rem,8vw,6rem);line-height:.92;letter-spacing:-.045em;margin:clamp(2.5rem,7vw,5.5rem) 0 .5em}
+h2{font-weight:900;font-size:clamp(1.75rem,3.8vw,3rem);line-height:1;letter-spacing:-.035em;margin:2em 0 .55em}
+h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
+.hash-heads h2::before{content:"#";content:"#" / "";color:var(--hash)}
+
+.page-head{margin:clamp(2.5rem,7vw,6rem) 0 clamp(2rem,4vw,3.5rem)}
+.page-head h1{margin:0}
+.tag-title{font-size:clamp(2.8rem,11.5vw,10.5rem);line-height:.86;letter-spacing:-.06em;overflow-wrap:anywhere}
+.tag-title.long{font-size:clamp(2.2rem,8vw,7.2rem)}
+.deck{margin:clamp(1.1rem,2.4vw,1.8rem) 0 0;max-width:24em;font-size:clamp(1.3rem,2.5vw,2rem);line-height:1.25;text-wrap:balance}
+
+/* Home */
+.hero{margin:clamp(2.5rem,8vw,6.5rem) 0 clamp(2rem,4vw,3rem)}
+.hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
+.strap{margin:clamp(1.2rem,2.6vw,2.2rem) 0 0;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.02em}
+.home-welcome{margin-top:clamp(2.5rem,5vw,4rem)}
+.home-welcome .sign{font-style:italic}
+.doors-block{margin-top:clamp(3.5rem,8vw,6.5rem)}
+.doors-h{margin:0 0 1.25rem;font-weight:800;font-size:clamp(1.4rem,2.6vw,2.2rem);letter-spacing:-.03em;line-height:1.1}
+.doors,.list-big{list-style:none;margin:0;padding:0;border-top:6px solid var(--ink)}
+.doors li,.list-big li{border-bottom:2px solid var(--ink)}
+.doors li:last-child,.list-big li:last-child{border-bottom-width:6px}
+.doors a,.list-big a{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem 2.5rem;padding:clamp(1rem,2.4vw,2rem) 0;text-decoration:none}
+.door-tag{flex:1 1 30rem;min-width:0;font-weight:900;font-size:clamp(2.2rem,7vw,6rem);line-height:.95;letter-spacing:-.05em;overflow-wrap:anywhere}
+.door-line,.list-line{flex:1 1 15rem;font-size:clamp(1.12rem,1.6vw,1.4rem);line-height:1.35}
+.door-sub{display:block;font-style:italic;color:var(--muted)}
+.doors a:hover .door-tag,.list-big a:hover .list-tag,.list-big a:hover .list-title{text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.08em}
+.door-more{display:flex;flex-wrap:wrap;gap:0 3rem;padding-top:1.5rem}
+.door-more p{margin:0 0 .5rem}
+
+/* Lists of pages in a section, and the blog */
+.list-tag{flex:1 1 26rem;min-width:0;font-weight:900;font-size:clamp(1.9rem,4.4vw,3.4rem);line-height:1;letter-spacing:-.045em;overflow-wrap:anywhere}
+.list-tag.long{font-size:clamp(1.6rem,3.6vw,2.8rem)}
+.list-title{flex:1 1 100%;font-weight:900;font-size:clamp(1.45rem,3vw,2.3rem);line-height:1.05;letter-spacing:-.035em}
+.prose .list-big{margin:1.5rem 0}
+.more{margin-top:clamp(3.5rem,7vw,6rem)}
+.more-h{margin:0 0 .75rem;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);letter-spacing:-.02em;color:var(--muted)}
+.more-h a{color:var(--ink);text-decoration:none}
+.more-h a:hover{text-decoration:underline}
+.empty{color:var(--muted);font-style:italic;margin-top:2rem}
+.back{margin-top:3rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.3rem}
+.back a{text-decoration:none}
+.back a:hover{text-decoration:underline}
+
+/* Fading verses on the home page */
+.verses{display:grid;max-width:34em;margin:0;padding:.2rem 0 .2rem 1.15rem;border-left:4px solid var(--rubric)}
+.verse{grid-area:1/1;margin:0;font-size:clamp(1.2rem,2vw,1.5rem);line-height:1.4;opacity:0;visibility:hidden;animation:fade 36s infinite}
 .verse:nth-child(2){animation-delay:12s}
 .verse:nth-child(3){animation-delay:24s}
-.ref{display:block;margin-top:.45em;font-size:.82em;color:var(--muted);font-variant-numeric:lining-nums}
+.ref{display:block;margin-top:.45em;font-size:.68em;color:var(--muted);font-variant-numeric:lining-nums}
 @keyframes fade{0%{opacity:0;visibility:hidden}6%{opacity:1;visibility:visible}28%{opacity:1;visibility:visible}34%{opacity:0;visibility:hidden}100%{opacity:0;visibility:hidden}}
-@media (prefers-reduced-motion:reduce){.verses{display:block}.verse{opacity:1;visibility:visible;animation:none;margin-bottom:1em}}
-@media (max-width:30em){.verse{font-size:.9em}}
+@media (prefers-reduced-motion:reduce){.verses{display:block}.verse{opacity:1;visibility:visible;animation:none;margin-bottom:1em}.verse:last-child{margin-bottom:0}}
 
 /* Small capitals: KJV, and LORD (the layout marks these automatically) */
 .kjv{font-variant-caps:all-small-caps;letter-spacing:.05em}
 .lord span{font-variant-caps:all-small-caps;letter-spacing:.04em}
 
-/* Headings and text */
-h1,h2,h3{font-weight:600;text-wrap:balance}
-h1{font-size:1.85em;line-height:1.15;letter-spacing:-.005em;margin:1em 0 .55em}
-h2{font-size:1.35em;line-height:1.25;margin:1.8em 0 .5em}
-h3{font-size:1.15em;line-height:1.3;margin:1.5em 0 .4em}
-@media (min-width:48em){h1{font-size:2.15em}}
-blockquote{margin:1.4em 0;padding:0 0 0 1.1em;border-left:2px solid var(--rubric)}
+/* Text */
+blockquote{margin:1.5em 0;padding:.1em 0 .1em 1.15em;border-left:4px solid var(--rubric)}
 blockquote p:last-child{margin-bottom:0}
-hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+hr{border:0;border-top:2px solid var(--ink);margin:2.5em 0}
 .footnotes{font-size:.9em;color:var(--muted)}
+.footnotes a{color:var(--muted)}
 sup{line-height:0}
+.gloss{color:var(--gloss)}
 
-/* Footer */
-.site-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.85em;color:var(--muted);font-variant-numeric:lining-nums}
-
-/* VerseClick: links and pop-ups follow the site theme, light and dark */
-.vcVerseLink{color:var(--link)!important;border-bottom:1px dotted var(--link);text-decoration:none!important;white-space:nowrap}
-.vcVerseLink:hover{border-bottom-style:solid}
-.vcPopupVerseText{background-color:var(--pop-bg)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important;line-height:1.5!important;padding:12px 16px!important}
-.vcPopupHeaderText{background-color:var(--pop-head)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important}
-
-/* Blog */
-.post-date{color:var(--muted);font-size:.9rem;margin:0;font-variant-numeric:lining-nums}
-.post>h1{margin-bottom:.25rem}
-.post-content{margin-top:1.25rem}
+/* Blog posts */
+.post-head .post-title{font-size:clamp(2.2rem,6vw,4.8rem);line-height:.95}
+.post-date{color:var(--muted);font-size:.9rem;margin:.6rem 0 0;font-variant-numeric:lining-nums}
+.list-big .post-date{flex:1 1 100%;margin:0}
 .post-content img{display:block;max-width:100%;height:auto;margin:1.25rem 0}
-.post-list{list-style:none;padding:0;margin:1rem 0}
-.post-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
-.post-list .post-date{display:block}
 
 /* Gospels: red marks belong to Scripture only (chapter numbers, verse numbers, the bar beside quotations) */
 .gv{margin:0 0 .55em}
 .vn{position:relative;top:-.6em;line-height:0;font-size:.62em;font-weight:400;color:var(--rubric);font-variant-numeric:lining-nums;margin-right:.08em}
 .chap{float:left;font-size:3.3em;line-height:.8;margin:.08em .14em 0 0;color:var(--rubric);font-variant-numeric:lining-nums}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.vn.sr{position:absolute;top:auto}
 .bible-note{font-size:.85em;color:var(--muted)}
-.chapter-list,.book-list{list-style:none;padding:0;margin:1rem 0}
-.chapter-list{display:flex;flex-wrap:wrap;gap:.5rem;font-variant-numeric:lining-nums tabular-nums}
-.chapter-list a{display:inline-block;min-width:2.75rem;min-height:44px;line-height:44px;text-align:center;border:1px solid var(--line);border-radius:.35rem;text-decoration:none}
-.book-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
-.chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:0 1rem;margin:2rem 0 1rem;font-size:.92em}
+.chapter-list,.book-list{list-style:none;padding:0;margin:1.25rem 0}
+.chapter-list{display:flex;flex-wrap:wrap;gap:.5rem}
+.chapter-list a{display:inline-block;min-width:3rem;min-height:3rem;line-height:calc(3rem - 4px);text-align:center;border:2px solid var(--ink);text-decoration:none;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.1rem;font-variant-numeric:lining-nums tabular-nums}
+.chapter-list a:hover{background:var(--ink);color:var(--paper)}
+.book-list{border-top:6px solid var(--ink)}
+.book-list li{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:0 1rem;padding:.9rem 0;border-bottom:2px solid var(--ink)}
+.book-list li:last-child{border-bottom-width:6px}
+.book-list a{font-family:var(--display);font-weight:900;font-style:italic;font-size:clamp(1.9rem,4.4vw,3.2rem);line-height:1;letter-spacing:-.045em;text-decoration:none}
+.book-list a:hover{text-decoration:underline;text-decoration-thickness:.06em}
+.book-list .post-date{margin:0}
+.chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:0 1rem;margin:2rem 0 1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.05rem;font-variant-numeric:lining-nums}
 .chapter-nav.top{margin:.25rem 0 1.25rem}
-.chapter-nav a{display:inline-flex;align-items:center;min-height:44px}
+.chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
+.chapter-nav a:hover{text-decoration:underline}
 
-/* Home-page picture (v0.9). Light and dark modes each have their own picture; the browser downloads only the one in use. */
-.hero{margin:1rem -1.15rem 0;aspect-ratio:16/9;background:url("../images/illustrations/sunrise-light.webp") center/cover no-repeat}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero{background-image:url("../images/illustrations/moon-dark.webp")}}
-:root[data-theme="dark"] .hero{background-image:url("../images/illustrations/moon-dark.webp")}
-@media (min-width:36.5em){.hero{margin:1.1rem 0 0;border-radius:3px}}
-.hero + .verses{margin-top:1.3em}
+/* Footer */
+.site-footer{margin-top:clamp(4rem,8vw,7rem);padding-top:1.25rem;padding-bottom:2.5rem;border-top:2px solid var(--ink);font-size:.85em;color:var(--muted);font-variant-numeric:lining-nums}
+.site-footer p{margin:0 0 .5em}
+.site-footer a{color:var(--muted)}
+.footer-links{font-family:var(--display);font-weight:800;font-style:italic;font-size:1.25rem}
+.footer-links a{color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;min-height:44px;margin-right:1.1rem}
+.footer-links a:hover{text-decoration:underline}
 
-/* Home-page welcome */
-.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.welcome{margin-top:1.4em}
-.sign{margin:1.4em 0 1em}
+/* VerseClick: links and pop-ups follow the site theme, light and dark */
+.vcVerseLink{color:var(--ink)!important;border-bottom:1px dotted var(--ink);text-decoration:none!important;white-space:nowrap}
+.vcVerseLink:hover{border-bottom-style:solid}
+.vcPopupVerseText{background-color:var(--pop-bg)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important;line-height:1.5!important;padding:12px 16px!important}
+.vcPopupHeaderText{background-color:var(--pop-head)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important}
 
 /* Printing: black on white, no menus or buttons */
 @media print{
-  :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--link:#000;--rubric:#000;--line:#999;color-scheme:light}
-  body{max-width:none;padding:0;font-size:11pt;line-height:1.45}
-  nav,.theme-toggle,.verses,.chapter-nav,.skip,.hero{display:none!important}
+  :root,:root[data-theme],:root:not([data-theme="light"]){--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
+  body{font-size:11pt;line-height:1.45}
+  .wrap{max-width:none;padding:0}
+  .masthead nav,.theme-toggle,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
+  .hero-title,.tag-title,.tag-title.long{font-size:40pt}
+  h1{font-size:28pt;margin-top:12pt}
+  h2{font-size:16pt}
   a{text-decoration:none}
   .vcVerseLink{border-bottom:0}
   h1,h2,h3{break-after:avoid}
   p{orphans:3;widows:3}
 }
-
-/* Explanatory words inserted into a Bible verse, e.g. [who have faith in God]: quieter than the Scripture itself */
-.gloss{color:var(--gloss)}

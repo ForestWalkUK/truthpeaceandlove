@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% comment %} A section's front page, e.g. creation/index.md. Its articles are listed automatically. {% endcomment %}
+{% include page-head.html %}
+<div class="prose">
+{{ content }}
+</div>
+{% assign items = site.pages | where: "section", page.tag %}
+{% if items.size > 0 %}
+<nav class="more" aria-label="Pages in this section">
+{% include section-list.html section=page.tag %}
+</nav>
+{% else %}
+<p class="empty">The first pages in this section are being written.</p>
+{% endif %}

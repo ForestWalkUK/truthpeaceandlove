@@ -1,0 +1,67 @@
+# Truth, Peace and Love - sections and doors (v2.0)
+# This one file controls the menu, the home-page doors and the links under them.
+# An entry only appears on the site once a page with that address exists,
+# so you can list a section here before its page is written (no dead links).
+#
+# tag:  the word shown after the # (lower case, no spaces)
+# name: what a screen reader says instead of the hashtag
+# url:  the page's address, beginning and ending with /
+# line: (doors only) the sentence shown beside the hashtag
+# sub:  (doors only, optional) a quieter second line
+
+menu:
+  - tag: home
+    name: Home
+    url: /
+  - tag: gospels
+    name: The Gospels
+    url: /gospels/
+  - tag: creation
+    name: Creation
+    url: /creation/
+  - tag: deeper
+    name: Going Deeper
+    url: /deeper/
+  - tag: mystory
+    name: My Story
+    url: /my-story/
+  - tag: blog
+    name: Blog
+    url: /blog/
+
+doors:
+  - tag: neverthought
+    line: I have never given much thought to God.
+    url: /never-thought/
+  - tag: weary
+    line: Things have gone wrong, and I am weary.
+    url: /weary/
+  - tag: isittrue
+    line: Is any of this actually true?
+    url: /creation/
+  - tag: otherbeliefs
+    line: I hold other beliefs about God and the world.
+    url: /other-beliefs/
+  - tag: shutout
+    line: I have felt shut out or put off by religion.
+    sub: How the Lord Jesus received those who were turned away.
+    url: /shut-out/
+  - tag: readjesus
+    line: I just want to read what Jesus said and did.
+    url: /gospels/
+
+# Lines under the doors. "before" and "after" go either side of the link.
+more:
+  - before: "Or read "
+    text: my story
+    after: "."
+    url: /my-story/
+  - before: "Already a Christian? "
+    text: Go deeper
+    after: "."
+    url: /deeper/
+
+footer:
+  - tag: notes
+    name: Notes
+    url: /notes/

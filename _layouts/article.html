@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% comment %} An article inside a section. In the text, "## words" becomes a hashtag sub-heading (#words). {% endcomment %}
+{% include page-head.html %}
+<div class="prose hash-heads">
+{{ content }}
+</div>
+{% if page.section %}
+{% assign sec = site.data.sections.menu | where: "tag", page.section | first %}
+{% assign others = site.pages | where: "section", page.section %}
+<nav class="more" aria-labelledby="more-h">
+<p class="more-h" id="more-h">{% if others.size > 1 %}More in {% else %}Back to {% endif %}<a href="{{ sec.url | default: '/' | relative_url }}" aria-label="{{ sec.name | default: page.section }}"><span class="hash" aria-hidden="true">#</span>{{ page.section }}</a></p>
+{% if others.size > 1 %}{% include section-list.html section=page.section skip=page.url %}{% endif %}
+</nav>
+{% endif %}
