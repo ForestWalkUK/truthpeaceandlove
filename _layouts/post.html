@@ -10,5 +10,6 @@ layout: default
 {% capture img_src %}src="{{ site.baseurl }}/assets/{% endcapture %}
 {{ content | replace: 'src="/assets/', img_src | replace: '<img ', '<img loading="lazy" ' }}
 </div>
+{% if page.gauges %}{% include ai-gauges.html %}{% endif %}
 </article>
 <p class="back"><a href="{{ '/blog/' | relative_url }}" aria-label="All posts"><span class="hash" aria-hidden="true">#</span>blog</a></p>

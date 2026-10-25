@@ -1,0 +1,13 @@
+{% comment %} "How this was written" with dots (v2.4). Wording and stages: _data/ai_gauges.yml.
+Figures: "gauges:" in the page's front matter (0 to 5 per stage). {% endcomment %}
+{% assign g = site.data.ai_gauges %}
+<aside class="ai-gauges" aria-labelledby="ai-gauges-h">
+<p class="more-h" id="ai-gauges-h">{{ g.heading }}</p>
+<p>{{ g.intro }} <a href="{{ '/how-this-site-is-written/' | relative_url }}">{{ g.link_text }}</a>.</p>
+<ul class="gauges">
+{% for stage in g.stages %}{% assign v = page.gauges[stage.key] %}{% assign remark = page.gauge_notes[stage.key] %}
+<li><span class="g-name">{{ stage.name }}:</span> <span class="g-val">{% if v == nil %}<span class="g-label">({{ g.missing }})</span>{% else %}{% assign n = v | plus: 0 | at_least: 0 | at_most: 5 %}<svg class="g-dots" viewBox="0 0 54 10" aria-hidden="true" focusable="false">{% for i in (1..5) %}{% assign cx = i | times: 11 | minus: 6 %}<circle cx="{{ cx }}" cy="5" r="4"{% if i <= n %} class="on"{% endif %}/>{% endfor %}</svg> <span class="g-label">({{ g.labels[n] }}{% if remark %}; {{ remark }}{% endif %})</span>{% endif %}</span></li>
+{% endfor %}
+</ul>
+<p class="g-signoff">{{ g.signoff }} — {{ g.signature }}</p>
+</aside>

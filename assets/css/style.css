@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.3 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.4 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -127,6 +127,19 @@ h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
 /* The AI note at the foot of every page (v2.3): quiet, but readable and kept in print. */
 .ai-note{max-width:34em;margin:clamp(3rem,6vw,4.5rem) 0 0;font-style:italic;font-size:.92em;line-height:1.5;color:var(--muted)}
 .ai-note a{color:var(--ink)}
+/* "How this was written" with dots (v2.4). Dots are drawn in the text colour, so they suit
+   every theme and print. Filled = Claude's share, empty = Carl's. */
+.ai-gauges{max-width:34em;margin-top:clamp(3rem,6vw,4.5rem);padding-top:1.5rem;border-top:2px solid var(--ink)}
+.ai-gauges p{margin:0 0 1em}
+.gauges{list-style:none;margin:0 0 1.25em;padding:0}
+.gauges li{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.6em;padding:.35em 0;border-bottom:1px solid var(--gloss)}
+.g-name{flex:1 1 13em}
+.g-val{flex:0 0 17em;max-width:100%;display:flex;align-items:baseline;gap:.5em}
+.g-dots{flex:none;width:4.2em;height:.78em;align-self:flex-start;margin-top:.42em;overflow:visible}
+.g-dots circle{fill:none;stroke:currentColor;stroke-width:1.3}
+.g-dots circle.on{fill:currentColor}
+.g-label{color:var(--muted);font-style:italic}
+.g-signoff{font-style:italic}
 
 /* Fading verses on the home page */
 .verses{display:grid;max-width:34em;margin:0;padding:.2rem 0 .2rem 1.15rem;border-left:4px solid var(--rubric)}

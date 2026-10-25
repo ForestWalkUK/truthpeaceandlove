@@ -1,0 +1,56 @@
+# Truth, Peace and Love - the "How this was written" note with dots (v2.4)
+# A post or article shows this note when its front matter has "gauges:", for example:
+#
+#   gauges:
+#     standpoint: 0
+#     direction: 0
+#     ideas: 1
+#     scripture: 2
+#     drafting: 4
+#     revision: 2
+#     checking: 0
+#
+# Each number is Carl's own rough estimate of Claude's share of that stage, from 0 to 5
+# (each dot is about a fifth). A stage left out shows "not given", so a gap is easy to spot.
+# An optional short remark can follow a label, e.g.
+#   gauge_notes:
+#     revision: Carl directing
+# Pages without "gauges:" keep the one-line AI note (_data/ai_notes.yml).
+# Change the wording here, in one place; the stages stay in the same order on every page.
+
+heading: How this was written
+
+intro: "The dots below are my own rough estimate of how much of each stage of this piece was done by Claude, an AI assistant made by Anthropic. Each dot stands for about a fifth: filled for Claude’s share, empty for mine."
+
+link_text: How this site is written
+
+stages:
+  - key: standpoint
+    name: Doctrinal standpoint and house rules
+  - key: direction
+    name: Question and direction
+  - key: ideas
+    name: Ideas and arguments
+  - key: scripture
+    name: Choice of Scripture
+  - key: drafting
+    name: First-draft wording
+  - key: revision
+    name: Revision and correction
+  - key: checking
+    name: Checking of Scripture and doctrine
+
+# The words beside the dots, for 0, 1, 2, 3, 4 and 5 filled dots.
+labels:
+  - all Carl
+  - mostly Carl
+  - shared, more Carl
+  - shared, more Claude
+  - mostly Claude
+  - nearly all Claude
+
+missing: not given
+
+signoff: "As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21)."
+
+signature: Carl H

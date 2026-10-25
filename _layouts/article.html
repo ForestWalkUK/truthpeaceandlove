@@ -6,6 +6,7 @@ layout: default
 <div class="prose hash-heads">
 {{ content }}
 </div>
+{% if page.gauges %}{% include ai-gauges.html %}{% endif %}
 {% if page.section %}
 {% assign sec = site.data.sections.menu | where: "tag", page.section | first %}
 {% assign others = site.pages | where: "section", page.section %}

@@ -1,6 +1,22 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.4 (25th October, A.D. 2026) - the dots, built by the site
+--------------------------------------------------------------------
+Feature: "How this was written" with dots, built from the front matter. A post (or an article
+  or page) with "gauges:" gets the full note at the end of its text: the standard wording,
+  the seven stages in a fixed order, five dots per stage (drawn in the text colour, so they
+  suit every theme and print), a plain-words label (also what screen readers say), a link to
+  "How this site is written" and the sign-off. Figures are 0 to 5 per stage. A missing stage
+  shows "not given". Optional "gauge_notes:" adds a short remark after a label.
+  Wording, stages and labels live in _data/ai_gauges.yml, in one place.
+Change: a page with "gauges:" no longer shows the one-line AI note (the full note replaces it).
+  Pages without gauges are unchanged.
+Files added: _data/ai_gauges.yml, _includes/ai-gauges.html.
+Files changed: _config.yml, _layouts/default.html, _layouts/post.html, _layouts/article.html,
+  _layouts/page.html, assets/css/style.css.
+Note: _posts is in this ZIP, unchanged, copied from the live repository (5e209cb).
+
 Version 2.3 (25th October, A.D. 2026) - how this site is written
 ------------------------------------------------------------------
 Feature: new page "How this site is written" (/how-this-site-is-written/, #howitiswritten):

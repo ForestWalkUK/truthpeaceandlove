@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 2.3 (25th October, A.D. 2026)
-Archive: truthpeaceandlove-v2.3.zip
+Version: 2.4 (25th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.4.zip
 
 What the site is
 ----------------
@@ -62,6 +62,19 @@ The AI note at the foot of each page:
   /gospels/; post for blog posts). A page can choose its own line, e.g.  ai_note: story,
   or have none:  ai_note: none.  Add a new line to ai_notes.yml for a page that needs
   different wording; keep every line true for every page that uses it.
+The dots ("How this was written"):
+  Add to a post's front matter (Carl's own figures, 0 to 5 = Claude's share in fifths):
+    gauges:
+      standpoint: 0
+      direction: 0
+      ideas: 1
+      scripture: 2
+      drafting: 4
+      revision: 2
+      checking: 0
+  Optional:  gauge_notes:  then e.g.  revision: Carl directing
+  Do NOT also type a closing note or final rule in the post; the site builds the note.
+  Wording, stage names and labels: _data/ai_gauges.yml.
 The stylesheet link carries ?v=<site_version>, so raising the version number in _config.yml
 makes browsers load the new styles straight away.
 
