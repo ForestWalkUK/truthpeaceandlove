@@ -1,6 +1,27 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.3 (25th October, A.D. 2026) - how this site is written
+------------------------------------------------------------------
+Feature: new page "How this site is written" (/how-this-site-is-written/, #howitiswritten):
+  where AI is used on the site and where it is not, the Bible texts, the dots on blog posts,
+  and why readers are told. In Carl's voice; DRAFT wording for Carl to check.
+Feature: an AI note at the foot of every page, set in one place. The default layout shows a
+  short line chosen by "ai_note:", followed by a link to the new page. Wording lives in
+  _data/ai_notes.yml (standard, gospels, story, post); _config.yml gives the defaults
+  (standard everywhere, gospels for /gospels/, post for blog posts); My Story uses "story".
+  "ai_note: none" turns the line off (used on the new page itself).
+Feature: #howitiswritten added to the footer beside #notes (_data/sections.yml).
+Feature: /how-these-posts-are-written/ (the address named in the blog brief) sends readers on
+  to the new page, so links made from the brief still work.
+Fix: the Believing Prayer post was deleted from the repository again by the v2.2 commit
+  (0c02ac3). Restored exactly as in v2.1 (0a3bde8). From now on ZIPs DO carry _posts, copied
+  from the live repository at build time.
+Files added: how-this-site-is-written.md, how-these-posts-are-written.html, _data/ai_notes.yml,
+  _posts/2026-10-18-believing-prayer-catechism-mark-11-24.md.
+Files changed: _config.yml, _data/sections.yml, _layouts/default.html, assets/css/style.css,
+  my-story.md.
+
 Version 2.2 (24th October, A.D. 2026)
 -------------------------------------
 Fix: on phones, the #soft colours looked the same as #dark. The phone was still using its

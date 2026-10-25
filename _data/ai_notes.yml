@@ -1,0 +1,14 @@
+# Truth, Peace and Love - the AI note at the foot of every page (v2.3)
+# Each page shows one of these lines, followed by a link to "How this site is written".
+# Which line a page shows is set by "ai_note:" - by default in _config.yml, or in the page's own
+# front matter. Pages with "ai_note: none" (or a key not listed here) show no line.
+# Keep every line true for every page that uses it. Change the wording here, in one place.
+
+standard: "Written with the help of Claude, an AI assistant made by Anthropic."
+
+gospels: "Bible text: the Geneva Bible (1599). Its spelling was modernised with the help of Claude, an AI assistant made by Anthropic; the words themselves were kept."
+
+story: "My own account, arranged and edited with the help of Claude, an AI assistant made by Anthropic."
+
+# Blog posts carry their own note on how each was written, so this line only points onwards.
+post: "For the use of AI across the whole site, see"

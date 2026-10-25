@@ -25,6 +25,10 @@
 <main id="main" class="wrap">
 {% comment %} LORD and KJV are set in small capitals automatically on every page. Type them normally. {% endcomment %}
 {{ content | replace: "LORD", "<span class='lord'>L<span>ORD</span></span>" | replace: "KJV", "<span class='kjv'>KJV</span>" }}
+{% comment %} The AI note (v2.3). Wording: _data/ai_notes.yml. Which line: "ai_note" (defaults in _config.yml). {% endcomment %}
+{% assign ai_line = site.data.ai_notes[page.ai_note] %}{% if ai_line %}
+<p class="ai-note">{{ ai_line }} <a href="{{ '/how-this-site-is-written/' | relative_url }}">How this site is written</a>.</p>
+{% endif %}
 </main>
 <footer class="site-footer wrap">
 <p class="footer-links">{% for item in site.data.sections.footer %}{% assign target = site.pages | where: "url", item.url | first %}{% if target %}<a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a> {% endif %}{% endfor %}</p>

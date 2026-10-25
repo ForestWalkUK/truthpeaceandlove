@@ -3,6 +3,7 @@ layout: page
 title: My Story
 tag: mystory
 permalink: /my-story/
+ai_note: story
 ---
 
 By Carl H, Inverness
