@@ -1,6 +1,31 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.6 (29th October, A.D. 2026) - sky through the title
+---------------------------------------------------------------
+Feature: the home-page title "Truth, Peace and Love" is a window onto a sky photograph
+  (György Lakatos, Pexels), drifting very slowly (150 seconds one way, then back, for ever).
+  Photo cropped to its lower two-thirds (the big white clouds and the lighter blue), lightened
+  a little and the blue made a touch clearer, saved as WebP (about 79 KB).
+  Only the home page downloads it. Readers with "reduce motion" set get a still sky.
+  Browsers that cannot clip a picture to text, and printing, show plain ink lettering.
+  The heading text itself is unchanged, so screen readers read it as before.
+Feature: footer credit on the home page only, set by "sky_credit:" in _config.yml.
+Files added: assets/images/sky/clouds.webp.
+Files changed: _config.yml, _layouts/default.html, _layouts/home.html, assets/css/style.css.
+
+Version 2.5 (29th October, A.D. 2026) - two colour choices, mirror images
+--------------------------------------------------------------------------
+Change: the soft colours (warm grey paper #dcd8cf, soft black ink #252422) are now the light
+  theme. The old bright white light theme is gone.
+Change: the dark theme is the light one reversed: soft black paper (#252422) with warm grey
+  text (#dcd8cf), instead of near-white on pure black. Muted, gloss, red and pop-up colours
+  retuned to match (muted 5.8:1, gloss 3.7:1, red 5.8:1 against the paper).
+Change: the masthead button now switches between #dark and #light only. A reader who had
+  chosen #soft before is shown #light (the same colours), so nobody's choice is lost.
+Files changed: _config.yml, _layouts/default.html, assets/css/style.css.
+Note: _posts copied from the live repository at build time (includes Carl's test-dots post).
+
 Version 2.4 (25th October, A.D. 2026) - the dots, built by the site
 --------------------------------------------------------------------
 Feature: "How this was written" with dots, built from the front matter. A post (or an article

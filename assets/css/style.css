@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.4 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.6 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -11,23 +11,22 @@
 @font-face{font-family:"Inter";src:url("../fonts/Inter-800-Italic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap}
 @font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
 
-/* Colours. Dark is the default. The button in the masthead switches between three choices,
-   remembered on the reader's device: dark, light, and soft (a muted, less bright light).
+/* Colours. Dark is the default. The button in the masthead switches between two choices,
+   remembered on the reader's device: dark and light. Since v2.5 they are mirror images:
+   light is warm grey paper with soft black ink (the old "soft"); dark is that soft black
+   as the paper with the warm grey as the ink.
    --hash is the colour of every # sign: set it to var(--rubric) for red, or var(--muted) for grey. */
 :root{
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --display:"Inter","Helvetica Neue",Arial,sans-serif;
-  --paper:#000000;--ink:#efefef;--muted:#a6a6a6;--gloss:#6e6e6e;--rubric:#e58b78;
-  --pop-bg:#1c1c1c;--pop-head:#2c2c2c;--pop-text:#efefef;
+  --paper:#252422;--ink:#dcd8cf;--muted:#a39e94;--gloss:#7f7b73;--rubric:#d98a78;
+  --pop-bg:#302e2b;--pop-head:#3b3935;--pop-text:#dcd8cf;
   --hash:var(--ink);
   color-scheme:dark;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
 :root[data-theme="light"]{
-  --paper:#ffffff;--ink:#000000;--muted:#575757;--gloss:#8a8a8a;--rubric:#9b2318;
-  --pop-bg:#f2f2f2;--pop-head:#e0e0e0;--pop-text:#000000;color-scheme:light}
-:root[data-theme="soft"]{
   --paper:#dcd8cf;--ink:#252422;--muted:#57534c;--gloss:#7a766e;--rubric:#8a2a1f;
   --pop-bg:#d0ccc2;--pop-head:#c3bfb4;--pop-text:#252422;color-scheme:light}
 
@@ -90,6 +89,24 @@ h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
 /* Home */
 .hero{margin:clamp(2.5rem,8vw,6.5rem) 0 clamp(2rem,4vw,3rem)}
 .hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
+/* Sky through the home-page title (v2.6). The letters are a window onto a photograph of clouds
+   (assets/images/sky/clouds.webp, by György Lakatos on Pexels) that drifts very slowly.
+   Only browsers that can clip a background to text get it; others show plain ink lettering.
+   The picture downloads only on the home page, where the class is used.
+   The photograph was lightened a little (and its blue made a touch clearer) when it was prepared,
+   and --sky-lift lightens it very slightly more on dark paper, so the letters keep their edges on dark paper. */
+.hero-title.sky{--sky-lift:transparent}
+:root:not([data-theme="light"]) .hero-title.sky{--sky-lift:rgba(220,216,207,.04)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .hero-title.sky{
+    width:fit-content;padding:0 .14em .06em 0;
+    background-image:linear-gradient(var(--sky-lift),var(--sky-lift)),url("../images/sky/clouds.webp");
+    background-color:var(--ink);background-size:100% 100%,135% auto;background-position:0 0,0% 15%;background-repeat:no-repeat;
+    -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+    animation:sky-drift 150s ease-in-out infinite alternate}
+}
+@keyframes sky-drift{from{background-position:0 0,0% 15%}to{background-position:0 0,100% 85%}}
+@media (prefers-reduced-motion:reduce){.hero-title.sky{animation:none;background-position:0 0,40% 45%}}
 .strap{margin:clamp(1.2rem,2.6vw,2.2rem) 0 0;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.02em}
 .home-welcome{margin-top:clamp(2.5rem,5vw,4rem)}
 .home-welcome .sign{font-style:italic}
@@ -211,6 +228,7 @@ sup{line-height:0}
   .wrap{max-width:none;padding:0}
   .masthead nav,.theme-toggle,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
+  .hero-title.sky{background:none!important;color:#000!important;-webkit-text-fill-color:#000!important;animation:none!important}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}
   a{text-decoration:none}
