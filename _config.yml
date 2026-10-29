@@ -3,7 +3,7 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "2.6"
+site_version: "2.7"
 # Credit for the sky photograph in the home-page title (shown in the home page footer only).
 sky_credit: 'Sky photograph in the title by György Lakatos on <a href="https://www.pexels.com/photo/37501562/">Pexels</a>.'
 strapline: Found in Jesus Christ

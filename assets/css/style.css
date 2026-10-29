@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.6 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.7 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -87,7 +87,12 @@ h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
 .deck{margin:clamp(1.1rem,2.4vw,1.8rem) 0 0;max-width:24em;font-size:clamp(1.3rem,2.5vw,2rem);line-height:1.25;text-wrap:balance}
 
 /* Home */
-.hero{margin:clamp(2.5rem,8vw,6.5rem) 0 clamp(2rem,4vw,3rem)}
+.hero{margin:clamp(2.5rem,8vw,6.5rem) 0 clamp(2rem,4vw,3rem);position:relative;isolation:isolate}
+/* Heartbeat line across the title (v2.7, _includes/ecg.html). --ecg is its colour.
+   z-index:-1 puts the line behind the letters (it shows between them); 1 would put it in front. */
+.ecg{position:absolute;left:0;top:0;width:0;height:0;pointer-events:none;color:var(--ecg);z-index:-1}
+html{--ecg:var(--ink)}
+body{overflow-x:clip}
 .hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
 /* Sky through the home-page title (v2.6). The letters are a window onto a photograph of clouds
    (assets/images/sky/clouds.webp, by György Lakatos on Pexels) that drifts very slowly.
@@ -226,7 +231,7 @@ sup{line-height:0}
   :root,:root[data-theme]{--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
   body{font-size:11pt;line-height:1.45}
   .wrap{max-width:none;padding:0}
-  .masthead nav,.theme-toggle,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
+  .masthead nav,.theme-toggle,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
   .hero-title.sky{background:none!important;color:#000!important;-webkit-text-fill-color:#000!important;animation:none!important}
   h1{font-size:28pt;margin-top:12pt}

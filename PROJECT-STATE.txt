@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 2.6 (29th October, A.D. 2026)
-Archive: truthpeaceandlove-v2.6.zip
+Version: 2.7 (29th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.7.zip
 
 What the site is
 ----------------
@@ -22,7 +22,8 @@ How to publish a new version
 The design (v2.0)
 -----------------
 - Typography only, no pictures (one exception since v2.6: the home-page title is clipped to a
-  slowly drifting sky photograph, assets/images/sky/clouds.webp; see .hero-title.sky in style.css). Hashtags and headings: Inter Black Italic (and Extra Bold
+  slowly drifting sky photograph, assets/images/sky/clouds.webp; see .hero-title.sky in style.css),
+  and since v2.7 a heartbeat line (70 a minute) runs behind it: _includes/ecg.html, colour --ecg. Hashtags and headings: Inter Black Italic (and Extra Bold
   Italic for the menu), self-hosted. Reading text: Source Serif 4, self-hosted.
 - Colours: dark by default (warm grey on soft black). Masthead button switches #dark and
   #light (warm grey paper, soft black ink; the two are mirror images); the reader's choice is remembered on their device. The colour of every # is set by --hash

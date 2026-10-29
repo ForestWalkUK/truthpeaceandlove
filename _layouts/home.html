@@ -4,6 +4,7 @@ layout: default
 <section class="hero">
 <h1 class="hero-title sky">{{ site.title | replace: ", ", ",<br>" | replace: " and ", "<br>and " }}</h1>
 {% if site.strapline %}<p class="strap">{{ site.strapline }}</p>{% endif %}
+{% include ecg.html %}
 </section>
 <div class="verses" aria-label="Scripture">
 <p class="verse">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.<span class="ref">John 14:6, KJV</span></p>

@@ -1,0 +1,66 @@
+{% comment %}
+Heartbeat line across the home-page title (v2.7). A drawing only: hidden from screen readers,
+never catches a tap, not printed. Settings are on the canvas below:
+  data-bpm   beats per minute (70: an adult at rest)
+  data-speed how fast the line is drawn, in screen pixels per second
+  data-reach how far the peak rises above "Truth" and the trough falls below "Love", in cm
+Colour: --ecg in style.css. Readers with "reduce motion" set see a still line.
+{% endcomment %}
+<canvas class="ecg" id="ecg" aria-hidden="true" data-bpm="70" data-speed="300" data-reach="1"></canvas>
+<script>
+(function(){
+var c=document.getElementById("ecg"),h=document.querySelector(".hero-title");
+if(!c||!h||!c.getContext)return;
+var x=c.getContext("2d"),hero=c.parentNode,bpm=+c.dataset.bpm||70,speed=+c.dataset.speed||300,
+reach=(+c.dataset.reach||1)*96/2.54,still=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches,
+W=0,H=0,dpr=1,base=0,up=0,down=0,top0=0,colour="#888",visible=true,t0=performance.now(),raf=0;
+var period=60/bpm;
+/* One heartbeat (P, Q, R, S, T), phase 0 to 1. Gaussian bumps: [centre, width, height]. */
+var bumps=[[.16,.025,.10],[.335,.008,-.07],[.36,.009,1],[.385,.009,-1],[.62,.045,.22]];
+function beat(p){var y=0;for(var i=0;i<bumps.length;i++){var b=bumps[i],d=(p-b[0])/b[1];y+=b[2]*Math.exp(-d*d/2)}return y}
+function yAt(t){var p=((t/period)%1+1)%1,v=beat(p);return base-(v>=0?v*up:v*down)}
+function lineRect(n){var r=document.createRange();r.selectNodeContents(n);var q=r.getClientRects();return q.length?q[0]:null}
+function measure(){
+  var lines=[];for(var i=0;i<h.childNodes.length;i++){var n=h.childNodes[i];if(n.nodeType===3&&n.textContent.trim())lines.push(n)}
+  if(lines.length<3)return false;
+  var cs=getComputedStyle(h),fs=parseFloat(cs.fontSize);
+  x.font=cs.fontStyle+" "+cs.fontWeight+" "+fs+"px "+cs.fontFamily;
+  var mT=x.measureText(lines[0].textContent.trim()),mL=x.measureText(lines[2].textContent.trim()),mx=x.measureText("x"),
+      asc=mT.fontBoundingBoxAscent||fs*.969;
+  var hr=hero.getBoundingClientRect(),r1=lineRect(lines[0]),r2=lineRect(lines[1]),r3=lineRect(lines[2]);
+  var b1=r1.top+asc,b2=r2.top+asc,b3=r3.top+asc,
+      inkTop=b1-(mT.actualBoundingBoxAscent||fs*.73),inkBot=b3+(mL.actualBoundingBoxDescent||0),
+      mid=b2-(mx.actualBoundingBoxAscent||fs*.55)/2;
+  var vw=document.documentElement.clientWidth,pad=4;
+  top0=inkTop-reach-pad;W=vw;H=(inkBot+reach+pad)-top0;
+  c.style.left=(-hr.left)+"px";c.style.top=(top0-hr.top)+"px";c.style.width=W+"px";c.style.height=H+"px";
+  dpr=Math.min(window.devicePixelRatio||1,2);c.width=Math.round(W*dpr);c.height=Math.round(H*dpr);
+  base=mid-top0;up=base-pad;down=H-pad-base;
+  return true}
+function readColour(){colour=getComputedStyle(c).color}
+function draw(now){
+  var t=(now-t0)/1000,pen=(t*speed)%W,gap=Math.max(28,W*.03),tail=Math.min(W-gap,speed*period*3);
+  x.setTransform(dpr,0,0,dpr,0,0);x.clearRect(0,0,W,H);
+  x.lineWidth=2;x.lineJoin="round";x.lineCap="round";x.strokeStyle=colour;
+  /* Draw backwards from the pen in short pieces, older pieces fainter, about three beats long. */
+  var seg=12;
+  for(var a=0;a<tail;a+=seg){
+    x.globalAlpha=Math.max(0,1-a/tail);x.beginPath();
+    var last=-1;
+    for(var d=a;d<=Math.min(a+seg,tail);d++){
+      var px=pen-d;if(px<0)px+=W;var py=yAt(t-d/speed);
+      if(last<0||px>last)x.moveTo(px,py);else x.lineTo(px,py);last=px}
+    x.stroke()}
+  x.globalAlpha=1;x.beginPath();x.arc(pen,yAt(t),3,0,7);x.fillStyle=colour;x.fill()}
+function drawStill(){draw(t0+1000*(W-1)/speed)}
+function loop(now){if(visible)draw(now);raf=requestAnimationFrame(loop)}
+function setup(){if(!measure())return;readColour();if(still)drawStill()}
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(function(){
+  setup();
+  var rt;window.addEventListener("resize",function(){clearTimeout(rt);rt=setTimeout(setup,120)});
+  new MutationObserver(function(){readColour();if(still)drawStill()}).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+  if(still)return;
+  if("IntersectionObserver" in window)new IntersectionObserver(function(e){visible=e[0].isIntersecting}).observe(c);
+  raf=requestAnimationFrame(loop)});
+})();
+</script>
