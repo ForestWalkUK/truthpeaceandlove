@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 2.8 (30th October, A.D. 2026)
-Archive: truthpeaceandlove-v2.8.zip
+Version: 2.9 (30th October, A.D. 2026)
+Archive: truthpeaceandlove-v2.9.zip
 
 What the site is
 ----------------

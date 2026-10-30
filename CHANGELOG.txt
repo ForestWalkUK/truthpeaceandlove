@@ -1,6 +1,18 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.9 (30th October, A.D. 2026) - heading sizes, welcome text
+---------------------------------------------------------------------
+Change: on phones and narrow windows (52em, about 830 pixels, and below) the home-page title
+  "Truth, Peace and Love" is 30% larger. "Found in Jesus Christ" is unchanged. Checked on a
+  320-pixel-wide screen (the narrowest common phone): "and Love" still fits.
+Change: on desktop (wider than 52em) the big hashtag headings are 20% smaller: page titles,
+  the home-page doors, section lists, #whatsnew and the #words sub-headings in articles.
+  Phones are unchanged. The menu, footer and small links are unchanged.
+Change: the welcome text now adds "You can also read anything listed under #whatsnew,
+  further down this page." It only shows when #whatsnew has something in it.
+Files changed: _config.yml, _includes/whatsnew.html, assets/css/style.css, index.md.
+
 Version 2.8 (30th October, A.D. 2026) - quieter home page, #whatsnew
 ----------------------------------------------------------------------
 Removed: the sky photograph in the title (it drew the eye away from the Word of God). The

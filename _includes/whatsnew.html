@@ -4,7 +4,8 @@ every blog post, and any page whose front matter has a "date:" line (e.g. date: 
 Pages without "date:" are not listed, because the site cannot tell when they were added.
 The list is made when GitHub builds the site. The site only rebuilds when something is
 committed, so a small script also hides entries once they are more than a month old by the
-reader's own calendar. If nothing is new, the whole #whatsnew block is left out.
+reader's own calendar. If nothing is new, the whole #whatsnew block is left out,
+and so is the sentence pointing to it in the welcome text (index.md, id="wn-mention").
 {% endcomment %}
 {% assign cutoff = site.time | date: "%s" | minus: 2764800 %}
 {% capture wn_items %}{% for post in site.posts %}{% assign when = post.date | date: "%s" | plus: 0 %}{% if when >= cutoff %}
@@ -23,6 +24,8 @@ reader's own calendar. If nothing is new, the whole #whatsnew block is left out.
   items.sort(function(a,b){return a.getAttribute("data-date")<b.getAttribute("data-date")?1:-1});
   var shown=0;items.forEach(function(li){var p=li.getAttribute("data-date").split("-"),d=new Date(+p[0],p[1]-1,+p[2]);
     ul.appendChild(li);if(d<limit)li.hidden=true;else shown++});
-  if(!shown)box.hidden=true;})();
+  if(!shown)box.hidden=true;
+  /* The line in the welcome text that points here shows only when there is something new. */
+  var m=document.getElementById("wn-mention");if(m&&shown)m.hidden=false;})();
 </script>
 {% endif %}

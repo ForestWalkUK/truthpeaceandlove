@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.8 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.9 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -96,6 +96,8 @@ html{--ecg:#d4143a}
 :root[data-theme="light"]{--ecg:#a8102e}
 body{overflow-x:clip}
 .hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
+/* Phones and narrow windows (v2.9): the home-page title 30% larger. The strapline is unchanged. */
+@media (max-width:52em){.hero-title{font-size:clamp(4.16rem,16.25vw,14.95rem)}}
 .strap{margin:clamp(1.2rem,2.6vw,2.2rem) 0 0;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.02em}
 .home-welcome{margin-top:clamp(2.5rem,5vw,4rem)}
 .home-welcome .sign{font-style:italic}
@@ -199,6 +201,16 @@ sup{line-height:0}
 .book-list a{font-family:var(--display);font-weight:900;font-style:italic;font-size:clamp(1.9rem,4.4vw,3.2rem);line-height:1;letter-spacing:-.045em;text-decoration:none}
 .book-list a:hover{text-decoration:underline;text-decoration-thickness:.06em}
 .book-list .post-date{margin:0}
+
+/* Desktop (v2.9): the big hashtag headings 20% smaller than on narrow screens. */
+@media (min-width:52.01em){
+  .tag-title{font-size:clamp(2.24rem,9.2vw,8.4rem)}
+  .tag-title.long{font-size:clamp(1.76rem,6.4vw,5.76rem)}
+  .door-tag{font-size:clamp(1.76rem,5.6vw,4.8rem)}
+  .list-tag,.whatsnew-h{font-size:clamp(1.52rem,3.52vw,2.72rem)}
+  .list-tag.long{font-size:clamp(1.28rem,2.88vw,2.24rem)}
+  .hash-heads h2{font-size:clamp(1.4rem,3.04vw,2.4rem)}
+}
 .chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:0 1rem;margin:2rem 0 1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.05rem;font-variant-numeric:lining-nums}
 .chapter-nav.top{margin:.25rem 0 1.25rem}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
