@@ -8,6 +8,8 @@
 # url:  the page's address, beginning and ending with /
 # line: (doors only) the sentence shown beside the hashtag
 # sub:  (doors only, optional) a quieter second line
+# anchor: (menu only, optional) a place on that page to jump to, e.g. whatsnew
+# only_when_new: (menu only) show this entry only when something was posted in the past month
 
 menu:
   - tag: home
@@ -28,6 +30,11 @@ menu:
   - tag: blog
     name: Blog
     url: /blog/
+  - tag: whatsnew
+    name: What’s new
+    url: /
+    anchor: whatsnew
+    only_when_new: true
 
 doors:
   - tag: neverthought

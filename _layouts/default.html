@@ -15,10 +15,13 @@
 <header class="masthead wrap">
 <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">tpl</a>
 <nav aria-label="Main">
+{% comment %} Newest thing posted (blog posts, and pages with "date:"), for the #whatsnew menu entry. {% endcomment %}{% assign wn_newest = "" %}{% if site.posts.size > 0 %}{% assign wn_newest = site.posts.first.date | date: "%Y-%m-%d" %}{% endif %}{% for p in site.pages %}{% if p.date %}{% assign wn_d = p.date | date: "%Y-%m-%d" %}{% if wn_d > wn_newest %}{% assign wn_newest = wn_d %}{% endif %}{% endif %}{% endfor %}{% assign wn_cutoff = site.time | date: "%s" | minus: 2764800 | date: "%Y-%m-%d" %}
 <ul class="menu">
-{% for item in site.data.sections.menu %}{% assign target = site.pages | where: "url", item.url | first %}{% if target %}
-<li><a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"{% if page.url == item.url %} aria-current="page"{% elsif item.url != "/" and page.url contains item.url %} aria-current="true"{% endif %}><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a></li>{% endif %}{% endfor %}
+{% for item in site.data.sections.menu %}{% assign target = site.pages | where: "url", item.url | first %}{% assign show = true %}{% if item.only_when_new %}{% if wn_newest == "" or wn_newest < wn_cutoff %}{% assign show = false %}{% endif %}{% endif %}{% if target and show %}
+{% if item.anchor %}<li{% if item.only_when_new %} data-newest="{{ wn_newest }}"{% endif %}><a href="{{ item.url | relative_url }}#{{ item.anchor }}" aria-label="{{ item.name }}"><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a></li>{% else %}<li><a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"{% if page.url == item.url %} aria-current="page"{% elsif item.url != "/" and page.url contains item.url %} aria-current="true"{% endif %}><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a></li>{% endif %}{% endif %}{% endfor %}
 </ul>
+<script>/* Hide #whatsnew in the menu once its newest entry is more than a month old by the reader's calendar. */
+(function(){var li=document.querySelector(".menu li[data-newest]");if(!li)return;var p=li.getAttribute("data-newest").split("-"),d=new Date(+p[0],p[1]-1,+p[2]),l=new Date();l.setMonth(l.getMonth()-1);l.setHours(0,0,0,0);if(d<l)li.hidden=true})();</script>
 </nav>
 <button type="button" class="theme-toggle" id="theme-toggle" hidden><span class="hash" aria-hidden="true">#</span><span id="theme-name">dark</span></button>
 </header>

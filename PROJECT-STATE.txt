@@ -1,7 +1,7 @@
 Truth, Peace and Love - PROJECT STATE
 =====================================
-Version: 3.1 (30th October, A.D. 2026)
-Archive: truthpeaceandlove-v3.1.zip
+Version: 3.2 (30th October, A.D. 2026)
+Archive: truthpeaceandlove-v3.2.zip
 
 What the site is
 ----------------
@@ -22,7 +22,7 @@ How to publish a new version
 The design (v2.0)
 -----------------
 - Typography only, no pictures. (The v2.6 sky in the title was tried and removed in v2.8.)
-  A crimson heartbeat line (70 a minute) crosses the title once on arrival, then every
+  A heartbeat line (70 a minute; crimson on dark, white on light) crosses the title once on arrival, then every
   3 minutes: _includes/ecg.html, colour --ecg.
 - Home page #whatsnew (_includes/whatsnew.html): posts, and pages with "date:" in their
   front matter, from the past month. Give new pages a "date:" line so they appear there.

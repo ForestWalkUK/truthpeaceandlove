@@ -1,6 +1,16 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.2 (30th October, A.D. 2026) - #whatsnew in the menu, white heartbeat on light
+------------------------------------------------------------------------------------------
+Feature: #whatsnew added to the menu, after #blog. It jumps to the #whatsnew list on the home
+  page. Like the list, it only shows when something has been posted in the past month
+  (checked when the site builds, and again by the reader's calendar), so it never leads to
+  an empty list. New optional menu settings in _data/sections.yml: anchor: (a place on the
+  page to jump to) and only_when_new: true.
+Change: the heartbeat line is white on the light theme (still crimson on dark).
+Files changed: _config.yml, _data/sections.yml, _layouts/default.html, assets/css/style.css.
+
 Version 3.1 (30th October, A.D. 2026)
 --------------------------------------
 Change: #weary page distress note: removed "a minister, a friend, or a family member." The
