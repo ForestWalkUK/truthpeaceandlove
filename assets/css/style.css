@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 3.2 (typographic design) */
+/* Truth, Peace and Love - style.css - version 3.3 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -34,7 +34,7 @@
 html{-webkit-text-size-adjust:100%;font-synthesis:small-caps;background:var(--paper)}
 body{
   margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
-  font-size:clamp(1.0625rem,.95rem + .45vw,1.25rem);line-height:1.6;
+  font-size:calc(clamp(1.0625rem,.95rem + .45vw,1.25rem) * 1.1 * var(--text-scale,1));line-height:1.6;
   font-kerning:normal;font-variant-numeric:oldstyle-nums proportional-nums;
 }
 .wrap{max-width:82rem;margin-left:auto;margin-right:auto;padding-left:clamp(1.15rem,4vw,3rem);padding-right:clamp(1.15rem,4vw,3rem)}
@@ -58,17 +58,23 @@ main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max
 .masthead{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.5rem;padding-top:1rem}
 .wordmark{order:1;font-family:var(--display);font-weight:900;font-style:italic;font-size:2.5rem;line-height:1;letter-spacing:-.06em;text-decoration:none;padding:.1rem .15rem .1rem 0}
 .masthead nav{order:2;margin-left:auto}
-.theme-toggle{order:3}
+.reader-controls{order:3;display:flex;gap:.4rem}
 .menu{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;column-gap:1.1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.15rem;letter-spacing:-.02em;font-variant-numeric:normal}
 .menu a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:3px solid transparent}
 .menu a:hover{border-bottom-color:var(--ink)}
 .menu a[aria-current]{border-bottom-color:var(--rubric)}
-.theme-toggle{flex:0 0 auto;min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0 .7rem;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer;font-family:var(--display);font-weight:800;font-style:italic;font-size:1rem;letter-spacing:-.02em}
-.theme-toggle[hidden]{display:none}
-.theme-toggle:hover{background:var(--ink);color:var(--paper)}
-.theme-toggle:hover .hash{color:var(--paper)}
+.ctl{flex:0 0 auto;min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0 .7rem;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer;font-family:var(--display);font-weight:800;font-style:italic;font-size:1rem;letter-spacing:-.02em}
+.ctl[hidden]{display:none}
+.ctl:hover{background:var(--ink);color:var(--paper)}
+.ctl:hover .hash{color:var(--paper)}
+/* Text size buttons (v3.3): square, beside #dark/#light. At the smallest or largest size the
+   button fades and does nothing. */
+.size-btn{width:44px;padding:0}
+.size-btn svg{display:block}
+.size-btn[aria-disabled="true"]{opacity:.35;cursor:default}
+.size-btn[aria-disabled="true"]:hover{background:transparent;color:var(--ink)}
 @media (max-width:52em){
-  .theme-toggle{order:2;margin-left:auto}
+  .reader-controls{order:2;margin-left:auto}
   .masthead nav{order:3;margin-left:0;flex-basis:100%}
 }
 
@@ -235,7 +241,7 @@ sup{line-height:0}
   :root,:root[data-theme]{--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
   body{font-size:11pt;line-height:1.45}
   .wrap{max-width:none;padding:0}
-  .masthead nav,.theme-toggle,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
+  .masthead nav,.reader-controls,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}

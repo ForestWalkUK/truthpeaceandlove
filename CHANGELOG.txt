@@ -1,6 +1,18 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.3 (30th October, A.D. 2026) - text size buttons, larger reading text
+----------------------------------------------------------------------------------
+Feature: two square buttons, - and +, beside #dark/#light in the masthead. They make the
+  reading text smaller or larger in six steps (80%, 90%, normal, 115%, 130%, 150% of the new
+  normal size). Headings, hashtags and the menu stay the same size, so the page keeps its
+  shape. The choice is remembered on the reader's device, like the colours. At the smallest
+  or largest size the button fades and does nothing. Hidden when printing.
+Change: the normal reading text is 10% larger than before (about 18.7px on a phone, 22px on
+  a wide screen, was 17px and 20px).
+Post added: _posts/2026-10-30-afraid-of-the-dark-halloween-light-of-the-world.md.
+Files changed: _config.yml, _layouts/default.html, assets/css/style.css.
+
 Version 3.2 (30th October, A.D. 2026) - #whatsnew in the menu, white heartbeat on light
 ------------------------------------------------------------------------------------------
 Feature: #whatsnew added to the menu, after #blog. It jumps to the #whatsnew list on the home

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 {% if page.deck %}<meta name="description" content="{{ page.deck | strip_html | escape }}">{% endif %}
-<script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="soft")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+<script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="soft")document.documentElement.setAttribute("data-theme","light");var z=parseFloat(localStorage.getItem("tpl-size"));if([.8,.9,1.15,1.3,1.5].indexOf(z)>=0)document.documentElement.style.setProperty("--text-scale",z)}catch(e){}</script>
 <link rel="preload" href="{{ '/assets/fonts/SourceSerif4-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/Inter-900-Italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.site_version }}">
@@ -23,7 +23,11 @@
 <script>/* Hide #whatsnew in the menu once its newest entry is more than a month old by the reader's calendar. */
 (function(){var li=document.querySelector(".menu li[data-newest]");if(!li)return;var p=li.getAttribute("data-newest").split("-"),d=new Date(+p[0],p[1]-1,+p[2]),l=new Date();l.setMonth(l.getMonth()-1);l.setHours(0,0,0,0);if(d<l)li.hidden=true})();</script>
 </nav>
-<button type="button" class="theme-toggle" id="theme-toggle" hidden><span class="hash" aria-hidden="true">#</span><span id="theme-name">dark</span></button>
+<div class="reader-controls">
+<button type="button" class="ctl size-btn" id="size-down" aria-label="Smaller text" hidden><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M2 8h12" stroke="currentColor" stroke-width="2.6" stroke-linecap="square"/></svg></button>
+<button type="button" class="ctl size-btn" id="size-up" aria-label="Larger text" hidden><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M2 8h12M8 2v12" stroke="currentColor" stroke-width="2.6" stroke-linecap="square"/></svg></button>
+<button type="button" class="ctl theme-toggle" id="theme-toggle" hidden><span class="hash" aria-hidden="true">#</span><span id="theme-name">dark</span></button>
+</div>
 </header>
 <main id="main" class="wrap">
 {% comment %} LORD and KJV are set in small capitals automatically on every page. Type them normally. {% endcomment %}
@@ -52,6 +56,15 @@ function other(){return cur()==="light"?"dark":"light"}
 function show(){n.textContent=cur();b.setAttribute("aria-label","Now showing "+cur()+" colours. Switch to "+other()+" colours.")}
 b.hidden=false;show();
 b.addEventListener("click",function(){var t=other();if(t==="dark")r.removeAttribute("data-theme");else r.setAttribute("data-theme","light");try{localStorage.setItem("tpl-theme",t)}catch(e){}show()});})();
+/* Text size (v3.3): the - and + buttons step the reading text through six sizes. 1 is the normal
+   size (already 10% larger than before v3.3). The choice is remembered on this device. */
+(function(){var S=[.8,.9,1,1.15,1.3,1.5],r=document.documentElement,dn=document.getElementById("size-down"),up=document.getElementById("size-up");if(!dn||!up)return;
+var i=2;try{var k=S.indexOf(parseFloat(localStorage.getItem("tpl-size")));if(k>=0)i=k}catch(e){}
+function set(n){i=Math.max(0,Math.min(S.length-1,n));if(S[i]===1)r.style.removeProperty("--text-scale");else r.style.setProperty("--text-scale",S[i]);
+try{if(S[i]===1)localStorage.removeItem("tpl-size");else localStorage.setItem("tpl-size",String(S[i]))}catch(e){}
+dn.setAttribute("aria-disabled",i===0?"true":"false");up.setAttribute("aria-disabled",i===S.length-1?"true":"false")}
+dn.hidden=up.hidden=false;set(i);
+dn.addEventListener("click",function(){set(i-1)});up.addEventListener("click",function(){set(i+1)});})();
 </script>
 {% unless page.verseclick == false %}
 <script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>
