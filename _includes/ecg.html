@@ -1,19 +1,23 @@
 {% comment %}
-Heartbeat line across the home-page title (v2.7). A drawing only: hidden from screen readers,
-never catches a tap, not printed. Settings are on the canvas below:
-  data-bpm   beats per minute (70: an adult at rest)
-  data-speed how fast the line is drawn, in screen pixels per second
-  data-reach how far the peak rises above "Truth" and the trough falls below "Love", in cm
-Colour: --ecg in style.css. Readers with "reduce motion" set see a still line.
+Heartbeat line across the home-page title (v2.7; single pass since v2.8). A drawing only:
+hidden from screen readers, never catches a tap, not printed.
+It crosses the screen once when the page opens, then once more every few minutes while the
+reader stays on the page. Settings are on the canvas below:
+  data-bpm    beats per minute (70: an adult at rest)
+  data-speed  how fast the line is drawn, in screen pixels per second
+  data-reach  how far the peak rises above "Truth" and the trough falls below "Love", in cm
+  data-every  minutes from the start of one pass to the start of the next
+Colour: --ecg in style.css. Readers with "reduce motion" set do not see it at all.
 {% endcomment %}
-<canvas class="ecg" id="ecg" aria-hidden="true" data-bpm="70" data-speed="300" data-reach="1"></canvas>
+<canvas class="ecg" id="ecg" aria-hidden="true" data-bpm="70" data-speed="300" data-reach="1" data-every="3"></canvas>
 <script>
 (function(){
 var c=document.getElementById("ecg"),h=document.querySelector(".hero-title");
 if(!c||!h||!c.getContext)return;
+if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;
 var x=c.getContext("2d"),hero=c.parentNode,bpm=+c.dataset.bpm||70,speed=+c.dataset.speed||300,
-reach=(+c.dataset.reach||1)*96/2.54,still=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches,
-W=0,H=0,dpr=1,base=0,up=0,down=0,top0=0,colour="#888",visible=true,t0=performance.now(),raf=0;
+reach=(+c.dataset.reach||1)*96/2.54,every=(+c.dataset.every||3)*60000,
+W=0,H=0,dpr=1,base=0,up=0,down=0,colour="#d4143a",visible=true,due=false,running=false,start=0,timer=0;
 var period=60/bpm;
 /* One heartbeat (P, Q, R, S, T), phase 0 to 1. Gaussian bumps: [centre, width, height]. */
 var bumps=[[.16,.025,.10],[.335,.008,-.07],[.36,.009,1],[.385,.009,-1],[.62,.045,.22]];
@@ -31,36 +35,45 @@ function measure(){
   var b1=r1.top+asc,b2=r2.top+asc,b3=r3.top+asc,
       inkTop=b1-(mT.actualBoundingBoxAscent||fs*.73),inkBot=b3+(mL.actualBoundingBoxDescent||0),
       mid=b2-(mx.actualBoundingBoxAscent||fs*.55)/2;
-  var vw=document.documentElement.clientWidth,pad=4;
-  top0=inkTop-reach-pad;W=vw;H=(inkBot+reach+pad)-top0;
+  var vw=document.documentElement.clientWidth,pad=4,top0=inkTop-reach-pad;
+  W=vw;H=(inkBot+reach+pad)-top0;
   c.style.left=(-hr.left)+"px";c.style.top=(top0-hr.top)+"px";c.style.width=W+"px";c.style.height=H+"px";
   dpr=Math.min(window.devicePixelRatio||1,2);c.width=Math.round(W*dpr);c.height=Math.round(H*dpr);
   base=mid-top0;up=base-pad;down=H-pad-base;
   return true}
 function readColour(){colour=getComputedStyle(c).color}
-function draw(now){
-  var t=(now-t0)/1000,pen=(t*speed)%W,gap=Math.max(28,W*.03),tail=Math.min(W-gap,speed*period*3);
+/* One pass: the dot draws from the left edge to the right edge; the line fades behind it
+   over about three beats, and the pass ends once the last of it has faded off the right. */
+function draw(t){
+  var pen=t*speed,tail=Math.min(W,speed*period*3);
   x.setTransform(dpr,0,0,dpr,0,0);x.clearRect(0,0,W,H);
-  x.lineWidth=2;x.lineJoin="round";x.lineCap="round";x.strokeStyle=colour;
-  /* Draw backwards from the pen in short pieces, older pieces fainter, about three beats long. */
+  x.lineWidth=2;x.lineJoin="round";x.lineCap="round";x.strokeStyle=colour;x.fillStyle=colour;
   var seg=12;
   for(var a=0;a<tail;a+=seg){
-    x.globalAlpha=Math.max(0,1-a/tail);x.beginPath();
-    var last=-1;
+    var started=false;x.globalAlpha=Math.max(0,1-a/tail);x.beginPath();
     for(var d=a;d<=Math.min(a+seg,tail);d++){
-      var px=pen-d;if(px<0)px+=W;var py=yAt(t-d/speed);
-      if(last<0||px>last)x.moveTo(px,py);else x.lineTo(px,py);last=px}
-    x.stroke()}
-  x.globalAlpha=1;x.beginPath();x.arc(pen,yAt(t),3,0,7);x.fillStyle=colour;x.fill()}
-function drawStill(){draw(t0+1000*(W-1)/speed)}
-function loop(now){if(visible)draw(now);raf=requestAnimationFrame(loop)}
-function setup(){if(!measure())return;readColour();if(still)drawStill()}
+      var px=pen-d;if(px<0)break;if(px>W)continue;var py=yAt(t-d/speed);
+      if(!started){x.moveTo(px,py);started=true}else x.lineTo(px,py)}
+    if(started)x.stroke()}
+  x.globalAlpha=1;if(pen<=W){x.beginPath();x.arc(pen,yAt(t),3,0,7);x.fill()}
+  return pen-tail<W}
+function frame(now){
+  if(!running)return;
+  if(draw((now-start)/1000))requestAnimationFrame(frame);
+  else{running=false;x.setTransform(1,0,0,1,0,0);x.clearRect(0,0,c.width,c.height)}}
+function pass(){
+  clearTimeout(timer);timer=setTimeout(function(){due=true;go()},every);
+  if(!measure())return;readColour();running=true;due=false;
+  requestAnimationFrame(function(now){start=now;frame(now)})}
+/* A pass that falls due while the title is scrolled out of sight or the tab is hidden waits
+   until the reader can see it. */
+function go(){if(due&&!running&&visible&&!document.hidden)pass()}
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(function(){
-  setup();
-  var rt;window.addEventListener("resize",function(){clearTimeout(rt);rt=setTimeout(setup,120)});
-  new MutationObserver(function(){readColour();if(still)drawStill()}).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
-  if(still)return;
-  if("IntersectionObserver" in window)new IntersectionObserver(function(e){visible=e[0].isIntersecting}).observe(c);
-  raf=requestAnimationFrame(loop)});
+  due=true;
+  window.addEventListener("resize",function(){if(running)measure()});
+  new MutationObserver(readColour).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+  document.addEventListener("visibilitychange",go);
+  if("IntersectionObserver" in window)new IntersectionObserver(function(e){visible=e[0].isIntersecting;go()}).observe(h);
+  go()});
 })();
 </script>

@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 2.7 (typographic design) */
+/* Truth, Peace and Love - style.css - version 2.8 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -74,7 +74,7 @@ main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max
 
 /* Display type: hashtags and headings */
 h1,h2,h3{text-wrap:balance}
-h1,h2,.hero-title,.tag-title,.door-tag,.list-tag,.list-title,.doors-h,.strap,.more-h{font-family:var(--display);font-style:italic;font-variant-numeric:lining-nums;word-spacing:.08em}
+h1,h2,.hero-title,.tag-title,.door-tag,.list-tag,.list-title,.doors-h,.strap,.more-h,.whatsnew-h{font-family:var(--display);font-style:italic;font-variant-numeric:lining-nums;word-spacing:.08em}
 h1{font-weight:900;font-size:clamp(2.4rem,8vw,6rem);line-height:.92;letter-spacing:-.045em;margin:clamp(2.5rem,7vw,5.5rem) 0 .5em}
 h2{font-weight:900;font-size:clamp(1.75rem,3.8vw,3rem);line-height:1;letter-spacing:-.035em;margin:2em 0 .55em}
 h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
@@ -88,33 +88,25 @@ h3{font-weight:600;font-size:1.2em;line-height:1.3;margin:1.6em 0 .4em}
 
 /* Home */
 .hero{margin:clamp(2.5rem,8vw,6.5rem) 0 clamp(2rem,4vw,3rem);position:relative;isolation:isolate}
-/* Heartbeat line across the title (v2.7, _includes/ecg.html). --ecg is its colour.
+/* Heartbeat line across the title (v2.7, _includes/ecg.html). --ecg is its colour: crimson,
+   a little brighter on dark paper than on light so it looks the same strength on both.
    z-index:-1 puts the line behind the letters (it shows between them); 1 would put it in front. */
 .ecg{position:absolute;left:0;top:0;width:0;height:0;pointer-events:none;color:var(--ecg);z-index:-1}
-html{--ecg:var(--ink)}
+html{--ecg:#d4143a}
+:root[data-theme="light"]{--ecg:#a8102e}
 body{overflow-x:clip}
 .hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
-/* Sky through the home-page title (v2.6). The letters are a window onto a photograph of clouds
-   (assets/images/sky/clouds.webp, by György Lakatos on Pexels) that drifts very slowly.
-   Only browsers that can clip a background to text get it; others show plain ink lettering.
-   The picture downloads only on the home page, where the class is used.
-   The photograph was lightened a little (and its blue made a touch clearer) when it was prepared,
-   and --sky-lift lightens it very slightly more on dark paper, so the letters keep their edges on dark paper. */
-.hero-title.sky{--sky-lift:transparent}
-:root:not([data-theme="light"]) .hero-title.sky{--sky-lift:rgba(220,216,207,.04)}
-@supports ((-webkit-background-clip:text) or (background-clip:text)){
-  .hero-title.sky{
-    width:fit-content;padding:0 .14em .06em 0;
-    background-image:linear-gradient(var(--sky-lift),var(--sky-lift)),url("../images/sky/clouds.webp");
-    background-color:var(--ink);background-size:100% 100%,135% auto;background-position:0 0,0% 15%;background-repeat:no-repeat;
-    -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
-    animation:sky-drift 150s ease-in-out infinite alternate}
-}
-@keyframes sky-drift{from{background-position:0 0,0% 15%}to{background-position:0 0,100% 85%}}
-@media (prefers-reduced-motion:reduce){.hero-title.sky{animation:none;background-position:0 0,40% 45%}}
 .strap{margin:clamp(1.2rem,2.6vw,2.2rem) 0 0;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.02em}
 .home-welcome{margin-top:clamp(2.5rem,5vw,4rem)}
 .home-welcome .sign{font-style:italic}
+/* "Welcome." at the start of the home page, in the strapline's type (v2.8). */
+.welcome-word{font-family:var(--display);font-style:italic;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1;letter-spacing:-.02em;word-spacing:.08em}
+/* #whatsnew on the home page (v2.8): anything posted in the past month. */
+.whatsnew{margin-top:clamp(2.5rem,5vw,4rem)}
+.whatsnew-h{margin:0 0 .75rem;font-weight:900;font-size:clamp(1.9rem,4.4vw,3.4rem);line-height:1;letter-spacing:-.045em}
+.whatsnew .list-big{border-top-width:2px}
+.whatsnew .list-big li:last-child{border-bottom-width:2px}
+.whatsnew .list-title{font-size:clamp(1.25rem,2.4vw,1.8rem)}
 .doors-block{margin-top:clamp(3.5rem,8vw,6.5rem)}
 .doors-h{margin:0 0 1.25rem;font-weight:800;font-size:clamp(1.4rem,2.6vw,2.2rem);letter-spacing:-.03em;line-height:1.1}
 .doors,.list-big{list-style:none;margin:0;padding:0;border-top:6px solid var(--ink)}
@@ -233,7 +225,6 @@ sup{line-height:0}
   .wrap{max-width:none;padding:0}
   .masthead nav,.theme-toggle,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
-  .hero-title.sky{background:none!important;color:#000!important;-webkit-text-fill-color:#000!important;animation:none!important}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}
   a{text-decoration:none}

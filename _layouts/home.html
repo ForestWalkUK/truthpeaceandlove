@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="hero">
-<h1 class="hero-title sky">{{ site.title | replace: ", ", ",<br>" | replace: " and ", "<br>and " }}</h1>
+<h1 class="hero-title">{{ site.title | replace: ", ", ",<br>" | replace: " and ", "<br>and " }}</h1>
 {% if site.strapline %}<p class="strap">{{ site.strapline }}</p>{% endif %}
 {% include ecg.html %}
 </section>
@@ -20,6 +20,7 @@ layout: default
 {% for d in site.data.sections.doors %}{% assign target = site.pages | where: "url", d.url | first %}{% if target %}
 <li><a href="{{ d.url | relative_url }}"><span class="door-tag" aria-hidden="true"><span class="hash">#</span>{{ d.tag }}</span><span class="door-line">{{ d.line }}{% if d.sub %}<span class="door-sub">{{ d.sub }}</span>{% endif %}</span></a></li>{% endif %}{% endfor %}
 </ul>
+{% include whatsnew.html %}
 <div class="door-more">
 {% for m in site.data.sections.more %}{% assign target = site.pages | where: "url", m.url | first %}{% if target %}
 <p>{{ m.before }}<a href="{{ m.url | relative_url }}">{{ m.text }}</a>{{ m.after }}</p>{% endif %}{% endfor %}

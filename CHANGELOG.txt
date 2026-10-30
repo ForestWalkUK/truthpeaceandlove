@@ -1,6 +1,30 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 2.8 (30th October, A.D. 2026) - quieter home page, #whatsnew
+----------------------------------------------------------------------
+Removed: the sky photograph in the title (it drew the eye away from the Word of God). The
+  title is plain ink lettering again. The footer credit and the sky_credit: setting are gone.
+  DELETE assets/images/sky/ from the local folder by hand (copying the ZIP over the folder
+  does not remove it).
+Change: the heartbeat line now crosses the screen once when the page opens, then once every
+  3 minutes while the reader stays on the page (data-every in _includes/ecg.html). Between
+  passes nothing is drawn and nothing runs. A pass that falls due while the title is out of
+  sight, or the tab is hidden, waits until it can be seen. Readers with "reduce motion" set
+  no longer see any line at all.
+Change: the line is crimson (#d4143a on dark paper, #a8102e on light): --ecg in style.css.
+Feature: "Welcome." at the start of the home page is set in the type of "Found in Jesus
+  Christ" (Inter Extra Bold Italic, same size): .welcome-word.
+Feature: #whatsnew in "Where would you like to begin?", below the doors: anything posted in
+  the past month, newest first, each a link with its date. It includes every blog post, and
+  any page with a "date:" line in its front matter. The list is made when the site builds; a
+  small script also hides entries once more than a month old by the reader's calendar (the
+  site only rebuilds when something is committed). If nothing is new, the block is left out.
+Files added: _includes/whatsnew.html.
+Files changed: _config.yml, _includes/ecg.html, _layouts/default.html, _layouts/home.html,
+  assets/css/style.css, index.md.
+Files removed: assets/images/sky/clouds.webp.
+
 Version 2.7 (29th October, A.D. 2026) - heartbeat across the title
 --------------------------------------------------------------------
 Feature: a heart-monitor line runs across the home page from the left edge of the screen to

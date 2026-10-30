@@ -1,0 +1,28 @@
+{% comment %}
+#whatsnew on the home page (v2.8). Lists anything posted in the past month, newest first:
+every blog post, and any page whose front matter has a "date:" line (e.g. date: 2026-11-02).
+Pages without "date:" are not listed, because the site cannot tell when they were added.
+The list is made when GitHub builds the site. The site only rebuilds when something is
+committed, so a small script also hides entries once they are more than a month old by the
+reader's own calendar. If nothing is new, the whole #whatsnew block is left out.
+{% endcomment %}
+{% assign cutoff = site.time | date: "%s" | minus: 2764800 %}
+{% capture wn_items %}{% for post in site.posts %}{% assign when = post.date | date: "%s" | plus: 0 %}{% if when >= cutoff %}
+<li data-date="{{ post.date | date: '%Y-%m-%d' }}"><a href="{{ post.url | relative_url }}"><span class="list-title">{{ post.title }}</span><span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span></a></li>{% endif %}{% endfor %}{% for p in site.pages %}{% if p.date %}{% assign when = p.date | date: "%s" | plus: 0 %}{% if when >= cutoff %}
+<li data-date="{{ p.date | date: '%Y-%m-%d' }}"><a href="{{ p.url | relative_url }}"><span class="list-title">{{ p.title }}</span><span class="post-date">{{ p.date | date: "%-d %B %Y" }}</span></a></li>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% assign wn_check = wn_items | strip %}{% if wn_check != "" %}
+<div class="whatsnew" id="whatsnew">
+<h3 class="whatsnew-h"><span class="hash">#</span>whatsnew</h3>
+<ul class="list-big post-list">{{ wn_items }}
+</ul>
+</div>
+<script>
+(function(){var box=document.getElementById("whatsnew");if(!box)return;var ul=box.querySelector("ul"),
+  limit=new Date();limit.setMonth(limit.getMonth()-1);limit.setHours(0,0,0,0);
+  var items=[].slice.call(ul.children);
+  items.sort(function(a,b){return a.getAttribute("data-date")<b.getAttribute("data-date")?1:-1});
+  var shown=0;items.forEach(function(li){var p=li.getAttribute("data-date").split("-"),d=new Date(+p[0],p[1]-1,+p[2]);
+    ul.appendChild(li);if(d<limit)li.hidden=true;else shown++});
+  if(!shown)box.hidden=true;})();
+</script>
+{% endif %}
