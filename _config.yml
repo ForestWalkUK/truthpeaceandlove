@@ -3,7 +3,7 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "3.3"
+site_version: "3.4"
 strapline: Found in Jesus Christ
 exclude:
   - README.md

@@ -1,6 +1,15 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.4 (30th October, A.D. 2026) - larger normal text size
+-------------------------------------------------------------------
+Change: the normal reading text is now the size that one press of + gave in v3.3 (about
+  21.5px on a phone, 25.3px on a wide screen). The six steps are now 70%, 80%, 90%, normal,
+  115% and 130%, so the smallest and largest sizes are almost the same as before.
+Change: the remembered size is now stored as "tpl-textsize" (was "tpl-size"), so every
+  reader starts at the new normal size rather than one step above it.
+Files changed: _config.yml, _layouts/default.html, assets/css/style.css.
+
 Version 3.3 (30th October, A.D. 2026) - text size buttons, larger reading text
 ----------------------------------------------------------------------------------
 Feature: two square buttons, - and +, beside #dark/#light in the masthead. They make the
