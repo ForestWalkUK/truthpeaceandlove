@@ -5,9 +5,9 @@ gauges:
   direction: 1
   ideas: 1
   scripture: 4
-  drafting: 4
+  drafting: 3
   revision: 1
-  checking: 0
+  checking: 1
 ---
 *By Carl H, written with the help of Claude, an AI assistant made by Anthropic. See the note at the end for how.*
 
@@ -39,7 +39,7 @@ Some would say that cartoon ghosts and jokey witches simply make fun of evil. Bu
 
 ## God is not against joy
 
-None of this means God is against enjoyment. He is not anti-pleasure. He is the source of everlasting pleasure: “in thy presence *is* fulness of joy; at thy right hand *there are* pleasures for evermore” (Psalm 16:11). Nor is He against love, laughter or having a good time. The Bible tells us there is “a time to laugh” (Ecclesiastes 3:4), and in the Lord’s parable of the prodigal son, the son’s homecoming was celebrated with music and dancing (Luke 15:25). And of those who hear, believe and trust in Him, He promises, “The LORD thy God in the midst of thee *is* mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing” (Zephaniah 3:17).
+None of this means God is against enjoyment. He is not anti-pleasure. He is the source of everlasting pleasure: “in thy presence *is* fulness of joy; at thy right hand *there are* pleasures for evermore” (Psalm 16:11). Nor is He against love, laughter or having a good time, for “God is love” (1 John 4:16). The Bible tells us there is “a time to laugh” (Ecclesiastes 3:4), and in the Lord’s parable of the prodigal son, the son’s homecoming was celebrated with music and dancing (Luke 15:25). And of those who hear, believe and trust in Him, He promises, “The LORD thy God in the midst of thee *is* mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing” (Zephaniah 3:17).
 
 We may, and should, hold joyful celebrations on proper occasions. But surely our celebrations should never lead children towards the very things God warns us against.
 
