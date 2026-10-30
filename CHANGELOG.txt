@@ -1,6 +1,12 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.1 (30th October, A.D. 2026)
+--------------------------------------
+Change: #weary page distress note: removed "a minister, a friend, or a family member." The
+  sentence now reads "Speak, in person, to someone you trust." (Carl's decision.)
+Files changed: _config.yml, weary/index.md, assets/css/style.css (version line only).
+
 Version 3.0 (30th October, A.D. 2026) - placeholders point to #whatsnew
 -------------------------------------------------------------------------
 Change: every section page not yet written (#neverthought, #weary, #otherbeliefs, #shutout,
