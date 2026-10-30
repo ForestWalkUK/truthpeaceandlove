@@ -15,6 +15,32 @@ gauges:
 >
 > — John 8:12
 
+## In brief
+
+Halloween is everywhere at this time of year, and most people join in for fun and mean no harm. As the dark nights draw in, any reason to get together seems welcome. But it is worth asking what the night really is.
+
+The name means “All Hallows’ Even”, the eve of a feast set by the Church of Rome in the Middle Ages, whose customs grew up around praying for the dead, which the Bible shows to be in vain. Behind it lies an older pagan festival associated with spirits and fortune-telling. Many will say, “We don’t care about the history; it’s just fun now.” But consider what it now celebrates: violence, death, witchcraft and fear, turned into entertainment.
+
+Why should the Bible decide? Because it is the Word of God, and it proves it by foretelling the future. Centuries in advance, the prophets foretold that the Saviour would be born in Bethlehem (Micah 5:2), and that He would be wounded for the sins of others (Isaiah 53). All of this was fulfilled in Jesus Christ.
+
+Halloween does two things at once. First, it misrepresents the spirit world. Its “ghosts” suggest that the dead linger among us, but the Bible tells us that at death the soul goes at once to heaven or to hell (Luke 16:22-23; Luke 23:43). The spirits that answer those who seek them are fallen angels, for “Satan himself is transformed into an angel of light” (2 Corinthians 11:14). This grieves God, and it leads adults and children alike away from the saving truth of His Word and into the lies of the devil, who “is a liar, and the father of it” (John 8:44). And his lies come sugar-coated, like the sweets handed out at the door.
+
+Second, it trivialises what is real. For modern witches and pagans this is one of the most sacred nights of the year. If they take it so seriously, is it wise for anyone to treat it lightly? “Abstain from all appearance of evil” (1 Thessalonians 5:22).
+
+None of this means God is against joy: “in thy presence *is* fulness of joy; at thy right hand *there are* pleasures for evermore” (Psalm 16:11). But death is no game: “it is appointed unto men once to die, but after this the judgment” (Hebrews 9:27). By nature we are all sinners, held in “the snare of the devil” (2 Timothy 2:26).
+
+The good news is that Jesus Christ came “that through death he might destroy him that had the power of death, that is, the devil; And deliver them who through fear of death were all their lifetime subject to bondage” (Hebrews 2:14-15). He died for sinners and rose again, and He alone can save: “I am the way, the truth, and the life: no man cometh unto the Father, but by me” (John 14:6).
+
+Turn from your sin and trust in Christ, for He promises, “him that cometh to me I will in no wise cast out” (John 6:37). “Believe on the Lord Jesus Christ, and thou shalt be saved” (Acts 16:31).
+
+**[Read the full article](#full-article)** for the history, the evidence and the Scripture behind each point.
+
+---
+
+<a id="full-article"></a>
+
+## The full article
+
 Halloween is everywhere at this time of year: decorations, costumes, parties. Most people join in for fun and mean no harm, and I understand why such evenings appeal. In a world of constant bad news, with families and communities breaking down, any reason to get together seems welcome. There is real bonding in facing fears and laughing at them together as the dark nights draw in, with black humour and corny, tongue-in-cheek horror. But it’s worth asking what the night actually is.
 
 ---
@@ -35,11 +61,15 @@ Isaiah and Micah both prophesied around 700 B.C., some seven centuries before Ch
 
 Why, though, do so many enjoy being frightened? Perhaps a fright that seems harmless lets people brush against the thing they fear most of all, death, while feeling safe. But sadly, our deadly enemy the devil knows this very well, and uses it to draw people, especially children and teenagers, further into his soul-destroying ways. There are real, dark and evil spiritual forces at work in our world, and our own neighbourhoods are no exception.
 
-Some would say that cartoon ghosts and jokey witches simply make fun of evil. But the night does two things at once: it misrepresents the spirit world, and it trivialises what is real in it, such as witchcraft, which Scripture treats as deadly serious. Those who practise witchcraft today do not treat this night as a joke, and the Church of Satan names it among its major festivals. For modern witches and pagans it is one of the most sacred nights of the year, and RE:Online, a guide to world religions for teachers in UK schools, says that at this time “Communicating with ancestors and departed loved ones is easy”.[^1] But the “ghosts” of Halloween teach a falsehood, for the Bible tells us that at death the soul goes at once to heaven or to hell (Luke 16:22-23; Luke 23:43). To misrepresent the spirit world is no small matter. It grieves God, whose Word it contradicts, and it is deadly dangerous for adults and children alike, for it leads them away from the saving truth of His Word and into the lies of the devil, who “is a liar, and the father of it” (John 8:44). And his lies come sugar-coated, like the sweets handed out at the door.
+Some would say that cartoon ghosts and jokey witches simply make fun of evil. But the night does two things at once: it misrepresents the spirit world, and it trivialises what is real in it, such as witchcraft, which Scripture treats as deadly serious.
+
+First, it misrepresents. RE:Online, a guide to world religions for teachers in UK schools, says that at this time “Communicating with ancestors and departed loved ones is easy”.[^1] The “ghosts” of Halloween teach the same falsehood, for the Bible tells us that at death the soul goes at once to heaven or to hell (Luke 16:22-23; Luke 23:43).
 
 The Bible records only one occasion when a departed soul appeared to someone consulting a medium: Samuel, to King Saul (1 Samuel 28). Commentators differ on whether it was Samuel himself or an evil spirit impersonating him, but either way Saul died for “asking *counsel* of *one that had* a familiar spirit” (1 Chronicles 10:13). And when the rich man in the Lord’s parable begged that Lazarus be sent back from the dead to warn his brothers, the answer was, “They have Moses and the prophets; let them hear them” (Luke 16:29). Scripture speaks far more of “familiar spirits” (Leviticus 19:31): fallen angels, malevolent and intent on our eternal destruction, who mislead and lie to those who seek their counsel, for “Satan himself is transformed into an angel of light” (2 Corinthians 11:14).
 
-If those who misguidedly practise these things take them so seriously, is it wise for anyone to treat them lightly? How can we know where harmless fun ends? Many who have “played” with a Ouija board tell of being badly frightened, and even some practising witches warn others never to touch one. God has given the answer: “Prove all things; hold fast that which is good. Abstain from all appearance of evil” (1 Thessalonians 5:21-22).
+To misrepresent the spirit world is no small matter. It grieves God, whose Word it contradicts, and it is deadly dangerous for adults and children alike, for it leads them away from the saving truth of His Word and into the lies of the devil, who “is a liar, and the father of it” (John 8:44). And his lies come sugar-coated, like the sweets handed out at the door.
+
+Second, it trivialises. Those who practise witchcraft today do not treat this night as a joke: for modern witches and pagans it is one of the most sacred nights of the year, and the Church of Satan names it among its major festivals. If those who misguidedly practise these things take them so seriously, is it wise for anyone to treat them lightly? How can we know where harmless fun ends? God has given the answer: “Prove all things; hold fast that which is good. Abstain from all appearance of evil” (1 Thessalonians 5:21-22).
 
 ## God is not against joy
 
@@ -47,9 +77,13 @@ None of this means God is against enjoyment. He is not anti-pleasure. He is the 
 
 We may, and should, hold joyful celebrations on proper occasions. But surely our celebrations should never lead children towards the very things God warns us against.
 
+## The bad news
+
+Death is no game: “it is appointed unto men once to die, but after this the judgment” (Hebrews 9:27). God, our faithful Creator, forbids dealings with spirits and fortune-telling (Deuteronomy 18:10-12) because these things belong to a darkness that holds every one of us by nature. God made the first man in His own image, upright and holy (Genesis 1:27; Ecclesiastes 7:29). But he listened to the devil and fell, and the whole human race fell with him; that is why the world is so full of bad news. Our very nature is now corrupted, so that we sin readily and willingly. Jesus said, “Whosoever committeth sin is the servant of sin” (John 8:34), and the Bible describes all who are without Christ as caught in “the snare of the devil, who are taken captive by him at his will” (2 Timothy 2:26).
+
 ## The good news
 
-Death is no game: “it is appointed unto men once to die, but after this the judgment” (Hebrews 9:27). God, our faithful Creator, forbids dealings with spirits and fortune-telling (Deuteronomy 18:10-12) because these things belong to a darkness that holds every one of us by nature. God made the first man in His own image, upright and holy (Genesis 1:27; Ecclesiastes 7:29). But he listened to the devil and fell, and the whole human race fell with him; that is why the world is so full of bad news. Our very nature is now corrupted, so that we sin readily and willingly. Jesus said, “Whosoever committeth sin is the servant of sin” (John 8:34), and the Bible describes all who are without Christ as caught in “the snare of the devil, who are taken captive by him at his will” (2 Timothy 2:26). But God has the best possible news for us (the very word “gospel” means “good news”). In His mercy, grace and love, He has not left us there. He seeks to rescue us from sin, from Satan, and from the judgment to come.
+But God has the best possible news for us (the very word “gospel” means “good news”). In His mercy, grace and love, He has not left us there. He seeks to rescue us from sin, from Satan, and from the judgment to come.
 
 That is why Jesus Christ came, “that through death he might destroy him that had the power of death, that is, the devil; And deliver them who through fear of death were all their lifetime subject to bondage” (Hebrews 2:14-15). He died for sinners and rose again. He says, “I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life” (John 8:12). He alone can bring us out of that darkness. Against all the devil’s lies, He declares, “I am the way, the truth, and the life: no man cometh unto the Father, but by me” (John 14:6). As the apostle Peter preached, “Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved” (Acts 4:12).
 
