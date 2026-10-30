@@ -1,0 +1,6 @@
+{% comment %}
+A sentence pointing readers to #whatsnew on the home page (v3.0), for "still being written"
+places. It appears only when something has been posted in the past month (the same rule as
+#whatsnew itself: blog posts, and pages with a "date:" line). Checked when the site builds,
+and again by the reader's calendar, so it never points to an empty list.
+{% endcomment %}{% assign wn_newest = "" %}{% if site.posts.size > 0 %}{% assign wn_newest = site.posts.first.date | date: "%Y-%m-%d" %}{% endif %}{% for p in site.pages %}{% if p.date %}{% assign wn_d = p.date | date: "%Y-%m-%d" %}{% if wn_d > wn_newest %}{% assign wn_newest = wn_d %}{% endif %}{% endif %}{% endfor %}{% assign wn_cutoff = site.time | date: "%s" | minus: 2764800 | date: "%Y-%m-%d" %}{% if wn_newest != "" and wn_newest >= wn_cutoff %}<span class="wn-mention" data-newest="{{ wn_newest }}" hidden> You can also read anything listed under <a href="{{ '/' | relative_url }}#whatsnew"><span class="hash">#</span>whatsnew</a> on the home page.</span><script>(function(){var s=document.currentScript.previousElementSibling,p=s.getAttribute("data-newest").split("-"),d=new Date(+p[0],p[1]-1,+p[2]),l=new Date();l.setMonth(l.getMonth()-1);l.setHours(0,0,0,0);if(d>=l)s.hidden=false})();</script>{% endif %}

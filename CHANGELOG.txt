@@ -1,6 +1,18 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.0 (30th October, A.D. 2026) - placeholders point to #whatsnew
+-------------------------------------------------------------------------
+Change: every section page not yet written (#neverthought, #weary, #otherbeliefs, #shutout,
+  #deeper, and any future one) now adds, after "In the meantime, you can read what Jesus said
+  and did, or my story.": "You can also read anything listed under #whatsnew on the home
+  page." The link goes straight to the list. Like the home page sentence, it only shows when
+  something has been posted in the past month, so it never points to an empty list.
+  (The home page welcome text already mentions #whatsnew, since v2.9. No other placeholder
+  wording was found on the site.)
+Files added: _includes/whatsnew-mention.html.
+Files changed: _config.yml, _layouts/section.html, assets/css/style.css (version line only).
+
 Version 2.9 (30th October, A.D. 2026) - heading sizes, welcome text
 ---------------------------------------------------------------------
 Change: on phones and narrow windows (52em, about 830 pixels, and below) the home-page title

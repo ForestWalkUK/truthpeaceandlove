@@ -29,6 +29,6 @@ A section's front page (a door page, Creation, Going Deeper...). It lists, autom
 {% else %}
 <div class="empty">
 <p>This part of the site is still being written.</p>
-<p>In the meantime, you can read <a href="{{ '/gospels/' | relative_url }}">what Jesus said and did</a>, or <a href="{{ '/my-story/' | relative_url }}">my story</a>.</p>
+<p>In the meantime, you can read <a href="{{ '/gospels/' | relative_url }}">what Jesus said and did</a>, or <a href="{{ '/my-story/' | relative_url }}">my story</a>.{% include whatsnew-mention.html %}</p>
 </div>
 {% endif %}
