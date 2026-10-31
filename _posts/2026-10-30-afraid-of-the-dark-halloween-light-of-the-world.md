@@ -1,13 +1,5 @@
 ---
 title: "Afraid of the Dark? Halloween and the Light of the World"
-gauges:
-  standpoint: 0
-  direction: 1
-  ideas: 1
-  scripture: 4
-  drafting: 3
-  revision: 1
-  checking: 1
 ---
 *By Carl H, written with the help of Claude, an AI assistant made by Anthropic. See the note at the end for how.*
 
@@ -136,6 +128,14 @@ As the dark nights draw in, it is worth pausing over a few questions. What do yo
 Halloween gives people a reason to gather, a few hours of thrills, and a pumpkin’s flickering light against the dark. But God offers something far better: peace with Him through Jesus Christ, freedom from the fear of death, a welcome that never ends, and the joys of His presence for ever, in a new world free from sin and loneliness. Of all who are His, it is written, “God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain” (Revelation 21:4). And of that world we read, “there shall be no night there; and they need no candle, neither light of the sun; for the Lord God giveth them light” (Revelation 22:5).
 
 “The people that walked in darkness have seen a great light” (Isaiah 9:2). That light still shines, and it is shining for you.
+
+---
+
+## How this article was written
+
+This article was written by Carl H with the help of Claude, an AI assistant made by Anthropic. It took shape over many working sessions and rounds of revision. Along the way I brought my own handwritten material to it, and added further material prayerfully as the work went on. Claude helped with historical research, with drafting and refining the wording, and with checking every Scripture quotation against the Authorised (King James) Version. All of the content has been checked and approved by me, and the final editorial decisions are mine.
+
+For all that is in accordance with His truth, the glory belongs to God alone, through our Lord Jesus Christ. “Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, *and* for thy truth’s sake” (Psalm 115:1).
 
 [^1]: RE:Online (Culham St Gabriel’s Trust), festivals calendar, “Samhain/Samhuinn”, consulted 30 October 2026.
 
