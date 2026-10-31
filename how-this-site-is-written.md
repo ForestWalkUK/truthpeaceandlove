@@ -23,7 +23,7 @@ Claude is a tool, and like any tool it can be wrong. It can write smoothly and s
 
 Quotations are from the Authorised (King James) Version. Words printed in italics are words the translators added to make the English read clearly, as in a printed Bible. Quotations are checked against a full copy of the text, never written from memory.
 
-The four Gospels are given in the Geneva Bible (1599). Its spelling was modernised with Claude’s help, word by word; the words themselves were kept.## 
+The four Gospels are given in the Geneva Bible (1599). Its spelling was modernised with Claude’s help, word by word; the words themselves were kept. 
 
 ## Why I tell you this
 
