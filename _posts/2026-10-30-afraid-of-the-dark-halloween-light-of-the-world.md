@@ -1,6 +1,8 @@
 ---
 title: "Afraid of the Dark? Halloween and the Light of the World"
 ---
+*By Carl H, written with the help of Claude, an AI assistant made by Anthropic. See the note at the end for how.*
+
 > **“I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.”**
 >
 > Jesus Christ — John 8:12
@@ -77,7 +79,7 @@ The Bible records only one occasion when a departed soul appeared to someone con
 
 To misrepresent the spirit world is no small matter. It grieves God, whose Word it contradicts, and it is deadly dangerous for adults and children alike, for it leads them away from the saving truth of His Word and into the lies of the devil, who “is a liar, and the father of it” (John 8:44). And his lies come sugar-coated, like the sweets handed out at the door.
 
-Worst of all, if the dead linger among us, then death is not the end of our opportunity, and there is always time later to set things right with God. But Scripture says otherwise: there is “a great gulf fixed” between the saved and the lost (Luke 16:26), and “after this the judgment” (Hebrews 9:27). That is why God says, “behold, now *is* the accepted time; behold, now *is* the day of salvation” (2 Corinthians 6:2). And again, “Boast not thyself of to morrow; for thou knowest not what a day may bring forth” (Proverbs 27:1).
+Worst of all, if the dead linger among us, then death is not the end of our opportunity, and there is always time later to set things right with God. But Scripture says otherwise: at death the soul goes at once to heaven or to hell, as the rich man and Lazarus did (Luke 16:22-23); there is “a great gulf fixed” between the saved and the lost (Luke 16:26), and “after this the judgment” (Hebrews 9:27). That is why God says, “behold, now *is* the accepted time; behold, now *is* the day of salvation” (2 Corinthians 6:2). And again, “Boast not thyself of to morrow; for thou knowest not what a day may bring forth” (Proverbs 27:1).
 
 ## If you miss someone you have lost
 
