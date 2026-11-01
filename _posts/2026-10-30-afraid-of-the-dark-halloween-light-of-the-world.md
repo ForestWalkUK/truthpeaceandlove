@@ -47,7 +47,7 @@ To answer that, it helps first to know what the night actually is. The name mean
 
 For those who treasure Scottish tradition, there is a part of Scotland’s story worth knowing. Guising and lanterns are often cherished as “the old ways”, but they grew up around a night of wandering spirits and prayers for the dead. At the Reformation, Scotland abolished such days, because none of it came from the Bible. The Scottish Reformers did not do this to rob anyone of joy, but because they had rediscovered something far better in the Scriptures, and many who came after them counted it worth their lives. To set Halloween aside is not to abandon Scotland’s heritage; it is to return to the noblest part of it.
 
-## What are we really celebrating?
+## What is really being celebrated?
 
 Some will say, “We don’t care about the history; it’s just fun now. We’re not celebrating anything dark. We’re celebrating our children, our friends, our street.” I believe them. But the things people celebrate *with* still carry their own message, whatever they intend. A child who dresses as a ghost, or knocks on doors between skeletons and witches, is quietly being told that the dead may wander among us, that witchcraft is a game, and that death itself is something to laugh at. These are not harmless ideas, as we shall see, for they contradict what God has told us about death and the world of spirits. The imagery of the night is violence, death, witchcraft and fear, turned into entertainment, and imagery teaches, even when nobody means it to.
 
@@ -97,7 +97,7 @@ Second, Halloween trivialises what is real, such as witchcraft, which Scripture 
 
 ## God is not against joy
 
-Perhaps by now you are wondering whether God is simply against enjoyment. He is not. He is not anti-pleasure. He is the source of everlasting pleasure: “in thy presence *is* fulness of joy; at thy right hand *there are* pleasures for evermore” (Psalm 16:11). Nor is He against love, laughter or having a good time, for “God is love” (1 John 4:16). The Bible tells us there is “a time to laugh” (Ecclesiastes 3:4), and in the Lord’s parable of the prodigal son, the son’s homecoming was celebrated with music and dancing (Luke 15:25).
+Perhaps by now you are wondering whether God is simply against enjoyment. He is not. He is not anti-pleasure. He is the source of everlasting pleasure: “in thy presence *is* fulness of joy; at thy right hand *there are* pleasures for evermore” (Psalm 16:11). He is “the living God, who giveth us richly all things to enjoy” (1 Timothy 6:17). Nor is He against love, laughter or having a good time, for “God is love” (1 John 4:16). The Bible tells us there is “a time to laugh” (Ecclesiastes 3:4), and in the Lord’s parable of the prodigal son, the son’s homecoming was celebrated with music and dancing (Luke 15:25). And His Word records the joy of His people when He brought them home from captivity in Babylon: “Then was our mouth filled with laughter, and our tongue with singing: then said they among the heathen, The LORD hath done great things for them” (Psalm 126:2).
 
 We may, and should, hold joyful celebrations on proper occasions. But surely our celebrations should never lead anyone, least of all children, towards the very things God warns us against.
 
