@@ -2,8 +2,6 @@
 title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 ---
-*By Carl H, written with much assistance from Claude, an AI assistant made by Anthropic.*
-
 > **“Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive *them*, and ye shall have *them*.”**
 >
 > — Mark 11:24
@@ -273,4 +271,4 @@ Count the cost, for “if any *man* will come after me, let him deny himself, an
 
 ---
 
-*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the phrase-by-phrase paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
+*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the phrase-by-phrase paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. It has been through many revisions. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H

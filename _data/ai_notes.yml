@@ -4,7 +4,8 @@
 # front matter. Pages with "ai_note: none" (or a key not listed here) show no line.
 # Keep every line true for every page that uses it. Change the wording here, in one place.
 
-standard: "Written with the help of Claude, an AI assistant made by Anthropic."
+# "standard" (the default for most pages) has been removed, so those pages show no AI note.
+# Articles explain their own use of AI at the foot of each one.
 
 gospels: "Bible text: the Geneva Bible (1599). Its spelling was modernised with the help of Claude, an AI assistant made by Anthropic; the words themselves were kept."
 
