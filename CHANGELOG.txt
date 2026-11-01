@@ -1,6 +1,17 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Version 3.5 (1st November, A.D. 2026) - external links open in a new tab
+-------------------------------------------------------------------------
+Feature: every link to another website now opens in a new tab, wherever it appears on the
+  site (pages, posts, footer). Links are written normally in Markdown; a short script in the
+  layout does the rest, and adds a hidden "(opens in a new tab)" for screen readers. Links
+  inside this site still open in the same tab.
+Change: the Going Deeper page now points readers to the old website,
+  https://waterspringingup.blogspot.com/, until the section is written.
+Fix: the AI note at the foot of My Story now matches How this site is written.
+Files changed: _config.yml, _layouts/default.html, _data/ai_notes.yml, deeper/index.md.
+
 Version 3.4 (30th October, A.D. 2026) - larger normal text size
 -------------------------------------------------------------------
 Change: the normal reading text is now the size that one press of + gave in v3.3 (about

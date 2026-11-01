@@ -66,6 +66,13 @@ try{if(S[i]===1)localStorage.removeItem("tpl-textsize");else localStorage.setIte
 dn.setAttribute("aria-disabled",i===0?"true":"false");up.setAttribute("aria-disabled",i===S.length-1?"true":"false")}
 dn.hidden=up.hidden=false;set(i);
 dn.addEventListener("click",function(){set(i-1)});up.addEventListener("click",function(){set(i+1)});})();
+/* External links (v3.5): any link to another website opens in a new tab, with a hidden
+   "(opens in a new tab)" for screen readers. Write links normally in Markdown; this does the rest.
+   Links added later by other scripts (such as VerseClick) are caught when they are clicked. */
+(function(){function ext(a){return a&&a.href&&/^https?:$/.test(a.protocol)&&a.hostname!==location.hostname}
+function mark(a){if(a.target==="_blank")return;a.target="_blank";a.rel="noopener noreferrer";if(!a.querySelector(".sr-only")){var s=document.createElement("span");s.className="sr-only";s.textContent=" (opens in a new tab)";a.appendChild(s)}}
+var all=document.querySelectorAll("a[href]");for(var k=0;k<all.length;k++)if(ext(all[k]))mark(all[k]);
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(ext(a)&&a.target!=="_blank"){a.target="_blank";a.rel="noopener noreferrer"}},true);})();
 </script>
 {% unless page.verseclick == false %}
 <script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>
