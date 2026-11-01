@@ -1,8 +1,6 @@
 ---
 title: "Afraid of the Dark? Halloween and the Light of the World"
 ---
-*By Carl H, written with the help of Claude, an AI assistant made by Anthropic. See the note at the end for how.*
-
 > **“I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.”**
 >
 > Jesus Christ — John 8:12
