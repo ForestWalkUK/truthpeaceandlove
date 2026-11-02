@@ -8,4 +8,4 @@ permalink: /
 
 It is still being built. For now, you can read [the four Gospels]({{ '/gospels/' | relative_url }}), [my story]({{ '/my-story/' | relative_url }}) or the [notes]({{ '/notes/' | relative_url }}).<span id="wn-mention" hidden> You can also read anything listed under <a href="#whatsnew"><span class="hash">#</span>whatsnew</a>, further down this page.</span>
 
-<p class="sign">Every blessing in Christ Jesus,<br>Carl H (an unprofitable servant, Luke 17:10)</p>
+<p class="sign">Every blessing in Christ Jesus,<br>Carl Hamblin (an unprofitable servant, Luke 17:10)</p>

@@ -31,4 +31,4 @@ The apostle Paul wrote that he and those with him “have renounced the hidden t
 
 Whoever or whatever wrote the words, the test is the same: “To the law and to the testimony: if they speak not according to this word, *it is* because *there is* no light in them” (Isaiah 8:20). “Prove all things; hold fast that which is good” (1 Thessalonians 5:21).
 
-Carl H
+Carl Hamblin

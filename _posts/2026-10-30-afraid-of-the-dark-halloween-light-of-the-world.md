@@ -135,7 +135,7 @@ Halloween gives people a reason to gather, a few hours of thrills, and a pumpkin
 
 ## How this article was written
 
-This article was written by Carl H with the help of Claude, an AI assistant made by Anthropic. It took shape over many working sessions and rounds of revision. Along the way I brought my own handwritten material to it, and added further material prayerfully as the work went on. Claude helped with historical research, with drafting and refining the wording, and with checking every Scripture quotation against the Authorised (King James) Version. All of the content has been checked and approved by me, and the final editorial decisions are mine.
+This article was written by Carl Hamblin with the help of Claude, an AI assistant made by Anthropic. It took shape over many working sessions and rounds of revision. Along the way I brought my own handwritten material to it, and added further material prayerfully as the work went on. Claude helped with historical research, with drafting and refining the wording, and with checking every Scripture quotation against the Authorised (King James) Version. All of the content has been checked and approved by me, and the final editorial decisions are mine.
 
 For all that is in accordance with His truth, the glory belongs to God alone, through our Lord Jesus Christ. “Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, *and* for thy truth’s sake” (Psalm 115:1).
 

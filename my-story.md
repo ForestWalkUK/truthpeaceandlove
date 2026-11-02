@@ -6,7 +6,7 @@ permalink: /my-story/
 ai_note: story
 ---
 
-By Carl H, Inverness
+By Carl Hamblin
 
 ## The short version
 
@@ -29,7 +29,7 @@ I can personally assure you that God, the Holy Bible, the spiritual realm, after
 > For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 > (John 3:16, KJV).
 
-Carl H, Inverness
+Carl Hamblin
 
 ---
 
@@ -72,7 +72,7 @@ I can personally assure you that God, the Holy Bible, the spiritual realm, after
 > For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 > (John 3:16, KJV).
 
-Carl H, Inverness
+Carl Hamblin
 
 [^1]: ‘Covenanters’ (also known as ‘Covies’) was a Christian youth group movement operating in churches throughout Great Britain (now merged with another Christian youth organisation). So far as I know, they did not hold historic Covenanter standards but were a New Evangelical Christian youth organisation (a broad, modern evangelical movement). In 2015 I came to embrace historic Covenanter standards and covenants. For more about the historic and present-day Covenanters, a [Going Deeper]({{ '/deeper/' | relative_url }}) section is planned for this site.
 
