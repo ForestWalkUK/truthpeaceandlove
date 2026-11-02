@@ -1,4 +1,4 @@
-/* Truth, Peace and Love - style.css - version 3.6 (typographic design) */
+/* Truth, Peace and Love - style.css - version 3.7 (typographic design) */
 
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
@@ -104,66 +104,6 @@ body{overflow-x:clip}
 .hero-title{margin:0;font-size:clamp(3.2rem,12.5vw,11.5rem);line-height:.86;letter-spacing:-.055em}
 /* Phones and narrow windows (v2.9): the home-page title 30% larger. The strapline is unchanged. */
 @media (max-width:52em){.hero-title{font-size:clamp(4.16rem,16.25vw,14.95rem)}}
-
-/* ====================================================================
-   TITLE COLOUR CYCLING (experimental, v3.6)
-   --------------------------------------------------------------------
-   The home-page title slowly drifts through a soft palette derived
-   from #DCD8CF (mycolor.space). Dark theme uses light tints; the muted
-   light theme uses darker tones. About 9 seconds per colour, looping
-   smoothly back to the first.
-
-   TO SWITCH OFF: add class "no-title-cycle" to the <html> element,
-   e.g. <html lang="en-GB" class="no-title-cycle">, OR comment out the
-   two ".hero-title" animation rules below. Everything to customise the
-   cycling (colours and speed) lives in this one block.
-
-   DURATIONS: dark = 7 colours x ~9s; light = 5 colours x ~9s. Change
-   these two values to speed up or slow down the whole loop.          */
-:root{
-  --title-cycle-duration:63s;        /* dark theme: 7 colours x 9s  */
-  --title-cycle-duration-light:45s;  /* light theme: 5 colours x 9s */
-}
-
-/* Dark-theme (default) palette loop. Stops are evenly spaced over 7
-   colours; 0% and 100% are the same colour so the loop is seamless. */
-@keyframes title-cycle-dark{
-  0%     {color:#DCD8CF}
-  14.29% {color:#FFF0CA}
-  28.57% {color:#FFC3AC}
-  42.86% {color:#DBB2B9}
-  57.14% {color:#CDA2C4}
-  71.43% {color:#97C4D4}
-  85.71% {color:#B9E0D9}
-  100%   {color:#DCD8CF}
-}
-/* Muted light-theme palette loop (5 colours). The brick red is #9B4436
-   (darkened from #BF5847, same hue) to meet WCAG 4.5:1 against the
-   #dcd8cf background (4.51:1). All five colours now pass 4.5:1. */
-@keyframes title-cycle-light{
-  0%   {color:#4C4637}
-  20%  {color:#9B4436}
-  40%  {color:#005B46}
-  60%  {color:#33675E}
-  80%  {color:#2F4858}
-  100% {color:#4C4637}
-}
-
-.hero-title{animation:title-cycle-dark var(--title-cycle-duration) ease-in-out infinite}
-:root[data-theme="light"] .hero-title{animation:title-cycle-light var(--title-cycle-duration-light) ease-in-out infinite}
-
-/* Single off switch: class "no-title-cycle" on <html> stops the cycle
-   and shows the normal ink colour instead. */
-:root.no-title-cycle .hero-title{animation:none;color:var(--ink)}
-
-/* Accessibility: readers who prefer reduced motion see a steady colour
-   (the first colour of each theme's loop), never the animation. */
-@media (prefers-reduced-motion:reduce){
-  .hero-title{animation:none;color:#DCD8CF}
-  :root[data-theme="light"] .hero-title{animation:none;color:#4C4637}
-}
-/* ================================================================== */
-
 .strap{margin:clamp(1.2rem,2.6vw,2.2rem) 0 0;font-weight:800;font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.02em}
 .home-welcome{margin-top:clamp(2.5rem,5vw,4rem)}
 .home-welcome .sign{font-style:italic}
