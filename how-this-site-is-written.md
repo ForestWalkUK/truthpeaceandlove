@@ -7,11 +7,11 @@ permalink: /how-this-site-is-written/
 ai_note: none
 ---
 
-Much of the writing on this site was drafted with the help of Claude, an AI assistant made by Anthropic. I want you to know that plainly, and to know how it is used, so that you can weigh what you read here.
+Some of the writing on this site, including the articles so far, was drafted with the help of Claude, an AI assistant made by Anthropic. I want you to know that plainly, and to know how it is used, so that you can weigh what you read here.
 
 ## What I do
 
-The beliefs this site holds and teaches are mine, and so is the responsibility for them. I choose each subject and each question, I decide the direction a page should take, and I decide what is published. My Story is my own account, in my own words of how the Lord found me (save one or two minor places where Claude suggested something clearer). Claude created the shortened version.
+The beliefs this site holds and teaches are mine, and so is the responsibility for them. I choose each subject and each question, I decide the direction a page should take, and I decide what is published. My Story is my own account, in my own words, of how the Lord found me (save one or two minor places where Claude suggested something clearer). Claude created the shortened version.
 
 ## What Claude does
 
@@ -23,7 +23,7 @@ Claude is a tool, and like any tool it can be wrong. It can write smoothly and s
 
 Quotations are from the Authorised (King James) Version. Words printed in italics are words the translators added to make the English read clearly, as in a printed Bible. Quotations are checked against a full copy of the text, never written from memory.
 
-The four Gospels are given in the Geneva Bible (1599). Its spelling was modernised with Claude’s help, word by word; the words themselves were kept. 
+The four Gospels are given in the Geneva Bible (1599). Its spelling was modernised with Claude’s help, word by word; the words themselves were kept.
 
 ## Why I tell you this
 

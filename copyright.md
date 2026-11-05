@@ -17,7 +17,7 @@ The last condition matters: these pages deal with the truths of God’s Word, an
 
 ## Scripture
 
-The Gospels on this site are from the Geneva Bible, in its 1599 edition. The words are the 1599 words; only the spelling has been brought up to date. The text comes from [eBible.org](https://ebible.org/), where it is freely available to everyone as a public domain work.
+The Gospels on this site are from the Geneva Bible, in its 1599 edition. The words are the 1599 words; only the spelling has been brought up to date, working from an original-spelling text freely available from [eBible.org](https://ebible.org/) as a public domain work.
 
 Scripture quotations elsewhere are from the Authorised (King James) Version. Rights in the Authorised Version in the United Kingdom are vested in the Crown. Reproduced by permission of the Crown’s patentee, Cambridge University Press.
 

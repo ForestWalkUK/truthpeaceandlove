@@ -21,4 +21,4 @@ Here is what Jesus said and did, as told in the four Gospels: Matthew, Mark, Luk
 
 These pages use the Geneva Bible, in its 1599 edition. The words are the 1599 words. Only the spelling has been brought up to date, so that it is easy to read. A few old forms of speech remain as they were, such as *thou*, *hath* and *ye*.
 
-The text comes from eBible.org, where it is freely available to everyone as a public domain work.
+The spelling was modernised for this site, working from an original-spelling text that [eBible.org](https://ebible.org/) makes freely available to everyone as a public domain work.
