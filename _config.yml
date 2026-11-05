@@ -3,10 +3,8 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "4.0"
+site_version: "4.1"
 strapline: Found in Jesus Christ
-copyright_year: 2026
-copyright_holder: "Carl R. S. Hamblin"
 exclude:
   - README.md
   - CHANGELOG.txt
