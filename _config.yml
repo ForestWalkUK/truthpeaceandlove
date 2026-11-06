@@ -3,12 +3,13 @@ lang: en-GB
 url: "https://forestwalkuk.github.io"
 baseurl: "/truthpeaceandlove"
 markdown: kramdown
-site_version: "4.2"
+site_version: "4.3"
 strapline: Found in Jesus Christ
 exclude:
   - README.md
   - CHANGELOG.txt
   - PROJECT-STATE.txt
+  - CLAUDE.md
 permalink: /blog/:title/
 defaults:
   # AI note (v2.3): every page shows a short line about the use of AI, chosen by "ai_note".

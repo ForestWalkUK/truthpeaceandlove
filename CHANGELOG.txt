@@ -5,6 +5,12 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.3 (6th November, A.D. 2026) - CLAUDE.md added
+-------------------------------------------------------
+Change: added CLAUDE.md (guidance for Claude Code: workflow, writing conventions, design and
+  file layout); excluded from the built site.
+Files changed: CLAUDE.md, _config.yml, CHANGELOG.txt.
+
 Version 4.2 (6th November, A.D. 2026) - Version line and Copyright link combined
 ----------------------------------------------------------------------------------
 Change: the footer now shows the version and copyright on one line, "Version 4.2 | ©", with a
