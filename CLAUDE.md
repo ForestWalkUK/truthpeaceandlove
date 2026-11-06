@@ -34,7 +34,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 ## Design
 
 - Typography only: no illustrations. Bold italic hashtag headings (#home, #gospels ...) in Inter: Inter Black Italic (900) for the wordmark and home-page title, Inter ExtraBold Italic (800) for the menu, buttons, back links, chapter lists and footer links; reading text in Source Serif 4; Gospel chapters one verse per line.
-- Dark colours by default, with a muted light option and text-size - / + controls. Red is reserved for Scripture and the current-page menu marker, apart from the crimson heartbeat line (--ecg); the colour of every # is set by --hash in assets/css/style.css.
+- Light colours by default (since v4.6), with a dark option and text-size - / + controls. Red is reserved for Scripture and the current-page menu marker, apart from the crimson heartbeat line (--ecg); the colour of every # is set by --hash in assets/css/style.css.
 - The home-page title text is static. Do not add animation or colour cycling to it. The one exception is the heartbeat line (_includes/ecg.html), which crosses the title when the page opens and every 3 minutes; leave it as it is unless asked.
 - Footer: the footer links (from _data/sections.yml), the VerseClick credit (unless a page sets verseclick: false), the Geneva Bible credit on pages with bible: geneva, then one version line, "Version x.y | ©", the © linking to /copyright/. No name, year or licence text in the footer.
 

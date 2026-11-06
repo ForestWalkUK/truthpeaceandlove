@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 {% if page.deck %}<meta name="description" content="{{ page.deck | strip_html | escape }}">{% endif %}
-<script>try{var t=localStorage.getItem("tpl-theme");if(t==="light"||t==="soft")document.documentElement.setAttribute("data-theme","light");var z=parseFloat(localStorage.getItem("tpl-textsize"));if([.7,.8,.9,1.15,1.3].indexOf(z)>=0)document.documentElement.style.setProperty("--text-scale",z)}catch(e){}</script>
+<script>try{var t=localStorage.getItem("tpl-theme");if(t==="dark")document.documentElement.removeAttribute("data-theme");var z=parseFloat(localStorage.getItem("tpl-textsize"));if([.7,.8,.9,1.15,1.3].indexOf(z)>=0)document.documentElement.style.setProperty("--text-scale",z)}catch(e){}</script>
 <link rel="preload" href="{{ '/assets/fonts/SourceSerif4-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/Inter-900-Italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.site_version }}">
@@ -48,7 +48,7 @@
 <p class="version">Version {{ site.site_version }}&thinsp;|&thinsp;<a class="copyright-link" href="{{ '/copyright/' | relative_url }}" aria-label="Copyright" title="Copyright">&copy;</a></p>
 </footer>
 <script>
-/* Colours: dark (default) and light. Each tap switches; the choice is remembered on this device.
+/* Colours: light (default since v4.6) and dark. Each tap switches; the choice is remembered on this device.
    A reader who chose the old "soft" (v2.1 to v2.4) is shown light, which is the same colours. */
 (function(){var b=document.getElementById("theme-toggle");if(!b)return;var r=document.documentElement,n=document.getElementById("theme-name");
 function cur(){return r.getAttribute("data-theme")==="light"?"light":"dark"}
