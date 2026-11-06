@@ -1,6 +1,59 @@
 Truth, Peace and Love - CHANGELOG
 =================================
 
+Note: from now on, every version bump carries its own entry in this file, added in the same
+commit that raises site_version. This file is not published (it is in the exclude list in
+_config.yml).
+
+Version 4.1 (5th November, A.D. 2026) - plain Copyright link in the footer
+----------------------------------------------------------------------------
+Change: the footer copyright notice is now a small "Copyright" link to the Copyright page,
+  which keeps the full notice and the CC BY-NC-ND 4.0 licence details. The footer feels
+  warmer and less formal.
+Files changed: _config.yml, _layouts/default.html.
+
+Version 4.0 (5th November, A.D. 2026) - how the site is written, Geneva Bible source
+--------------------------------------------------------------------------------------
+Change: "How this site is written" now says some of the writing, including the articles so
+  far, was drafted with Claude's help (with a small punctuation fix as well).
+Change: the Copyright and Gospels pages now make clear the Geneva Bible spelling was
+  modernised for this site, working from an original-spelling public-domain text from
+  eBible.org.
+Files changed: _config.yml, copyright.md, gospels/index.md, how-this-site-is-written.md.
+
+Version 3.9 (2nd November, A.D. 2026) - "Carl Hamblin" throughout
+-------------------------------------------------------------------
+Change: the short form "Carl H" is now "Carl Hamblin" everywhere (signatures, bylines and
+  article notes). The formal "Carl R. S. Hamblin" is kept for the copyright notices.
+Change: the place name removed from the My Story byline and sign-offs.
+Files changed: _config.yml, _data/ai_gauges.yml, how-this-site-is-written.md, index.md,
+  my-story.md, _posts/2026-10-18-believing-prayer-catechism-mark-11-24.md,
+  _posts/2026-10-30-afraid-of-the-dark-halloween-light-of-the-world.md.
+
+Version 3.8 (2nd November, A.D. 2026) - copyright notice and Copyright page
+-----------------------------------------------------------------------------
+Feature: a footer copyright line on every page, linking to the CC BY-NC-ND 4.0 licence and to
+  a new Copyright page. The page explains the licence in plain terms, notes that the Gospels
+  are from the public-domain Geneva Bible, and carries the Crown's patentee credit line for
+  Authorised Version quotations. Year and holder are set in _config.yml.
+Files added: copyright.md.
+Files changed: _config.yml, _layouts/default.html.
+
+Version 3.7 (2nd November, A.D. 2026) - title colour cycling removed
+----------------------------------------------------------------------
+Removed: the experimental colour cycling on the home-page title (v3.6); it drew attention
+  away from the Scriptures beneath it. The title is back to its static colour in both themes.
+Files changed: _config.yml, assets/css/style.css.
+
+Version 3.6 (2nd November, A.D. 2026) - experimental title colour cycling
+---------------------------------------------------------------------------
+Feature (experimental): the home-page title cycles slowly through a soft palette derived from
+  #DCD8CF (mycolor.space) - a light-tint loop on the dark theme, a darker loop on the muted
+  light theme - about 9 seconds per colour. Disabled for readers who prefer reduced motion.
+  Colours and duration sit in one commented block with a single off switch. The light loop's
+  brick red was darkened from #BF5847 to #9B4436 to reach 4.5:1 contrast.
+Files changed: _config.yml, assets/css/style.css.
+
 Version 3.5 (1st November, A.D. 2026) - external links open in a new tab
 -------------------------------------------------------------------------
 Feature: every link to another website now opens in a new tab, wherever it appears on the
