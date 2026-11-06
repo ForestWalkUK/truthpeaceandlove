@@ -229,6 +229,8 @@ sup{line-height:0}
 .footer-links{font-family:var(--display);font-weight:800;font-style:italic;font-size:1.25rem}
 .footer-links a{color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;min-height:44px;margin-right:1.1rem}
 .footer-links a:hover{text-decoration:underline}
+.site-footer a.copyright-link{text-decoration:none}
+.site-footer a.copyright-link:focus-visible{text-decoration:underline}
 
 /* VerseClick: links and pop-ups follow the site theme, light and dark */
 .vcVerseLink{color:var(--ink)!important;border-bottom:1px dotted var(--ink);text-decoration:none!important;white-space:nowrap}
