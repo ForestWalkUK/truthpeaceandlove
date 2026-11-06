@@ -43,6 +43,8 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - _data/sections.yml: menu, home-page doors, lines under the doors and footer links. An entry appears only once its page exists.
 - _data/ai_notes.yml, _data/ai_gauges.yml and _includes/ai-gauges.html: the "how this was written" notes and gauge dots.
 - _layouts/ (default, page, section, article, home, post) and _includes/.
+- _includes/whatsnew.html: the home-page #whatsnew list shows posts, and pages with "date:" in their front matter, from the past month. Give new pages a "date:" line so they appear there.
+- Text size: the reading-text size steps are listed in two places, the script at the foot of _layouts/default.html and the script in its <head>. Change both together. The <head> list deliberately leaves out 1, the normal size.
 - Posts: front matter gives the title (in double quotes if it contains a colon) and the text does not repeat it as a heading. "sections:" lists the section pages that should show the post; "gauges:" gives the AI figures.
 - Pages awaiting Carl's approval carry "published: false".
 - CHANGELOG.txt is kept in the repository but excluded from the built site, as is this file.
