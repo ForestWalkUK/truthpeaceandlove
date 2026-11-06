@@ -5,6 +5,15 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.4 (6th November, A.D. 2026) - AI dot ratings removed
+--------------------------------------------------------------
+Change: removed the unused "How this was written" dot-rating scheme (gauges), added in v2.4.
+  Posts and articles end with a worded note on the role of AI instead. No page used the dots,
+  so nothing visible changes. The one-line AI note (_data/ai_notes.yml) is unchanged.
+Files changed: _data/ai_gauges.yml (deleted), _includes/ai-gauges.html (deleted),
+  _layouts/default.html, _layouts/post.html, _layouts/article.html, _layouts/page.html,
+  assets/css/style.css, CLAUDE.md, _config.yml, CHANGELOG.txt.
+
 Version 4.3 (6th November, A.D. 2026) - CLAUDE.md added
 -------------------------------------------------------
 Change: added CLAUDE.md (guidance for Claude Code: workflow, writing conventions, design and

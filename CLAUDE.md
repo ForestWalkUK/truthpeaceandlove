@@ -29,6 +29,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - Quotations from occult, pagan or witchcraft sources are credited by author, title and site, but are not made into clickable links unless Carl has agreed.
 - External links open in a new tab automatically (site JavaScript); no need to add target attributes.
 - The Gospels use the Geneva Bible, 1599 edition, with modernised spelling (from a public domain eBible.org text). Do not alter the Gospel text unless asked.
+- Every post and article ends with a worded note, in the text itself, saying what Carl did and what Claude did. Do not use dots, ratings or percentages for the role of AI.
 
 ## Design
 
@@ -41,10 +42,10 @@ Guidance for Claude Code working in this repository. This repository is public: 
 
 - _config.yml: site_version, front matter defaults (including ai_note), exclude list.
 - _data/sections.yml: menu, home-page doors, lines under the doors and footer links. An entry appears only once its page exists.
-- _data/ai_notes.yml, _data/ai_gauges.yml and _includes/ai-gauges.html: the "how this was written" notes and gauge dots.
+- _data/ai_notes.yml: the one-line AI notes at the foot of pages, chosen by "ai_note:" (defaults in _config.yml). Only keys with wording in that file show a line: at present "post" (blog posts), "gospels" (the Gospels) and "story" (My Story). The default key "standard" has no wording, so most pages show no line; "ai_note: none" also turns it off.
 - _layouts/ (default, page, section, article, home, post) and _includes/.
 - _includes/whatsnew.html: the home-page #whatsnew list shows posts, and pages with "date:" in their front matter, from the past month. Give new pages a "date:" line so they appear there.
 - Text size: the reading-text size steps are listed in two places, the script at the foot of _layouts/default.html and the script in its <head>. Change both together. The <head> list deliberately leaves out 1, the normal size.
-- Posts: front matter gives the title (in double quotes if it contains a colon) and the text does not repeat it as a heading. "sections:" lists the section pages that should show the post; "gauges:" gives the AI figures.
+- Posts: front matter gives the title (in double quotes if it contains a colon) and the text does not repeat it as a heading. "sections:" lists the section pages that should show the post.
 - Pages awaiting Carl's approval carry "published: false".
 - CHANGELOG.txt is kept in the repository but excluded from the built site, as is this file.
