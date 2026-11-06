@@ -5,6 +5,16 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.5 (6th November, A.D. 2026) - Accordions
+--------------------------------------------------
+Feature: collapsible sections (accordions) for long articles and posts. CSS in
+  assets/css/style.css, script in _layouts/default.html. Sections open when a link or
+  address points into them, all open for printing, and pages with two or more get
+  #open all / #close all buttons. Headings inside accordions on article pages do not
+  get the automatic #. Pages without accordions are unaffected.
+Files changed: assets/css/style.css, _layouts/default.html, CLAUDE.md, _config.yml,
+  CHANGELOG.txt.
+
 Version 4.4 (6th November, A.D. 2026) - AI dot ratings removed
 --------------------------------------------------------------
 Change: removed the unused "How this was written" dot-rating scheme (gauges), added in v2.4.

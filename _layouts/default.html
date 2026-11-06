@@ -73,6 +73,20 @@ dn.addEventListener("click",function(){set(i-1)});up.addEventListener("click",fu
 function mark(a){if(a.target==="_blank")return;a.target="_blank";a.rel="noopener noreferrer";if(!a.querySelector(".sr-only")){var s=document.createElement("span");s.className="sr-only";s.textContent=" (opens in a new tab)";a.appendChild(s)}}
 var all=document.querySelectorAll("a[href]");for(var k=0;k<all.length;k++)if(ext(all[k]))mark(all[k]);
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(ext(a)&&a.target!=="_blank"){a.target="_blank";a.rel="noopener noreferrer"}},true);})();
+/* Accordions (v4.5): sections written as <details class="part"> (or class="head") open by
+   themselves when a link or web address points into them, all open for printing, and a page
+   with two or more gets #open all and #close all buttons above the first. Other pages are untouched. */
+(function(){var H=document.querySelectorAll("details.part,details.head");if(!H.length)return;
+function idOf(h){try{return decodeURIComponent(h)}catch(x){return h}}
+function openTo(id){var t=id&&document.getElementById(id);if(!t||!t.closest)return null;var d=t.closest("details");while(d){d.open=true;d=d.parentElement&&d.parentElement.closest("details")}return t}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^='#']");if(a)openTo(idOf(a.getAttribute("href").slice(1)))},true);
+function fromHash(){var t=openTo(idOf(location.hash.slice(1)));if(t)t.scrollIntoView()}
+window.addEventListener("hashchange",fromHash);if(location.hash)fromHash();
+if(H.length>1){var p=document.createElement("p");p.className="accordion-controls";
+function btn(label,aria,state){var b=document.createElement("button");b.type="button";b.className="ctl";b.setAttribute("aria-label",aria);b.innerHTML='<span class="hash" aria-hidden="true">#</span>'+label;b.addEventListener("click",function(){for(var k=0;k<H.length;k++)H[k].open=state});p.appendChild(b)}
+btn("open all","Open every section",true);btn("close all","Close every section",false);H[0].parentNode.insertBefore(p,H[0])}
+var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k<H.length;k++){was.push(H[k].open);H[k].open=true}});
+window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)H[k].open=was[k]});})();
 </script>
 {% unless page.verseclick == false %}
 <script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>

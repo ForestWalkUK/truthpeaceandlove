@@ -46,6 +46,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - _layouts/ (default, page, section, article, home, post) and _includes/.
 - _includes/whatsnew.html: the home-page #whatsnew list shows posts, and pages with "date:" in their front matter, from the past month. Give new pages a "date:" line so they appear there.
 - Text size: the reading-text size steps are listed in two places, the script at the foot of _layouts/default.html and the script in its <head>. Change both together. The <head> list deliberately leaves out 1, the normal size.
+- Accordions (v4.5): for long articles or posts, write main sections as raw HTML in the .md file: <details class="part" id="short-id"><summary><h2>Heading</h2></summary> ... </details>, and subsections as <details class="head"> with an <h3> in the summary. Keep each <details> block free of blank lines, write the content inside as HTML (Markdown is not processed there), and type LORD plainly. The #open all / #close all buttons are added automatically; do not write them in the page. On article pages, headings inside accordions do not get the automatic #.
 - Posts: front matter gives the title (in double quotes if it contains a colon) and the text does not repeat it as a heading. "sections:" lists the section pages that should show the post.
 - Pages awaiting Carl's approval carry "published: false".
 - CHANGELOG.txt is kept in the repository but excluded from the built site, as is this file.

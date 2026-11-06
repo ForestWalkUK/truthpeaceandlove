@@ -209,6 +209,29 @@ sup{line-height:0}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
 .chapter-nav a:hover{text-decoration:underline}
 
+/* Accordions (v4.5): collapsible sections for long pages. Main sections: <details class="part" id="..."> with an <h2> inside its <summary>. Subsections: <details class="head"> with an <h3>. */
+details[id],details [id]{scroll-margin-top:1rem}
+details.part{margin:0 0 .6em}
+details.part>summary{display:flex;align-items:baseline;justify-content:space-between;gap:.6em;min-height:44px;padding:.3em 0;cursor:pointer;list-style:none}
+details.part>summary::-webkit-details-marker{display:none}
+details.part>summary h2{margin:0;font-size:clamp(1.45rem,3.2vw,2.4rem)}
+.hash-heads summary h2::before{content:none}
+details.part>summary::after{content:"+";flex:0 0 1em;text-align:center;font-family:var(--display);font-weight:900;font-style:italic;font-size:clamp(1.45rem,3.2vw,2.4rem);line-height:1}
+details.part[open]>summary::after{content:"\2212"}
+details.part[open]{padding-bottom:1.5em}
+details.part[open]>summary{margin-bottom:.5em}
+@media (hover:hover){details.part>summary:hover h2{text-decoration:underline;text-decoration-thickness:.05em;text-underline-offset:.12em}}
+details.head{margin:0}
+details.head>summary{display:flex;align-items:baseline;justify-content:space-between;gap:.75em;min-height:44px;padding:.45em 0;cursor:pointer;list-style:none}
+details.head>summary::-webkit-details-marker{display:none}
+details.head>summary h3{margin:0}
+details.head>summary::after{content:"+";flex:0 0 1.1em;text-align:center;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.25em;line-height:1}
+details.head[open]>summary::after{content:"\2212"}
+@media (hover:hover){details.head>summary:hover h3{text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.18em}}
+details.head[open]{padding-bottom:1.25em}
+details.head[open]>summary{margin-bottom:.4em}
+.accordion-controls{display:flex;flex-wrap:wrap;gap:.4rem}
+
 /* Footer */
 .site-footer{margin-top:clamp(4rem,8vw,7rem);padding-top:1.25rem;padding-bottom:2.5rem;border-top:2px solid var(--ink);font-size:.85em;color:var(--muted);font-variant-numeric:lining-nums}
 .site-footer p{margin:0 0 .5em}
@@ -230,7 +253,7 @@ sup{line-height:0}
   :root,:root[data-theme]{--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
   body{font-size:11pt;line-height:1.45}
   .wrap{max-width:none;padding:0}
-  .masthead nav,.reader-controls,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back{display:none!important}
+  .masthead nav,.reader-controls,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back,details.part>summary::after,details.head>summary::after,.accordion-controls{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}
