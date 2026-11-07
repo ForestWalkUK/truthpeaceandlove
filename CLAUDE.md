@@ -4,7 +4,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 
 ## The site
 
-"Truth, Peace and Love", strapline "Found in Jesus Christ": a gospel-focused Jekyll site by Carl Hamblin, published with GitHub Pages (legacy automatic build from the main branch; no Actions workflow file). Its aim is to bring readers to the living God through the gospel of the Lord Jesus Christ, whoever they are and whatever they believe today. Content comes first; the design serves it.
+"Truth, Peace and Love", strapline "Found in Jesus Christ": a gospel-focused Jekyll site by Carl H, published with GitHub Pages (legacy automatic build from the main branch; no Actions workflow file). Its aim is to bring readers to the living God through the gospel of the Lord Jesus Christ, whoever they are and whatever they believe today. Content comes first; the design serves it.
 
 ## How Carl works
 
@@ -25,7 +25,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - Type LORD and KJV normally in capitals: the layout sets them in small capitals automatically. Avoid LORD or KJV in capitals inside web addresses.
 - Dates: B.C. for pre-Christian dates; A.D. only before about A.D. 1500 or where a date could be mistaken for B.C.; later dates plain (1599, 2026); never BCE or CE.
 - Say "LORD's Day" or "Holy Sabbath", not "Sunday". No references to Christmas, Easter or similar church-calendar observances.
-- The author's name is "Carl Hamblin". "Carl R. S. Hamblin" is used only in copyright notices.
+- Author's name: "Carl Hamblin" only for first-hand testimony and personal witness (My Story, and any future first-hand account of the Lord's dealings with Carl), byline and sign-offs alike. "Carl H" everywhere else: articles, posts, Confessions, catechisms, notes on how a piece was written, the Important note and sign-offs. "Carl R. S. Hamblin" only on the Copyright page. Past change-log entries that mention "Carl Hamblin" record history and are not changed.
 - Quotations from occult, pagan or witchcraft sources are credited by author, title and site, but are not made into clickable links unless Carl has agreed.
 - External links open in a new tab automatically (site JavaScript); no need to add target attributes.
 - The Gospels use the Geneva Bible, 1599 edition, with modernised spelling (from a public domain eBible.org text). Do not alter the Gospel text unless asked.

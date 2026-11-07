@@ -5,6 +5,15 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.4 (7th November, A.D. 2026) - Author named as "Carl H" except in testimony
+------------------------------------------------------------------------------------
+Change: the author's name is now "Carl H" in articles, posts, notes on how pieces were
+  written, the Important note and the How this site is written sign-off. My Story, as
+  testimony, keeps "Carl Hamblin"; the Copyright page keeps "Carl R. S. Hamblin".
+  Change-log entries added to the three published pieces.
+Files changed: _includes/standing-note.html, the two posts, deeper/sorrowandjoy.md,
+  how-this-site-is-written.md, CLAUDE.md, _config.yml, CHANGELOG.txt.
+
 Version 5.3 (7th November, A.D. 2026) - Version line links to the change log
 ----------------------------------------------------------------------------
 Change: the version line under an article's or post's title now ends with a #changelog
