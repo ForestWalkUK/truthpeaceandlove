@@ -9,7 +9,7 @@ bible: geneva
 
 # Luke
 
-<p class="bible-note">Geneva Bible (1599 edition), spelling modernised. <a href="{{ '/gospels/' | relative_url }}">About this text</a></p>
+<p class="bible-note">Geneva Bible (1599 edition), spelling modernised. <a href="{{ '/gospels/#about-this-text' | relative_url }}">About this text</a></p>
 
 <p><a href="{{ '/gospels/luke/1/' | relative_url }}">Begin at chapter 1</a></p>
 

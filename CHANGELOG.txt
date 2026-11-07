@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.6 (7th November, A.D. 2026) - "About this text" links go straight to the section
+------------------------------------------------------------------------------------------
+Fix: the "About this text" link on every Gospel book and chapter page now goes straight to
+  the "About this text" section of the #gospels page, instead of the top of the page.
+Files changed: gospels/index.md, the 93 Gospel book and chapter pages, _config.yml,
+  CHANGELOG.txt.
+
 Version 5.5 (7th November, A.D. 2026) - Gospel text notes no longer repeat
 --------------------------------------------------------------------------
 Fix: the note about the Gospel text no longer repeats itself. The AI note on Gospel pages

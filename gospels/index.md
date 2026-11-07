@@ -18,7 +18,7 @@ Here is what Jesus said and did, as told in the four Gospels: Matthew, Mark, Luk
 <li><a href="{{ '/gospels/john/' | relative_url }}">John</a> <span class="post-date">21 chapters</span></li>
 </ul>
 
-## About this text
+## About this text {#about-this-text}
 
 These pages use the Geneva Bible, in its 1599 edition. The words are the 1599 words. Only the spelling has been brought up to date, so that it is easy to read. A few old forms of speech remain as they were, such as *thou*, *hath* and *ye*.
 
