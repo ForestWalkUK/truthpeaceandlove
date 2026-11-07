@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.7 (7th November, A.D. 2026) - Lighter paragraph headings
+-------------------------------------------------------------------
+Change: paragraph headings inside accordions (details.head) are now regular weight
+  rather than semibold. New class .para-no sets a paragraph number in small, upright,
+  old-style numerals (about half the heading size).
+Files changed: assets/css/style.css, CLAUDE.md, _config.yml, CHANGELOG.txt.
+
 Version 4.6 (6th November, A.D. 2026) - Light colours by default
 ----------------------------------------------------------------
 Change: light colours are now the default for new visitors on every device, including

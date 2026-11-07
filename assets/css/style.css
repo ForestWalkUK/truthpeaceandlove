@@ -224,7 +224,8 @@ details.part[open]>summary{margin-bottom:.5em}
 details.head{margin:0}
 details.head>summary{display:flex;align-items:baseline;justify-content:space-between;gap:.75em;min-height:44px;padding:.45em 0;cursor:pointer;list-style:none}
 details.head>summary::-webkit-details-marker{display:none}
-details.head>summary h3{margin:0}
+details.head>summary h3{margin:0;font-weight:400}
+.para-no{font-size:.53em;font-style:normal;font-variant-numeric:oldstyle-nums proportional-nums;letter-spacing:.02em;margin-right:.35em}
 details.head>summary::after{content:"+";flex:0 0 1.1em;text-align:center;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.25em;line-height:1}
 details.head[open]>summary::after{content:"\2212"}
 @media (hover:hover){details.head>summary:hover h3{text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.18em}}
