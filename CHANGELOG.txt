@@ -5,6 +5,16 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.5 (7th November, A.D. 2026) - Gospel text notes no longer repeat
+--------------------------------------------------------------------------
+Fix: the note about the Gospel text no longer repeats itself. The AI note on Gospel pages
+  now reads "Claude, an AI assistant made by Anthropic, helped to modernise the spelling.";
+  the footer credit is shortened to "Gospel text from eBible.org, public domain."; on the
+  #gospels page Claude's part is stated in "About this text" and the separate AI note is
+  switched off there.
+Files changed: _data/ai_notes.yml, _layouts/default.html, gospels/index.md, CLAUDE.md,
+  _config.yml, CHANGELOG.txt.
+
 Version 5.4 (7th November, A.D. 2026) - Author named as "Carl H" except in testimony
 ------------------------------------------------------------------------------------
 Change: the author's name is now "Carl H" in articles, posts, notes on how pieces were

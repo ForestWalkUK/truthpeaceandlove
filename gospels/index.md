@@ -6,6 +6,7 @@ permalink: /gospels/
 verses: false
 verseclick: false
 bible: geneva
+ai_note: none
 ---
 
 Here is what Jesus said and did, as told in the four Gospels: Matthew, Mark, Luke and John. The word Gospel simply means good news. If you have never read any of it, you might begin with Mark, which is the shortest.
@@ -21,4 +22,4 @@ Here is what Jesus said and did, as told in the four Gospels: Matthew, Mark, Luk
 
 These pages use the Geneva Bible, in its 1599 edition. The words are the 1599 words. Only the spelling has been brought up to date, so that it is easy to read. A few old forms of speech remain as they were, such as *thou*, *hath* and *ye*.
 
-The spelling was modernised for this site, working from an original-spelling text that [eBible.org](https://ebible.org/) makes freely available to everyone as a public domain work.
+The spelling was modernised for this site with the help of Claude, an AI assistant made by Anthropic, working from an original-spelling text that [eBible.org](https://ebible.org/) makes freely available to everyone as a public domain work. You can read more about how AI is used on this site in [How this site is written]({{ '/how-this-site-is-written/' | relative_url }}).

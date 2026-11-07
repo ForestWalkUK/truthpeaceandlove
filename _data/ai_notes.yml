@@ -7,7 +7,7 @@
 # "standard" (the default for most pages) has been removed, so those pages show no AI note.
 # Articles explain their own use of AI at the foot of each one.
 
-gospels: "Bible text: the Geneva Bible (1599). Its spelling was modernised with the help of Claude, an AI assistant made by Anthropic; the words themselves were kept."
+gospels: "Claude, an AI assistant made by Anthropic, helped to modernise the spelling."
 
 story: "My own account, in my own words. Claude, an AI assistant made by Anthropic, suggested one or two small clarifications and wrote the shortened version."
 
