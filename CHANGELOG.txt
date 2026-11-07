@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.3 (7th November, A.D. 2026) - Version line links to the change log
+----------------------------------------------------------------------------
+Change: the version line under an article's or post's title now ends with a #changelog
+  link, which opens the change log at the foot of the page.
+Files changed: _includes/version-line.html, assets/css/style.css, _config.yml,
+  CHANGELOG.txt.
+
 Version 5.2 (7th November, A.D. 2026) - Public change logs
 ----------------------------------------------------------
 Feature: public change logs. Articles and posts with "changes:" in their front matter

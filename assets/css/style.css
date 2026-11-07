@@ -213,6 +213,7 @@ sup{line-height:0}
 .standing-note{margin:0 0 2.2em}
 /* Change logs (v5.2) */
 .version-line{color:var(--muted);font-size:.9rem;margin:.6rem 0 0;font-variant-numeric:lining-nums}
+.version-line a{color:var(--ink)}
 .page-head .version-line{margin-top:1rem}
 details.changelog{margin-top:clamp(2.5rem,5vw,3.5rem)}
 .changelog-h{margin:0;font-family:var(--display);font-style:italic;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);line-height:1.1;letter-spacing:-.02em}
