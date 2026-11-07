@@ -4,6 +4,25 @@ title: "A Confession of Faith concerning Sorrow, Affliction, and the Joy of Beli
 tag: sorrowandjoy
 deck: A Confession of Faith concerning Sorrow, Affliction, and the Joy of Believers
 document: Confession
+changes:
+  - version: "1.5"
+    date: 2026-11-07
+    note: "Chapter I, section 2 expanded to show that God’s chastening is often loving fatherly training and not always for particular sin; section 3 now speaks of marks of adoption. Closing note credits a phrase borrowed from the Westminster Confession, chapter 5, section 5."
+  - version: "1.4"
+    date: 2026-11-07
+    note: "Important note added at the top."
+  - version: "1.3"
+    date: 2026-11-07
+    note: "Closing note on the Westminster Standards rewritten: it now acknowledges the borrowed wording and states that this Confession is a private statement carrying none of the authority of the church, replacing a claim that the whole “stands in continuity with the Confessional standards”."
+  - version: "1.2"
+    date: 2026-11-07
+    note: "Headings added to every section. Chapter XI gains a section, “A Testimony to Angels and Devils”, and its last section is reworded. The note on how the Confession was written is updated."
+  - version: "1.1"
+    date: 2026-11-07
+    note: "Two sections added to Chapter XI, on afflictions as a testimony to others and on God’s overruling the falls of His children. The former second section, now the last, is reworded to make clear which mercy it means."
+  - version: "1.0"
+    date: 2026-11-06
+    note: "First published."
 section: deeper
 order: 1
 date: 2026-11-06

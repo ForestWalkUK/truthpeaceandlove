@@ -1,5 +1,21 @@
 ---
 title: "Afraid of the Dark? Halloween and the Light of the World"
+changes:
+  - version: "1.4"
+    date: 2026-11-02
+    note: "Small wording change; author named in full as “Carl Hamblin”."
+  - version: "1.3"
+    date: 2026-11-01
+    note: "The section on joy and the paragraph on urgency refined; added that at death the soul goes at once to heaven or hell (Luke 16:22-23), and death as “the king of terrors” (Job 18:14); opening byline removed; other wording changes."
+  - version: "1.2"
+    date: 2026-10-31
+    note: "Major revision for a wider readership, including a new passage on why every sin is infinitely serious; other wording changes."
+  - version: "1.1"
+    date: 2026-10-30
+    note: "Revised on the day of publication: a short version (“In brief”) added and the full article restructured; the sections on the spirit world and the gospel strengthened; God’s just punishment of sin added, along with His patience and the warning against presuming on it; Scripture added."
+  - version: "1.0"
+    date: 2026-10-30
+    note: "First published."
 ---
 > **“I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.”**
 >
