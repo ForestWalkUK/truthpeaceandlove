@@ -19,6 +19,12 @@ Claude drafts wording at my request. I read the draft, comment on it and correct
 
 Claude is a tool, and like any tool it can be wrong. It can write smoothly and sound sure of itself about something that is not true. That is one reason why doctrine on this site is my responsibility and not the AI’s, and why I ask you to test everything here by the Bible itself.
 
+## A horse and its rider
+
+A Christian brother I know likens using AI to riding a horse. A good horse is strong and swift, but a bad rider on a good horse cannot steer it, ends up falling off, and blames the horse. A good rider has mastered his horse: he knows when it is straying and brings it back, and the responsibility for reaching the destination is his, not the horse’s. A good rider on a good horse will always go further and faster than a man on foot.
+
+That is how I try to use Claude. The horse is strong, but I hold the reins: I choose the direction, I check the course against the Bible, and the responsibility for where the writing ends up is mine.
+
 ## The Bible on this site
 
 Quotations are from the Authorised (King James) Version. Words printed in italics are words the translators added to make the English read clearly, as in a printed Bible. Quotations are checked against a full copy of the text, never written from memory.
@@ -29,6 +35,6 @@ The four Gospels are given in the Geneva Bible (1599). Its spelling was modernis
 
 The apostle Paul wrote that he and those with him “have renounced the hidden things of dishonesty, not walking in craftiness, nor handling the word of God deceitfully; but by manifestation of the truth commending ourselves to every man’s conscience in the sight of God” (2 Corinthians 4:2). A site that speaks of truth should be open about how it is written.
 
-Whoever or whatever wrote the words, the test is the same: “To the law and to the testimony: if they speak not according to this word, *it is* because *there is* no light in them” (Isaiah 8:20). “Prove all things; hold fast that which is good” (1 Thessalonians 5:21).
+However the words were drafted, the test is the same: “To the law and to the testimony: if they speak not according to this word, *it is* because *there is* no light in them” (Isaiah 8:20). “Prove all things; hold fast that which is good” (1 Thessalonians 5:21).
 
 Carl H
