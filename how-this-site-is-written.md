@@ -23,7 +23,7 @@ Claude is a tool, and like any tool it can be wrong. It can write smoothly and s
 
 A Christian brother I know likens using AI to riding a horse. A good horse is strong and swift, but a careless rider cannot steer it, ends up falling off, and blames the horse. A careful rider keeps a steady hand on the reins: he watches for the horse straying and brings it back, knowing that the responsibility for reaching the destination is his, not the horse’s. A careful rider on a good horse can go further and faster than a man on foot.
 
-That is how I seek to use Claude, though I am still learning to ride. Every good gift is from above, and that includes the wisdom by which men have made such tools, so I thank the Lord for it (James 1:17; Isaiah 28:26, 29). Each piece is prayerfully reflected on, weighed against the Bible and revised many times, gathering insights along the way; the change log on each article and post records how it has grown. Where I go wrong, the fault is mine and not the horse’s; and for whatever is good and true here, the glory belongs to God alone.
+That is how I seek to use Claude. Every good gift is from above, and that includes the wisdom by which men have made such tools, so I thank the Lord for it (James 1:17; Isaiah 28:26, 29). Each piece is reflected on, weighed against the Bible and revised many times, gathering insights along the way; the change log on each article and post records how it has grown. Where I go wrong, the fault is mine and not the horse’s; and for whatever is good and true here, the glory belongs to God alone.
 
 ## The Bible on this site
 
