@@ -5,6 +5,12 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.8 (7th November, A.D. 2026) - Larger paragraph numbers
+-----------------------------------------------------------------
+Change: paragraph numbers in accordion headings (.para-no) enlarged by 30%, from .53em
+  to .69em of the heading size.
+Files changed: assets/css/style.css, _config.yml, CHANGELOG.txt.
+
 Version 4.7 (7th November, A.D. 2026) - Lighter paragraph headings
 -------------------------------------------------------------------
 Change: paragraph headings inside accordions (details.head) are now regular weight
