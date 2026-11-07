@@ -3,6 +3,7 @@ layout: article
 title: "A Confession of Faith concerning Sorrow, Affliction, and the Joy of Believers"
 tag: sorrowandjoy
 deck: A Confession of Faith concerning Sorrow, Affliction, and the Joy of Believers
+document: Confession
 section: deeper
 order: 1
 date: 2026-11-06

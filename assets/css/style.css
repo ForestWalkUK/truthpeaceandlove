@@ -209,6 +209,8 @@ sup{line-height:0}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
 .chapter-nav a:hover{text-decoration:underline}
 
+/* Important note on Confessions and catechisms (v5.0) */
+.standing-note{margin:0 0 2.2em}
 /* Accordions (v4.5): collapsible sections for long pages. Main sections: <details class="part" id="..."> with an <h2> inside its <summary>. Subsections: <details class="head"> with an <h3>. */
 details[id],details [id]{scroll-margin-top:1rem}
 details.part{margin:0 0 .6em}

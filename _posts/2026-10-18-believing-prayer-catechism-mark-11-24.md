@@ -1,6 +1,7 @@
 ---
 title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
+document: catechism
 ---
 > **“Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive *them*, and ye shall have *them*.”**
 >

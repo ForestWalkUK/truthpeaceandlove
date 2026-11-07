@@ -5,6 +5,18 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.0 (7th November, A.D. 2026) - Important note on Confessions and catechisms
+------------------------------------------------------------------------------------
+Feature: an "Important note" at the top of every Confession or catechism, stating that
+  it was drawn up by Carl Hamblin with the help of Claude, is a private statement, not the
+  confession or catechism of any church, and carries none of the church's authority. Set
+  by "document:" in a page's front matter; added to the Sorrow and Joy Confession and the
+  Believing Prayer catechism.
+Files changed: _includes/standing-note.html (new), _layouts/article.html,
+  _layouts/post.html, assets/css/style.css, deeper/sorrowandjoy.md,
+  _posts/2026-10-18-believing-prayer-catechism-mark-11-24.md, CLAUDE.md, _config.yml,
+  CHANGELOG.txt.
+
 Version 4.9 (7th November, A.D. 2026) - Hanging indent for paragraph headings
 -----------------------------------------------------------------------------
 Fix: paragraph headings in accordions now use a hanging indent. The number sits in its
