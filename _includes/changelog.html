@@ -1,0 +1,10 @@
+{% comment %} Public change log at the foot of an article or post (v5.2). Entries come from "changes:" in the front matter, newest first: version, date, note. {% endcomment %}
+{% if page.changes and page.changes.size > 0 %}
+<details class="head changelog" id="changelog">
+<summary><h2 class="changelog-h"><span class="hash" aria-hidden="true">#</span>changelog</h2></summary>
+<ul class="changelog-list">
+{% for c in page.changes %}<li><span class="changelog-v">Version {{ c.version }}, {{ c.date | date: "%-d %B %Y" }}.</span> {{ c.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}</ul>
+<p class="changelog-git"><a href="https://github.com/ForestWalkUK/truthpeaceandlove/commits/main/{{ page.path }}">Full edit history on GitHub</a></p>
+</details>
+{% endif %}

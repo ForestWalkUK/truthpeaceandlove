@@ -1,0 +1,2 @@
+{% comment %} Version and last-updated line for pages with a change log (v5.2). Taken from the first (newest) entry of "changes:" in the front matter. {% endcomment %}
+{% if page.changes and page.changes.size > 0 %}{% assign latest = page.changes | first %}<p class="version-line">Version {{ latest.version }} · Updated {{ latest.date | date: "%-d %B %Y" }}</p>{% endif %}

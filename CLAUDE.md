@@ -32,6 +32,15 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - Every post and article ends with a worded note, in the text itself, saying what Carl did and what Claude did. Do not use dots, ratings or percentages for the role of AI.
 - Never claim for any writing on this site a standing it does not have. It is a private Christian's witness, not a church's determination: acknowledge borrowings from the Westminster Standards or other writers plainly, but never describe site writing as standing in continuity with, or sharing the authority of, the Confessional standards or any church. Scripture alone establishes the truth; the site seeks only to bear witness to it.
 - Every Confession or catechism must have "document: Confession" or "document: catechism" in its front matter. This prints the "Important note" at the top of the text (_includes/standing-note.html). Never remove it.
+- Every article and post has a public change log in its front matter, newest first:
+    changes:
+      - version: "1.1"
+        date: YYYY-MM-DD
+        note: "What changed, as the reader would see it."
+      - version: "1.0"
+        date: YYYY-MM-DD
+        note: "First published."
+  First publication is 1.0; each published revision adds an entry at the top, version +0.1, in the SAME commit as the content change. Log any change to what the reader reads (wording, Scripture references, sections added or removed, corrections), not site-wide design changes. Notes use curly quotes and may use *italics*; never use straight double quotes inside a note.
 
 ## Design
 

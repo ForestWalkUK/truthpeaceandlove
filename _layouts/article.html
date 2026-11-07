@@ -6,6 +6,7 @@ layout: default
 <div class="prose hash-heads">
 {% include standing-note.html %}
 {{ content }}
+{% include changelog.html %}
 </div>
 {% if page.section %}
 {% assign sec = site.data.sections.menu | where: "tag", page.section | first %}

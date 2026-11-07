@@ -5,6 +5,16 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.2 (7th November, A.D. 2026) - Public change logs
+----------------------------------------------------------
+Feature: public change logs. Articles and posts with "changes:" in their front matter
+  show "Version x.y · Updated <date>" under the title and a collapsible #changelog at the
+  foot of the text, listing every version newest first, with a link to the file's full
+  edit history on GitHub.
+Files changed: _includes/version-line.html (new), _includes/changelog.html (new),
+  _includes/page-head.html, _layouts/article.html, _layouts/post.html,
+  assets/css/style.css, CLAUDE.md, _config.yml, CHANGELOG.txt.
+
 Version 5.1 (7th November, A.D. 2026) - Lead-in words in ink
 -------------------------------------------------------------
 Change: the lead-in words before a section hashtag ("From the #blog", "More in #...",

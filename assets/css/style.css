@@ -211,6 +211,15 @@ sup{line-height:0}
 
 /* Important note on Confessions and catechisms (v5.0) */
 .standing-note{margin:0 0 2.2em}
+/* Change logs (v5.2) */
+.version-line{color:var(--muted);font-size:.9rem;margin:.6rem 0 0;font-variant-numeric:lining-nums}
+.page-head .version-line{margin-top:1rem}
+details.changelog{margin-top:clamp(2.5rem,5vw,3.5rem)}
+.changelog-h{margin:0;font-family:var(--display);font-style:italic;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);line-height:1.1;letter-spacing:-.02em}
+.changelog-list{list-style:none;margin:0;padding:0;font-size:.9em;line-height:1.5}
+.changelog-list li{margin:0 0 .9em}
+.changelog-v{font-weight:600;font-variant-numeric:lining-nums}
+.changelog-git{font-size:.9em}
 /* Accordions (v4.5): collapsible sections for long pages. Main sections: <details class="part" id="..."> with an <h2> inside its <summary>. Subsections: <details class="head"> with an <h3>. */
 details[id],details [id]{scroll-margin-top:1rem}
 details.part{margin:0 0 .6em}
