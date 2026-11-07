@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 4.9 (7th November, A.D. 2026) - Hanging indent for paragraph headings
+-----------------------------------------------------------------------------
+Fix: paragraph headings in accordions now use a hanging indent. The number sits in its
+  own fixed-width column, so a heading that wraps continues under its first word rather
+  than under the number, and all headings' text lines up.
+Files changed: assets/css/style.css, _config.yml, CHANGELOG.txt.
+
 Version 4.8 (7th November, A.D. 2026) - Larger paragraph numbers
 -----------------------------------------------------------------
 Change: paragraph numbers in accordion headings (.para-no) enlarged by 30%, from .53em
