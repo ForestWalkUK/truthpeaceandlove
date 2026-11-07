@@ -207,7 +207,7 @@ permalink: /deeper/sorrowandjoy/
 </details>
 </details>
 <hr>
-<p><em>Chapter V deliberately echoes the Westminster Confession of Faith, chapter 18.4, and Chapter VII, section 1, the Larger Catechism on the ninth commandment, so that the whole stands in continuity with the Confessional standards.</em></p>
+<p><em>Chapter V, section 1, borrows its wording in part from the Westminster Confession of Faith, chapter 18, section 4, and Chapter VII, section 1, draws on the Westminster Larger Catechism’s teaching on the ninth commandment. Those standards were set forth by the Westminster Assembly and received by Presbyterian churches; this Confession is a private statement, and carries none of the authority of the church. It seeks only to bear witness to the truth, which is established by the Holy Scriptures it cites.</em></p>
 <hr>
 <h2 id="how-this-confession-was-written">How this Confession was written</h2>
 <p>This Confession was written by Carl Hamblin with the help of Claude, an AI assistant made by Anthropic. It grew out of a single conversation in which I put eight rounds of questions to Claude from a Puritan, Reformed and Covenanter perspective: whether giving cheerful words while sad is hypocrisy; the Lord Jesus Christ as the “man of sorrows”; whether “grounded joy” might be a better phrase than “deep joy”; maintaining a good testimony among unbelievers; the warmth that comes from knowing one is deeply loved; the importance of a stable, loving upbringing; personality and temperament; and the necessary mercy in afflictions. Several of its central thoughts came from my own contributions, including a Christian brother’s answer of “deep joy” when asked how he was.</p>

@@ -30,6 +30,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - External links open in a new tab automatically (site JavaScript); no need to add target attributes.
 - The Gospels use the Geneva Bible, 1599 edition, with modernised spelling (from a public domain eBible.org text). Do not alter the Gospel text unless asked.
 - Every post and article ends with a worded note, in the text itself, saying what Carl did and what Claude did. Do not use dots, ratings or percentages for the role of AI.
+- Never claim for any writing on this site a standing it does not have. It is a private Christian's witness, not a church's determination: acknowledge borrowings from the Westminster Standards or other writers plainly, but never describe site writing as standing in continuity with, or sharing the authority of, the Confessional standards or any church. Scripture alone establishes the truth; the site seeks only to bear witness to it.
 
 ## Design
 
