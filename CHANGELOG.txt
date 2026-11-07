@@ -5,6 +5,12 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.1 (7th November, A.D. 2026) - Lead-in words in ink
+-------------------------------------------------------------
+Change: the lead-in words before a section hashtag ("From the #blog", "More in #...",
+  "Back to #...") are now in the ink colour rather than grey.
+Files changed: assets/css/style.css, _config.yml, CHANGELOG.txt.
+
 Version 5.0 (7th November, A.D. 2026) - Important note on Confessions and catechisms
 ------------------------------------------------------------------------------------
 Feature: an "Important note" at the top of every Confession or catechism, stating that

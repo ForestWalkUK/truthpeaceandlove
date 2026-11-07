@@ -134,7 +134,7 @@ body{overflow-x:clip}
 .list-title{flex:1 1 100%;font-weight:900;font-size:clamp(1.45rem,3vw,2.3rem);line-height:1.05;letter-spacing:-.035em}
 .prose .list-big{margin:1.5rem 0}
 .more{margin-top:clamp(3.5rem,7vw,6rem)}
-.more-h{margin:0 0 .75rem;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);letter-spacing:-.02em;color:var(--muted)}
+.more-h{margin:0 0 .75rem;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);letter-spacing:-.02em;color:var(--ink)}
 .more-h a{color:var(--ink);text-decoration:none}
 .more-h a:hover{text-decoration:underline}
 .empty{max-width:34em;margin-top:2rem}
