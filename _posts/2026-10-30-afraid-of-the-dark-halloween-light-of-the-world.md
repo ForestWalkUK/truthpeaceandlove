@@ -1,6 +1,9 @@
 ---
 title: "Afraid of the Dark? Halloween and the Light of the World"
 changes:
+  - version: "1.7"
+    date: 2026-11-08
+    note: "The paragraph on those who have died expanded: our words reveal our hearts (Matthew 12:34), and the two thieves crucified with Christ (Luke 23:39, 43). This was an error. As it stood, “No one can see into the heart of someone who has died” was a blanket statement, and it could leave a grieving reader with hope that Scripture does not give, even where the person died openly rejecting Christ. Our Lord Himself says that “out of the abundance of the heart the mouth speaketh” (Matthew 12:34), so a life and death of open rebellion is real evidence, not a blank. At the same time, there is a true point the sentence was trying to make: where there is no such evidence, we must not pronounce on someone’s eternal state. The two thieves show both sides of that, hence the revision."
   - version: "1.6"
     date: 2026-11-07
     note: "In the short version (“In brief”), the sentence on God’s punishment of sin now matches the full article: “And so in the end He must and will punish sin.”"
@@ -107,7 +110,7 @@ Perhaps you are reading this having set a place at the table, or lit a candle in
 
 But I must tell you honestly what God’s Word says, because it matters too much to soften. Those we have lost cannot come back to us, and the spirits that seem to answer are not them. The rich man in the Lord’s parable could not cross back, nor could Lazarus be sent (Luke 16:26-31). Yet the Bible does not leave us without hope in grief, though it is a hope only for those who die trusting in Christ. To believers it says, “I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him” (1 Thessalonians 4:13-14). And the Lord Jesus said, beside the grave of a friend He loved, “I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live” (John 11:25).
 
-No one can see into the heart of someone who has died; that rests with God alone, who judges righteously. But you can know where you stand with Him now, while there is still time.
+Our words reveal our hearts, for “out of the abundance of the heart the mouth speaketh” (Matthew 12:34); yet only God sees the heart fully, and He judges righteously. Of the two thieves crucified with Christ, one railed on Him to the end (Luke 23:39), while the other turned to Him and heard, “To day shalt thou be with me in paradise” (Luke 23:43). Where someone died in open rebellion against God, Scripture offers no false comfort; where there was no such sign, we leave them with Him. But you can know where you stand with Him now, while there is still time.
 
 A candle in the window cannot guide anyone home. But Christ is “the light of the world” (John 8:12), and He is the only way home to God for the living.
 
