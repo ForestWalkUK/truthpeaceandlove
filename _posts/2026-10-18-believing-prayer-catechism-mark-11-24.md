@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.5"
+    date: 2026-11-12
+    note: "Q. 36: our power now acknowledged as real but small and given by God, before its limits are shown (one hair, tomorrow, and our salvation); Acts 17:25, James 4:13-15 and Luke 12:16-20 added to the references."
   - version: "2.4"
     date: 2026-11-12
     note: "Q. 38: those who trust in Christ rescued from their sins as well as from eternal wrath; Matthew 1:21 added to the references. Closing note: Q. 16’s borrowing of “the special rule” from the Westminster Shorter Catechism acknowledged."
@@ -283,9 +286,9 @@ A. In glory. There, with hearts and wills made perfect, they will see that what 
 
 **Q. 36. Why is it better that God’s will be done than our own?**
 
-A. Because God knows everything, and we know very little. We cannot see the future, or even the whole of the present, and we cannot always tell what would truly be good for us or for those we love. Nor are our hearts as trustworthy as we like to think: the Bible says they are deceitful above all things, and many things we long for would harm us if we had them. And even if we knew what was best, we would have no power to bring it about. We cannot “make one hair white or black”; and to save ourselves from our sin lies infinitely beyond us. God, by contrast, is infinite in both power and wisdom: “Great *is* our Lord, and of great power: his understanding *is* infinite.” He is perfectly good and full of love; He sees the end from the beginning, and He works all things together for good to those who love Him. To insist on our own will rather than His is like sailors in a storm rising up against a captain who knows every rock and current, and who alone can bring them to their “desired haven”.
+A. Because God knows everything, and we know very little. We cannot see the future, or even the whole of the present, and we cannot always tell what would truly be good for us or for those we love. Nor are our hearts as trustworthy as we like to think: the Bible says they are deceitful above all things, and many things we long for would harm us if we had them. And even if we knew what was best, our power to bring it about is small, and it is not our own. We can do many things, but only as God gives us life and breath and strength. We cannot “make one hair white or black”, or be sure of tomorrow; and to save ourselves from our sin lies infinitely beyond us. God, by contrast, is infinite in both power and wisdom: “Great *is* our Lord, and of great power: his understanding *is* infinite.” He is perfectly good and full of love; He sees the end from the beginning, and He works all things together for good to those who love Him. To insist on our own will rather than His is like sailors in a storm rising up against a captain who knows every rock and current, and who alone can bring them to their “desired haven”.
 
-*Bible references: Psalm 147:5; Isaiah 55:8-9; Jeremiah 17:9; Proverbs 14:12; Matthew 5:36; Luke 12:25-26; Romans 5:6; Jeremiah 10:12; Daniel 2:20; Isaiah 46:9-10; Romans 8:28; Romans 11:33; Psalm 107:29-30.*
+*Bible references: Psalm 147:5; Isaiah 55:8-9; Jeremiah 17:9; Proverbs 14:12; Acts 17:25; Matthew 5:36; James 4:13-15; Luke 12:16-20, 25-26; Romans 5:6; Jeremiah 10:12; Daniel 2:20; Isaiah 46:9-10; Romans 8:28; Romans 11:33; Psalm 107:29-30.*
 
 **Q. 37. Is it something new to want our own will rather than God’s?**
 
