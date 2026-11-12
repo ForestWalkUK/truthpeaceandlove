@@ -2,7 +2,11 @@
 title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
+before_note: catechism-meaning.html
 changes:
+  - version: "2.8"
+    date: 2026-11-12
+    note: "The expandable explanation of the word “catechism” moved from the introduction to the top of the page, before the Important note."
   - version: "2.7"
     date: 2026-11-12
     note: "An expandable line added to the introduction, explaining the word “catechism” and its origin in the Greek katēcheō (Luke 1:4)."
@@ -65,11 +69,6 @@ changes:
 Few verses in the Bible are quoted as often, or in as many different ways, as this one. Law of Attraction and manifesting teachers often cite it as though Jesus were teaching that focused belief, on its own, has the power to shape outcomes: if you can feel that something is already yours, it must come to you. The Word of Faith movement often reads it in a similar way, as though a believer’s confident faith and spoken words could secure health, prosperity or whatever is asked.
 
 Taken on its own, out of context, I can see why the verse might be read like that. But I don’t believe that is what Jesus meant, and I believe what He actually meant is far better news.
-
-<details>
-<summary>What does “catechism” mean?</summary>
-<p>The word “catechism” comes from the Greek <em>katēcheō</em>, meaning to teach by word of mouth, literally to “sound down” into someone’s ears (it is related to our word “echo”). The New Testament uses it of being taught the things of God: Luke wrote his Gospel so that Theophilus might know the certainty of the things “wherein thou hast been instructed” (Luke 1:4). A catechism, then, is simply a way of teaching by questions and answers, so that the main truths of a subject can be learned, remembered and passed on. Christians have used catechisms in this way for centuries, especially to teach children and those new to the faith.</p>
-</details>
 
 This catechism is my attempt to explain the verse biblically, letting the events around it in Mark chapter 11, and the rest of Scripture, show what Jesus was saying. It follows the question-and-answer pattern of the Westminster catechisms, but in plain modern English, with Bible references after each answer so that you can check everything for yourself. Whether you are a Christian, someone exploring manifesting, or simply curious, you are very welcome here. If you are reading on a desktop computer, you can hover over any Bible reference to read the verse itself.
 
