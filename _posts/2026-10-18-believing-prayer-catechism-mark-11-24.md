@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.0"
+    date: 2026-11-12
+    note: "Q. 31: added Jesus’ words at His arrest (John 18:11), showing that the Father’s will was what He most truly desired; reference added."
   - version: "1.9"
     date: 2026-11-12
     note: "Q. 30: added the answer in the garden itself to Jesus’ prayer that the Father would keep His disciples (John 17:11-12; John 18:8-9). Q. 34: added Jesus’ prayer for glory (John 17:5), the way to which was the cup He was not spared; references added."
@@ -236,9 +239,9 @@ A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus 
 
 **Q. 31. Did Jesus “have” what He asked for in Gethsemane?**
 
-A. Yes, in the deepest sense. Set beside Mark 11:24, His prayer reads like this: “What things soever ye desire <span class="gloss">[take away this cup from me]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[Abba, Father, all things are possible unto thee]</span>, and ye shall have *them* <span class="gloss">[nevertheless not what I will, but what thou wilt]</span>.” Scripture tells us that He prayed “unto him that was able to save him from death, and was heard in that he feared”. He was not spared from death, but He was saved out of it, rising again the third day. That was exactly what His Father willed, and so it was what Jesus Himself most truly desired.
+A. Yes, in the deepest sense. Set beside Mark 11:24, His prayer reads like this: “What things soever ye desire <span class="gloss">[take away this cup from me]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[Abba, Father, all things are possible unto thee]</span>, and ye shall have *them* <span class="gloss">[nevertheless not what I will, but what thou wilt]</span>.” Scripture tells us that He prayed “unto him that was able to save him from death, and was heard in that he feared”. He was not spared from death, but He was saved out of it, rising again the third day. That was exactly what His Father willed, and so it was what Jesus Himself most truly desired. We hear that desire in His own words soon afterwards, as He was arrested: “the cup which my Father hath given me, shall I not drink it?”
 
-*Bible references: Mark 14:36; Hebrews 5:7; Acts 2:24.*
+*Bible references: Mark 14:36; John 18:11; Hebrews 5:7; Acts 2:24.*
 
 **Q. 32. Is this promise only for individuals?**
 
