@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.3"
+    date: 2026-11-12
+    note: "Q. 36 revised: our inability now runs from the least thing (one hair) to salvation, which lies infinitely beyond us; God’s infinite power and wisdom set side by side (Psalm 147:5); the illustration of the driver replaced by sailors rising up against their captain in a storm. Q. 37: true freedom explained as being what God made us to be, with the illustration of a fish out of water. References added to both. The Westminster Shorter Catechism acknowledged where Q. 37 quotes it."
   - version: "2.2"
     date: 2026-11-12
     note: "New section, “Why God’s will is best”, with three questions added (Q. 36 to Q. 38): why God’s will is better than our own, the temptation in Eden to be “as gods”, and the cross as the clearest proof that God’s will is good. Later questions renumbered. A heading, “Mark 11:24 in sum”, added before the summary question."
@@ -277,15 +280,15 @@ A. In glory. There, with hearts and wills made perfect, they will see that what 
 
 **Q. 36. Why is it better that God’s will be done than our own?**
 
-A. Because God knows everything, and we know very little. We cannot see the future, or even the whole of the present, and we cannot always tell what would truly be good for us or for those we love. Nor are our hearts as trustworthy as we like to think: the Bible says they are deceitful above all things, and many things we long for would harm us if we had them. And even if we knew what was best, we would have no power to bring it about, for we cannot even save ourselves from our sin. God, by contrast, is infinitely wise, perfectly good and full of love; He sees the end from the beginning, and He works all things together for good to those who love Him. To insist on our own will rather than His is like a passenger snatching the wheel from a driver who knows every bend of the road ahead.
+A. Because God knows everything, and we know very little. We cannot see the future, or even the whole of the present, and we cannot always tell what would truly be good for us or for those we love. Nor are our hearts as trustworthy as we like to think: the Bible says they are deceitful above all things, and many things we long for would harm us if we had them. And even if we knew what was best, we would have no power to bring it about. We cannot “make one hair white or black”; and to save ourselves from our sin lies infinitely beyond us. God, by contrast, is infinite in both power and wisdom: “Great *is* our Lord, and of great power: his understanding *is* infinite.” He is perfectly good and full of love; He sees the end from the beginning, and He works all things together for good to those who love Him. To insist on our own will rather than His is like sailors in a storm rising up against a captain who knows every rock and current, and who alone can bring them to their “desired haven”.
 
-*Bible references: Psalm 147:5; Isaiah 55:8-9; Jeremiah 17:9; Proverbs 14:12; Romans 5:6; Isaiah 46:9-10; Romans 8:28; Romans 11:33.*
+*Bible references: Psalm 147:5; Isaiah 55:8-9; Jeremiah 17:9; Proverbs 14:12; Matthew 5:36; Luke 12:25-26; Romans 5:6; Jeremiah 10:12; Daniel 2:20; Isaiah 46:9-10; Romans 8:28; Romans 11:33; Psalm 107:29-30.*
 
 **Q. 37. Is it something new to want our own will rather than God’s?**
 
-A. No. It is the oldest temptation of all. In the garden of Eden the serpent promised the first man and woman, “ye shall be as gods”, if they would take what God had forbidden. They chose their own will over His, and sin, sorrow and death came into the world. Every attempt to make ourselves the centre and source of our own good follows the same path. True freedom and joy are found not in being our own gods, but in trusting the God who made us.
+A. No. It is the oldest temptation of all. In the garden of Eden the serpent promised the first man and woman, “ye shall be as gods”, if they would take what God had forbidden. They chose their own will over His, and sin, sorrow and death came into the world. Every attempt to make ourselves the centre and source of our own good follows the same path. True freedom is not freedom from God, but being what He made us to be. A fish that flings itself onto the bank to be free of the water finds not freedom, but death. In the same way, we were made, as the Westminster Shorter Catechism puts it, “to glorify God, and to enjoy him for ever”; and only in trusting and obeying Him do we find true freedom and joy.
 
-*Bible references: Genesis 3:1-6; Romans 5:12; Jeremiah 10:23; Proverbs 3:5-7; John 8:36.*
+*Bible references: Genesis 3:1-6; Romans 5:12; Jeremiah 10:23; Proverbs 3:5-7; Acts 17:28; 1 Corinthians 10:31; Psalm 16:11; Psalm 119:45; John 8:36.*
 
 **Q. 38. Where can we see most clearly that God’s will is good?**
 
