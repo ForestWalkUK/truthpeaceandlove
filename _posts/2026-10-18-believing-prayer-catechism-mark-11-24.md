@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.1"
+    date: 2026-11-12
+    note: "Q. 36: the last line of the summary reworded, so that God grants what He is teaching His people most truly to desire, that His will be done rather than their own, giving the very thing asked for when it serves His wise and loving purposes; Romans 8:26-27 added to the references."
   - version: "2.0"
     date: 2026-11-12
     note: "Q. 31: added Jesus’ words at His arrest (John 18:11), showing that the Father’s will was what He most truly desired; reference added."
@@ -274,9 +277,9 @@ A. Jesus said, “Therefore I say unto you, What things soever ye desire, when y
 - “I say unto you”: He is speaking to those who trust God.
 - “What things soever ye desire”: whatever they long for, once God Himself has shaped their wishes so that His will comes first.
 - “believe that ye receive *them*”: they rest on God to answer, not on how strongly they feel.
-- “ye shall have *them*”: God will give what He has led them to ask. Sometimes He gives the very thing asked for. Sometimes, as with Jesus in Gethsemane, He refuses the very thing asked for, yet grants the deepest heart of the prayer, giving something far better; and one day they will see that it was what they most truly wanted.
+- “ye shall have *them*”: God will grant what He is teaching them most truly to desire: that His will be done, rather than their own. Sometimes that means giving the very thing asked for, when it serves His wise and loving purposes. Sometimes, as with Jesus in Gethsemane, it means refusing the very thing asked for, yet granting the deepest heart of the prayer, giving something far better; and one day they will see that it was what they most truly wanted.
 
-*Bible references: Mark 11:22-24; Philippians 2:13; Mark 14:36; John 13:7.*
+*Bible references: Mark 11:22-24; Philippians 2:13; Romans 8:26-27; Mark 14:36; John 13:7.*
 
 ## The good news
 
