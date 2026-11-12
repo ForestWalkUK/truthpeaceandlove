@@ -238,6 +238,9 @@ details.head>summary{display:flex;align-items:baseline;justify-content:space-bet
 details.head>summary::-webkit-details-marker{display:none}
 details.head>summary h3{margin:0;font-weight:400;display:flex;align-items:baseline}
 .para-no{font-size:.69em;font-style:normal;font-variant-numeric:oldstyle-nums proportional-nums;letter-spacing:.02em;flex:0 0 auto;min-width:1.6em}
+/* Catechism question labels ("Q. 45.") are wider than paragraph numbers: room for them, so the
+   question text keeps a clear gap after the number and all the questions line up. */
+.para-no.q-no{min-width:3.1em}
 details.head>summary::after{content:"+";flex:0 0 1.1em;text-align:center;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.25em;line-height:1}
 details.head[open]>summary::after{content:"\2212"}
 @media (hover:hover){details.head>summary:hover h3{text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.18em}}

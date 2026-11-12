@@ -5,6 +5,22 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.0 (12th November, A.D. 2026) - Catechism accordions
+--------------------------------------------------------------
+Change: the Believing Prayer catechism now opens and closes like the Confession concerning
+  Sorrow, Affliction, and the Joy of Believers. Each of its seven sections is a
+  <details class="part"> with its h2 heading, and each of its 45 questions a
+  <details class="head"> with its h3 and number, so the page gets the #open all and
+  #close all buttons. The text was converted from Markdown to HTML with no change of
+  wording. The section ids are the ones kramdown generated before, so existing links still
+  work, and each question has an id of its own (q-1 to q-45).
+New rule: .para-no.q-no{min-width:3.1em} in the Accordions block of style.css. Catechism
+  labels such as "Q. 45." are wider than the paragraph numbers the .para-no rule was made
+  for (min-width 1.6em), so this gives them room: the question text keeps a clear gap
+  after the number and all the questions line up.
+Files changed: _posts/2026-10-18-believing-prayer-catechism-mark-11-24.md,
+  assets/css/style.css, _config.yml, CHANGELOG.txt.
+
 Version 5.9 (12th November, A.D. 2026) - Catechism explanation looks clickable
 ------------------------------------------------------------------------------
 Change: on the Believing Prayer catechism, the "What does catechism mean?" line now shows
