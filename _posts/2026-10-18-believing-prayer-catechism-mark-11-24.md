@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.6"
+    date: 2026-11-12
+    note: "Q. 38: Christ as the Saviour of the world, setting creation free from the effects of the fall; the “all things” of Romans 8:32 crowned by God giving Himself to His people for ever, in the new heavens and the new earth; references added."
   - version: "2.5"
     date: 2026-11-12
     note: "Q. 36: our power now acknowledged as real but small and given by God, before its limits are shown (one hair, tomorrow, and our salvation); Acts 17:25, James 4:13-15 and Luke 12:16-20 added to the references."
@@ -298,9 +301,9 @@ A. No. It is the oldest temptation of all. In the garden of Eden the serpent pro
 
 **Q. 38. Where can we see most clearly that God’s will is good?**
 
-A. At the cross. There God willed that His Son should suffer and die for sinners. To human eyes it looked like the worst thing that could ever happen; yet through it God gave His unspeakable gift: His own Son, who bore the full weight of divine wrath, so that all who trust in Him, though they were God’s enemies, might be rescued from their sins, and from the eternal wrath due to them. And if God did not spare His own Son, we can trust Him with everything else: “He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?”
+A. At the cross. There God willed that His Son should suffer and die for sinners. To human eyes it looked like the worst thing that could ever happen; yet through it God gave His unspeakable gift: His own Son, who bore the full weight of divine wrath, so that all who trust in Him, though they were God’s enemies, might be rescued from their sins, and from the eternal wrath due to them. Nor is that all, for Christ is “the Saviour of the world”. Through the cross, God will one day set His whole creation free from the confusion, misery, pain and death that came into the world through Adam’s sin, and He will make all things new. And if God did not spare His own Son, we can trust Him with everything else: “He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?” The greatest of those “all things” is God Himself. In Christ He gives Himself to His people, to be their God for ever. In the new heavens and the new earth they will see His face and dwell with Him, together with His holy angels and all His redeemed people from every nation, in a joy that will never end.
 
-*Bible references: Isaiah 53:5-6, 10; Matthew 1:21; Acts 2:23; Acts 4:27-28; 2 Corinthians 9:15; Romans 5:8-10; Romans 8:32.*
+*Bible references: Isaiah 53:5-6, 10; Matthew 1:21; Acts 2:23; Acts 4:27-28; 2 Corinthians 9:15; Romans 5:8-10; John 4:42; 1 John 4:14; Romans 8:19-23; Colossians 1:19-20; Revelation 21:4-5; Romans 8:32; Revelation 21:3; 2 Peter 3:13; Revelation 22:3-5; Hebrews 12:22-23; Revelation 7:9; Psalm 16:11.*
 
 ## Mark 11:24 in sum
 
