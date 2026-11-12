@@ -8,6 +8,7 @@ layout: default
 {% include version-line.html %}
 </header>
 <div class="prose post-content">
+{% if page.before_note %}{% include {{ page.before_note }} %}{% endif -%}
 {% include standing-note.html %}
 {% capture img_src %}src="{{ site.baseurl }}/assets/{% endcapture %}
 {{ content | replace: 'src="/assets/', img_src | replace: '<img ', '<img loading="lazy" ' }}

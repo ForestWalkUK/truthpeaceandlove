@@ -5,6 +5,15 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.7 (12th November, A.D. 2026) - Optional include before the Important note
+-----------------------------------------------------------------------------------
+Change: blog posts can now show a short block at the top of the text, before the Important
+  note, by naming an include in their front matter ("before_note: file.html"). Posts
+  without it are unchanged. First used to move the explanation of the word "catechism" to
+  the top of the Believing Prayer catechism.
+Files changed: _layouts/post.html, _includes/catechism-meaning.html (new), _config.yml,
+  CHANGELOG.txt.
+
 Version 5.6 (7th November, A.D. 2026) - "About this text" links go straight to the section
 ------------------------------------------------------------------------------------------
 Fix: the "About this text" link on every Gospel book and chapter page now goes straight to
