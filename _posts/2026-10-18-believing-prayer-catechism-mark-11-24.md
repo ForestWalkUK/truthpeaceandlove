@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "1.9"
+    date: 2026-11-12
+    note: "Q. 30: added the answer in the garden itself to Jesus’ prayer that the Father would keep His disciples (John 17:11-12; John 18:8-9). Q. 34: added Jesus’ prayer for glory (John 17:5), the way to which was the cup He was not spared; references added."
   - version: "1.8"
     date: 2026-11-12
     note: "Three questions added: on whether God leaves His people’s prayers unanswered, including His answer “wait” (Q. 29); on comfort for those still waiting (Q. 33); and on comfort when God refuses what His people ask, keeping the distinction between the refused request and the deepest heart of the prayer (Q. 34). Later questions renumbered."
@@ -227,9 +230,9 @@ A. No prayer offered in faith goes unheard. Sometimes God gives what was asked a
 
 **Q. 30. What does Jesus’ prayer in Gethsemane teach us?**
 
-A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. Earlier that same night He had prayed, “Father, the hour is come; glorify thy Son, that thy Son also may glorify thee”, and through the cross He gained the joy set before Him: first the glory of His Father, and with it the salvation of His people.
+A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. Earlier that same night He had prayed, “Father, the hour is come; glorify thy Son, that thy Son also may glorify thee”, and through the cross He gained the joy set before Him: first the glory of His Father, and with it the salvation of His people. In that prayer He had also asked the Father to keep those whom He had given Him, and in the garden itself that request was answered at once. When He was arrested, He told the soldiers to let His disciples go, “That the saying might be fulfilled, which he spake, Of them which thou gavest me have I lost none.” So in the same garden one request was refused and another was granted, and both served the same great purpose.
 
-*Bible references: Mark 14:36; Luke 22:42-44; John 17:1-5; John 17:24; John 18:1; Hebrews 5:7; Hebrews 12:2.*
+*Bible references: Mark 14:36; Luke 22:42-44; John 17:1-5; John 17:11-12; John 17:24; John 18:1; John 18:8-9; Hebrews 5:7; Hebrews 12:2.*
 
 **Q. 31. Did Jesus “have” what He asked for in Gethsemane?**
 
@@ -251,9 +254,9 @@ A. Waiting is not being forgotten. When Jesus heard that His friend Lazarus was 
 
 **Q. 34. What comfort does God give when He refuses what His people ask?**
 
-A. They have a Saviour who knows what it is to have a request refused. In Gethsemane He asked that the cup be taken from Him, and it was not; yet the deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. He is touched with the feeling of our weaknesses, and He does not ask His people to pretend that a refusal does not hurt. God is near to the broken-hearted, and He keeps account of every tear. When Paul begged three times for his thorn to be taken away, God refused, but gave him something better: “My grace is sufficient for thee: for my strength is made perfect in weakness.” The thing that was asked for may never be given in this life, but God gives Himself, and He is the strength of His people’s hearts and their portion for ever. One day He will wipe away all tears from their eyes.
+A. They have a Saviour who knows what it is to have a request refused. In Gethsemane He asked that the cup be taken from Him, and it was not; yet the deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. Only hours before, He had prayed, “And now, O Father, glorify thou me with thine own self with the glory which I had with thee before the world was.” The cup He was not spared was the very way to that glory, and the Father granted it, raising Him from the dead and exalting Him to His right hand. So for His people too, a refused request can be the road to something far better. He is touched with the feeling of our weaknesses, and He does not ask His people to pretend that a refusal does not hurt. God is near to the broken-hearted, and He keeps account of every tear. When Paul begged three times for his thorn to be taken away, God refused, but gave him something better: “My grace is sufficient for thee: for my strength is made perfect in weakness.” The thing that was asked for may never be given in this life, but God gives Himself, and He is the strength of His people’s hearts and their portion for ever. One day He will wipe away all tears from their eyes.
 
-*Bible references: Mark 14:36; Luke 22:42; Hebrews 4:15; Psalm 34:18; Psalm 56:8; 2 Corinthians 12:7-10; Psalm 73:25-26; Revelation 21:4.*
+*Bible references: Mark 14:36; Luke 22:42; John 17:5; John 18:1, 11; Philippians 2:8-9; Hebrews 12:2; Hebrews 4:15; Psalm 34:18; Psalm 56:8; 2 Corinthians 12:7-10; Psalm 73:25-26; Revelation 21:4.*
 
 **Q. 35. When will Christians fully understand God’s answers to their prayers?**
 
