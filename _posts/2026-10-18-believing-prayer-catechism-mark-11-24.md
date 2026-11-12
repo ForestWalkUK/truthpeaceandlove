@@ -6,7 +6,7 @@ before_note: catechism-meaning.html
 changes:
   - version: "2.9"
     date: 2026-11-12
-    note: "Each section and each question can now be opened and closed, in the same style as the Confession concerning Sorrow, Affliction, and the Joy of Believers, with buttons to open or close them all. No wording changed."
+    note: "Each section and each question can now be opened and closed, with buttons to open or close them all. No wording changed."
   - version: "2.8"
     date: 2026-11-12
     note: "The expandable explanation of the word “catechism” moved from the introduction to the top of the page, before the Important note."

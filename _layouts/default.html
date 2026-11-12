@@ -73,7 +73,7 @@ dn.addEventListener("click",function(){set(i-1)});up.addEventListener("click",fu
 function mark(a){if(a.target==="_blank")return;a.target="_blank";a.rel="noopener noreferrer";if(!a.querySelector(".sr-only")){var s=document.createElement("span");s.className="sr-only";s.textContent=" (opens in a new tab)";a.appendChild(s)}}
 var all=document.querySelectorAll("a[href]");for(var k=0;k<all.length;k++)if(ext(all[k]))mark(all[k]);
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(ext(a)&&a.target!=="_blank"){a.target="_blank";a.rel="noopener noreferrer"}},true);})();
-/* Accordions (v4.5): sections written as <details class="part"> (or class="head") open by
+/* TPL Accordion Style (v4.5; named in v6.0): sections written as <details class="part"> (or class="head") open by
    themselves when a link or web address points into them, all open for printing, and a page
    with two or more gets #open all and #close all buttons above the first. Other pages are untouched. */
 (function(){var H=document.querySelectorAll("details.part,details.head");if(!H.length)return;

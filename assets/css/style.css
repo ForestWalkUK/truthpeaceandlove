@@ -221,7 +221,7 @@ details.changelog{margin-top:clamp(2.5rem,5vw,3.5rem)}
 .changelog-list li{margin:0 0 .9em}
 .changelog-v{font-weight:600;font-variant-numeric:lining-nums}
 .changelog-git{font-size:.9em}
-/* Accordions (v4.5): collapsible sections for long pages. Main sections: <details class="part" id="..."> with an <h2> inside its <summary>. Subsections: <details class="head"> with an <h3>. */
+/* TPL Accordion Style (v4.5; named in v6.0): collapsible sections for long pages. Main sections: <details class="part" id="..."> with an <h2> inside its <summary>. Subsections: <details class="head"> with an <h3>. */
 details[id],details [id]{scroll-margin-top:1rem}
 details.part{margin:0 0 .6em}
 details.part>summary{display:flex;align-items:baseline;justify-content:space-between;gap:.6em;min-height:44px;padding:.3em 0;cursor:pointer;list-style:none}
