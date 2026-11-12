@@ -61,3 +61,13 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - Posts: front matter gives the title (in double quotes if it contains a colon) and the text does not repeat it as a heading. "sections:" lists the section pages that should show the post.
 - Pages awaiting Carl's approval carry "published: false".
 - CHANGELOG.txt is kept in the repository but excluded from the built site, as is this file.
+
+## Text for Carl to review
+
+Long lines in the terminal can be garbled when Carl copies them: characters are lost where lines wrap. Long prompts pasted into the terminal can also be cut off. So:
+
+1. Whenever Carl needs to read, check or paste on more than a line or two of text (passages of content, full questions, diffs), don't rely on the terminal output alone. Also put the text on the Windows clipboard using PowerShell, keeping UTF-8 so that curly quotes and apostrophes survive. For example:
+   [Console]::OutputEncoding = [Text.Encoding]::UTF8; Get-Content -Raw -Encoding UTF8 <file> | Set-Clipboard
+   For a diff or extracted passage, write it to a temporary UTF-8 file outside the repository first, then copy that file to the clipboard in the same way. Tell Carl when the text is on the clipboard.
+2. After any edit made from text Carl has supplied, compare the result automatically, character for character, against the intended text (allowing for straight quotes becoming curly), and report whether it matched exactly. Don't ask Carl to check by eye alone.
+3. If a prompt from Carl seems to stop mid-sentence or mid-step, it has probably been cut off when pasted. Say so, do only the steps that arrived complete, and ask for the rest rather than guessing. Carl may send long prompts as a text file instead (for example in his Downloads folder); read and follow it as if he had typed it.
