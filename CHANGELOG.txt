@@ -5,6 +5,15 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.9 (12th November, A.D. 2026) - Catechism explanation looks clickable
+------------------------------------------------------------------------------
+Change: on the Believing Prayer catechism, the "What does catechism mean?" line now shows
+  "(tap or click to read)" in italics after the question, and the pointer changes to a
+  hand over it, so that readers can see it opens. This is an inline style on the
+  <summary> tag for now; like the margin added in 5.8, it is temporary and should move
+  into style.css when the faith-page styling is merged.
+Files changed: _includes/catechism-meaning.html, _config.yml, CHANGELOG.txt.
+
 Version 5.8 (12th November, A.D. 2026) - Space below the catechism explanation
 ------------------------------------------------------------------------------
 Change: on the Believing Prayer catechism, the expandable "What does catechism mean?" line
