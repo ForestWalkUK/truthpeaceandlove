@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "1.8"
+    date: 2026-11-12
+    note: "Three questions added: on whether God leaves His people’s prayers unanswered, including His answer “wait” (Q. 29); on comfort for those still waiting (Q. 33); and on comfort when God refuses what His people ask, keeping the distinction between the refused request and the deepest heart of the prayer (Q. 34). Later questions renumbered."
   - version: "1.7"
     date: 2026-11-07
     note: "Author named as “Carl H” in the Important note and the closing note."
@@ -216,31 +219,49 @@ A. Yes, as a general rule. The more closely a Christian walks with God, the more
 
 *Bible references: John 15:7; 1 John 3:22; James 5:16; Job 1:8; Job 30:20; Job 38:1-4; Job 42:1-6; Mark 14:36.*
 
-**Q. 29. What does Jesus’ prayer in Gethsemane teach us?**
+**Q. 29. Does God ever leave the prayers of His people unanswered?**
+
+A. No prayer offered in faith goes unheard. Sometimes God gives what was asked at once; sometimes He refuses the thing asked; and sometimes He says wait, perhaps for many years. Yet even while His people wait, their prayers have been heard from the first day. The saints in Scripture sometimes felt that God was silent, and they told Him so; such honest crying to Him is itself an act of faith, and He bears long with His people until the time He has appointed.
+
+*Bible references: 1 John 5:14-15; Luke 1:13; Daniel 10:12-13; Luke 18:1-8; Psalm 13:1-6; Psalm 22:1-2; Habakkuk 2:3.*
+
+**Q. 30. What does Jesus’ prayer in Gethsemane teach us?**
 
 A. It teaches that real faith asks fully, trusts fully and submits fully. Jesus prayed perfectly, yet His request that the cup of suffering be taken away was refused. The deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. Earlier that same night He had prayed, “Father, the hour is come; glorify thy Son, that thy Son also may glorify thee”, and through the cross He gained the joy set before Him: first the glory of His Father, and with it the salvation of His people.
 
 *Bible references: Mark 14:36; Luke 22:42-44; John 17:1-5; John 17:24; John 18:1; Hebrews 5:7; Hebrews 12:2.*
 
-**Q. 30. Did Jesus “have” what He asked for in Gethsemane?**
+**Q. 31. Did Jesus “have” what He asked for in Gethsemane?**
 
 A. Yes, in the deepest sense. Set beside Mark 11:24, His prayer reads like this: “What things soever ye desire <span class="gloss">[take away this cup from me]</span>, when ye pray, believe that ye receive *them* <span class="gloss">[Abba, Father, all things are possible unto thee]</span>, and ye shall have *them* <span class="gloss">[nevertheless not what I will, but what thou wilt]</span>.” Scripture tells us that He prayed “unto him that was able to save him from death, and was heard in that he feared”. He was not spared from death, but He was saved out of it, rising again the third day. That was exactly what His Father willed, and so it was what Jesus Himself most truly desired.
 
 *Bible references: Mark 14:36; Hebrews 5:7; Acts 2:24.*
 
-**Q. 31. Is this promise only for individuals?**
+**Q. 32. Is this promise only for individuals?**
 
 A. No. Jesus spoke to His disciples together, so the promise belongs to His people as a whole: to Christian nations, churches and families, as well as to each believer.
 
 *Bible references: Mark 11:22-24; Matthew 28:19-20; Matthew 18:19-20; Acts 4:24-31; Acts 12:5.*
 
-**Q. 32. When will Christians fully understand God’s answers to their prayers?**
+**Q. 33. What comfort does God give to those who are still waiting?**
+
+A. Waiting is not being forgotten. When Jesus heard that His friend Lazarus was sick, He stayed where He was two days longer, yet Scripture tells us first that He loved him and his sisters. His delay was not a lack of love, but love with a greater purpose. And when He came, He wept with them, even though He was about to raise Lazarus from the dead. God has said that a mother may forget her child, yet He will not forget His people. So keep praying, and do not lose heart; those who wait on the LORD will find their strength renewed. The time may be long, but no moment of it is wasted, and He has not stopped caring for you while you wait.
+
+*Bible references: John 11:5-6, 33-35, 40; Isaiah 49:15-16; Luke 18:1; Isaiah 40:31; Psalm 27:14; Galatians 6:9.*
+
+**Q. 34. What comfort does God give when He refuses what His people ask?**
+
+A. They have a Saviour who knows what it is to have a request refused. In Gethsemane He asked that the cup be taken from Him, and it was not; yet the deepest heart of His prayer, “not what I will, but what thou wilt”, was granted in full. He is touched with the feeling of our weaknesses, and He does not ask His people to pretend that a refusal does not hurt. God is near to the broken-hearted, and He keeps account of every tear. When Paul begged three times for his thorn to be taken away, God refused, but gave him something better: “My grace is sufficient for thee: for my strength is made perfect in weakness.” The thing that was asked for may never be given in this life, but God gives Himself, and He is the strength of His people’s hearts and their portion for ever. One day He will wipe away all tears from their eyes.
+
+*Bible references: Mark 14:36; Luke 22:42; Hebrews 4:15; Psalm 34:18; Psalm 56:8; 2 Corinthians 12:7-10; Psalm 73:25-26; Revelation 21:4.*
+
+**Q. 35. When will Christians fully understand God’s answers to their prayers?**
 
 A. In glory. There, with hearts and wills made perfect, they will see that what God gave them was what they most truly wanted all along. As Jesus said, “What I do thou knowest not now; but thou shalt know hereafter.”
 
 *Bible references: John 13:7; 1 Corinthians 13:12; Psalm 17:15.*
 
-**Q. 33. So what, in sum, does Mark 11:24 mean?**
+**Q. 36. So what, in sum, does Mark 11:24 mean?**
 
 A. Jesus said, “Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive *them*, and ye shall have *them*.” Taken a phrase at a time, this is what He meant:
 
@@ -253,37 +274,37 @@ A. Jesus said, “Therefore I say unto you, What things soever ye desire, when y
 
 ## The good news
 
-**Q. 34. Who is Jesus?**
+**Q. 37. Who is Jesus?**
 
 A. Jesus is the eternal Son of God, who became a real man without ceasing to be God. He lived a perfect life, never once sinning, and He is the only Saviour of the world.
 
 *Bible references: John 1:1, 14; Colossians 2:9; Hebrews 4:15; Acts 4:12.*
 
-**Q. 35. What is our great need?**
+**Q. 38. What is our great need?**
 
 A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. That law is summed up in the Ten Commandments. These sins spring from a sinful nature we have had from the very start of our lives, passed down from Adam, the first man. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves, nor change our own hearts.
 
 *Bible references: Romans 3:10, 23; Exodus 20:1-17; Psalm 51:5; Romans 5:12; Jeremiah 17:9; Isaiah 59:2; Romans 6:23; Galatians 3:10; Mark 9:43-49; Revelation 20:11-15.*
 
-**Q. 36. What has Jesus done about it?**
+**Q. 39. What has Jesus done about it?**
 
 A. Jesus died on the cross in the place of sinners, bearing the curse and punishment their sins deserved. Then God raised Him from the dead the third day, showing that the debt was paid in full.
 
 *Bible references: Galatians 3:13; 1 Peter 3:18; 1 Corinthians 15:3-4; Romans 4:25.*
 
-**Q. 37. How can I receive this salvation?**
+**Q. 40. How can I receive this salvation?**
 
 A. Salvation is God’s free gift, which cannot be earned. You receive it by turning from your sin and trusting in Jesus Christ alone. Whoever believes in Him will not perish, but have everlasting life.
 
 *Bible references: Mark 1:15; Acts 16:31; Ephesians 2:8-9; John 3:16; Romans 10:9-13.*
 
-**Q. 38. Will Jesus receive me, whatever I have done?**
+**Q. 41. Will Jesus receive me, whatever I have done?**
 
 A. Yes. Jesus promises, “Him that cometh to me I will in no wise cast out.” He invites all who are weary and burdened to come to Him for rest, and no sin is too great for His blood to cleanse.
 
 *Bible references: John 6:37; Matthew 11:28-30; Isaiah 1:18; 1 John 1:7-9; 1 Timothy 1:15.*
 
-**Q. 39. What should I do now?**
+**Q. 42. What should I do now?**
 
 A. Don’t put it off, for “behold, now *is* the accepted time; behold, now *is* the day of salvation.” Come to Christ today, and ask Him for mercy as the tax collector did: “God be merciful to me a sinner.” Read the Gospels to get to know Him, and search the Scriptures daily, asking His blessing on your reading and testing everything you hear by them, for not everyone who speaks in Christ’s name speaks His truth.
 
