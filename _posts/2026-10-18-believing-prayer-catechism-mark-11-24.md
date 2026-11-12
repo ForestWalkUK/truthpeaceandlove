@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.2"
+    date: 2026-11-12
+    note: "New section, “Why God’s will is best”, with three questions added (Q. 36 to Q. 38): why God’s will is better than our own, the temptation in Eden to be “as gods”, and the cross as the clearest proof that God’s will is good. Later questions renumbered. A heading, “Mark 11:24 in sum”, added before the summary question."
   - version: "2.1"
     date: 2026-11-12
     note: "Q. 36: the last line of the summary reworded, so that God grants what He is teaching His people most truly to desire, that His will be done rather than their own, giving the very thing asked for when it serves His wise and loving purposes; Romans 8:26-27 added to the references."
@@ -270,7 +273,29 @@ A. In glory. There, with hearts and wills made perfect, they will see that what 
 
 *Bible references: John 13:7; 1 Corinthians 13:12; Psalm 17:15.*
 
-**Q. 36. So what, in sum, does Mark 11:24 mean?**
+## Why God’s will is best
+
+**Q. 36. Why is it better that God’s will be done than our own?**
+
+A. Because God knows everything, and we know very little. We cannot see the future, or even the whole of the present, and we cannot always tell what would truly be good for us or for those we love. Nor are our hearts as trustworthy as we like to think: the Bible says they are deceitful above all things, and many things we long for would harm us if we had them. And even if we knew what was best, we would have no power to bring it about, for we cannot even save ourselves from our sin. God, by contrast, is infinitely wise, perfectly good and full of love; He sees the end from the beginning, and He works all things together for good to those who love Him. To insist on our own will rather than His is like a passenger snatching the wheel from a driver who knows every bend of the road ahead.
+
+*Bible references: Psalm 147:5; Isaiah 55:8-9; Jeremiah 17:9; Proverbs 14:12; Romans 5:6; Isaiah 46:9-10; Romans 8:28; Romans 11:33.*
+
+**Q. 37. Is it something new to want our own will rather than God’s?**
+
+A. No. It is the oldest temptation of all. In the garden of Eden the serpent promised the first man and woman, “ye shall be as gods”, if they would take what God had forbidden. They chose their own will over His, and sin, sorrow and death came into the world. Every attempt to make ourselves the centre and source of our own good follows the same path. True freedom and joy are found not in being our own gods, but in trusting the God who made us.
+
+*Bible references: Genesis 3:1-6; Romans 5:12; Jeremiah 10:23; Proverbs 3:5-7; John 8:36.*
+
+**Q. 38. Where can we see most clearly that God’s will is good?**
+
+A. At the cross. There God willed that His Son should suffer and die for sinners. To human eyes it looked like the worst thing that could ever happen; yet through it God gave His unspeakable gift: His own Son, who bore the full weight of divine wrath, so that all who trust in Him, though they were God’s enemies, might be rescued from the eternal wrath due to them. And if God did not spare His own Son, we can trust Him with everything else: “He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?”
+
+*Bible references: Isaiah 53:5-6, 10; Acts 2:23; Acts 4:27-28; 2 Corinthians 9:15; Romans 5:8-10; Romans 8:32.*
+
+## Mark 11:24 in sum
+
+**Q. 39. So what, in sum, does Mark 11:24 mean?**
 
 A. Jesus said, “Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive *them*, and ye shall have *them*.” Taken a phrase at a time, this is what He meant:
 
@@ -283,37 +308,37 @@ A. Jesus said, “Therefore I say unto you, What things soever ye desire, when y
 
 ## The good news
 
-**Q. 37. Who is Jesus?**
+**Q. 40. Who is Jesus?**
 
 A. Jesus is the eternal Son of God, who became a real man without ceasing to be God. He lived a perfect life, never once sinning, and He is the only Saviour of the world.
 
 *Bible references: John 1:1, 14; Colossians 2:9; Hebrews 4:15; Acts 4:12.*
 
-**Q. 38. What is our great need?**
+**Q. 41. What is our great need?**
 
 A. Every one of us has sinned against God, falling short of His glory and breaking His law in thought, word and deed. That law is summed up in the Ten Commandments. These sins spring from a sinful nature we have had from the very start of our lives, passed down from Adam, the first man. Our sin separates us from God, and the just penalty it deserves is death, and the eternal punishment of hell. We cannot put this right ourselves, nor change our own hearts.
 
 *Bible references: Romans 3:10, 23; Exodus 20:1-17; Psalm 51:5; Romans 5:12; Jeremiah 17:9; Isaiah 59:2; Romans 6:23; Galatians 3:10; Mark 9:43-49; Revelation 20:11-15.*
 
-**Q. 39. What has Jesus done about it?**
+**Q. 42. What has Jesus done about it?**
 
 A. Jesus died on the cross in the place of sinners, bearing the curse and punishment their sins deserved. Then God raised Him from the dead the third day, showing that the debt was paid in full.
 
 *Bible references: Galatians 3:13; 1 Peter 3:18; 1 Corinthians 15:3-4; Romans 4:25.*
 
-**Q. 40. How can I receive this salvation?**
+**Q. 43. How can I receive this salvation?**
 
 A. Salvation is God’s free gift, which cannot be earned. You receive it by turning from your sin and trusting in Jesus Christ alone. Whoever believes in Him will not perish, but have everlasting life.
 
 *Bible references: Mark 1:15; Acts 16:31; Ephesians 2:8-9; John 3:16; Romans 10:9-13.*
 
-**Q. 41. Will Jesus receive me, whatever I have done?**
+**Q. 44. Will Jesus receive me, whatever I have done?**
 
 A. Yes. Jesus promises, “Him that cometh to me I will in no wise cast out.” He invites all who are weary and burdened to come to Him for rest, and no sin is too great for His blood to cleanse.
 
 *Bible references: John 6:37; Matthew 11:28-30; Isaiah 1:18; 1 John 1:7-9; 1 Timothy 1:15.*
 
-**Q. 42. What should I do now?**
+**Q. 45. What should I do now?**
 
 A. Don’t put it off, for “behold, now *is* the accepted time; behold, now *is* the day of salvation.” Come to Christ today, and ask Him for mercy as the tax collector did: “God be merciful to me a sinner.” Read the Gospels to get to know Him, and search the Scriptures daily, asking His blessing on your reading and testing everything you hear by them, for not everyone who speaks in Christ’s name speaks His truth.
 
