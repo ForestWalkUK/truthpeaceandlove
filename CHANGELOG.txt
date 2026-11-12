@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 5.8 (12th November, A.D. 2026) - Space below the catechism explanation
+------------------------------------------------------------------------------
+Change: on the Believing Prayer catechism, the expandable "What does catechism mean?" line
+  at the top of the page now has a paragraph space (1em, the same as paragraphs) below it,
+  before the Important note. This is an inline style on the <details> tag for now; it is
+  temporary and should move into style.css when the faith-page styling is merged.
+Files changed: _includes/catechism-meaning.html, _config.yml, CHANGELOG.txt.
+
 Version 5.7 (12th November, A.D. 2026) - Optional include before the Important note
 -----------------------------------------------------------------------------------
 Change: blog posts can now show a short block at the top of the text, before the Important
