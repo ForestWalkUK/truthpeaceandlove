@@ -3,6 +3,9 @@ title: "Believing Prayer: A Catechism on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 changes:
+  - version: "2.4"
+    date: 2026-11-12
+    note: "Q. 38: those who trust in Christ rescued from their sins as well as from eternal wrath; Matthew 1:21 added to the references. Closing note: Q. 16’s borrowing of “the special rule” from the Westminster Shorter Catechism acknowledged."
   - version: "2.3"
     date: 2026-11-12
     note: "Q. 36 revised: our inability now runs from the least thing (one hair) to salvation, which lies infinitely beyond us; God’s infinite power and wisdom set side by side (Psalm 147:5); the illustration of the driver replaced by sailors rising up against their captain in a storm. Q. 37: true freedom explained as being what God made us to be, with the illustration of a fish out of water. References added to both. The Westminster Shorter Catechism acknowledged where Q. 37 quotes it."
@@ -292,9 +295,9 @@ A. No. It is the oldest temptation of all. In the garden of Eden the serpent pro
 
 **Q. 38. Where can we see most clearly that God’s will is good?**
 
-A. At the cross. There God willed that His Son should suffer and die for sinners. To human eyes it looked like the worst thing that could ever happen; yet through it God gave His unspeakable gift: His own Son, who bore the full weight of divine wrath, so that all who trust in Him, though they were God’s enemies, might be rescued from the eternal wrath due to them. And if God did not spare His own Son, we can trust Him with everything else: “He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?”
+A. At the cross. There God willed that His Son should suffer and die for sinners. To human eyes it looked like the worst thing that could ever happen; yet through it God gave His unspeakable gift: His own Son, who bore the full weight of divine wrath, so that all who trust in Him, though they were God’s enemies, might be rescued from their sins, and from the eternal wrath due to them. And if God did not spare His own Son, we can trust Him with everything else: “He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?”
 
-*Bible references: Isaiah 53:5-6, 10; Acts 2:23; Acts 4:27-28; 2 Corinthians 9:15; Romans 5:8-10; Romans 8:32.*
+*Bible references: Isaiah 53:5-6, 10; Matthew 1:21; Acts 2:23; Acts 4:27-28; 2 Corinthians 9:15; Romans 5:8-10; Romans 8:32.*
 
 ## Mark 11:24 in sum
 
@@ -361,4 +364,4 @@ Count the cost, for “if any *man* will come after me, let him deny himself, an
 
 ---
 
-*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the phrase-by-phrase paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. It has been through many revisions. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
+*A note on how this was written:* The central ideas in this catechism are my own: reading Mark 11:24 through Philippians 2:13, the phrase-by-phrase paraphrase of the verse, and the terms “presumptive optimism” and “presumptive pessimism”, and the answer to them, “confidence in God”. I chose its direction, scope and much of the Scripture, and have reviewed every answer. The wording of most questions and answers, and many of the Bible references, were drafted by Claude, an AI assistant made by Anthropic, at my request. It has been through many revisions. Q. 16 borrows the phrase “the special rule” from Q. 99 of the Westminster Shorter Catechism. As with anything you read, please test what is taught here by the Word of God (Isaiah 8:20; 1 Thessalonians 5:21). — Carl H
