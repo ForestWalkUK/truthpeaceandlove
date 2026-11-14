@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.6"
+    date: 2026-11-14
+    note: "Q. 27 rearranged, so that what God has promised and what He has not are treated in turn, with a sentence added on the time and manner of His answers to both. Q. 28: a sentence added on God sometimes granting what is asked wrongly, to the asker’s sorrow (Psalm 106:15). References added to both."
   - version: "3.5"
     date: 2026-11-14
     note: "The personal note in the explanation of the word “catechism” reworded."
@@ -238,13 +241,13 @@ This catechism is my attempt to explain the verse biblically, letting the events
 </details>
 <details class="head" id="q-27">
 <summary><h3><span class="para-no q-no">Q. 27.</span> Are there things that believers may be sure of receiving exactly as they ask?</h3></summary>
-<p>A. Yes. For the things God has expressly promised to all who trust Him, such as the forgiveness of their sins, His Holy Spirit, wisdom, and grace to follow Christ to the end, they may be sure of receiving the very thing they ask, for God cannot break His word. Other things, such as health, wealth or a particular outcome, God has not promised in particular, and these they ask with submission to His will, trusting Him to give either the thing itself or something better. Even for what is promised, faith does not pretend to have what it does not yet have. If a trustworthy friend promises to post you a parcel, you may be as sure of receiving it as if it were already on your doorstep; yet it would be self-deception to believe it is already in your hands. In the same way, believing prayer rests its certainty on God’s faithfulness, not on feeling that the answer has already come.</p>
-<p><em>Bible references: 1 John 1:9; Luke 11:13; James 1:5-6; Philippians 1:6; Numbers 23:19; Hebrews 6:17-18; 1 John 5:14-15; Matthew 6:33; Romans 8:24-25.</em></p>
+<p>A. Yes. For the things God has expressly promised to all who trust Him, such as the forgiveness of their sins, His Holy Spirit, wisdom, and grace to follow Christ to the end, they may be sure of receiving the very thing they ask, for God cannot break His word. Even so, faith does not pretend to have what it does not yet have. If a trustworthy friend promises to post you a parcel, you may be as sure of receiving it as if it were already on your doorstep; yet it would be self-deception to believe it is already in your hands. In the same way, believing prayer rests its certainty on God’s faithfulness, not on feeling that the answer has already come. Other things, such as health, wealth or a particular outcome, God has not promised in particular; these His people ask with submission to His will, trusting Him to give either the thing itself or something better. In every case, whether the thing is promised or not, God chooses the time and the manner of His answer. Sometimes He answers at once, as when He pardons sins truly confessed; sometimes He gives little by little, or only after long waiting, to exercise His people’s faith and patience, to draw them closer to Himself, and to make His gifts the sweeter when they come.</p>
+<p><em>Bible references: 1 John 1:9; Luke 11:13; James 1:5-6; Philippians 1:6; Numbers 23:19; Hebrews 6:17-18; 1 John 5:14-15; Matthew 6:33; Romans 8:24-25; James 1:3-4; Luke 18:7; Habakkuk 2:3.</em></p>
 </details>
 <details class="head" id="q-28">
 <summary><h3><span class="para-no q-no">Q. 28.</span> Why does God sometimes refuse what we ask?</h3></summary>
-<p>A. Sometimes it is because we have asked wrongly, misled by our own desires, by the world around us, or by the devil. But sometimes we have asked rightly, and God simply has a greater purpose than we can yet see.</p>
-<p><em>Bible references: James 4:3; Mark 8:33; 2 Corinthians 12:7-9; Deuteronomy 29:29.</em></p>
+<p>A. Sometimes it is because we have asked wrongly, misled by our own desires, by the world around us, or by the devil. Indeed, refusal can be a mercy: when people insist on what is not good for them, God sometimes gives it, but to their sorrow, as when Israel demanded flesh in the wilderness, and “he gave them their request; but sent leanness into their soul.” But sometimes we have asked rightly, and God simply has a greater purpose than we can yet see.</p>
+<p><em>Bible references: James 4:3; Psalm 106:15; Numbers 11:18-20, 33; Mark 8:33; 2 Corinthians 12:7-9; Deuteronomy 29:29.</em></p>
 </details>
 <details class="head" id="q-29">
 <summary><h3><span class="para-no q-no">Q. 29.</span> Does a Christian’s closeness to God make a difference?</h3></summary>
