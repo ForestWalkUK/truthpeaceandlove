@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.3"
+    date: 2026-11-14
+    note: "In the explanation of the word “catechism”, adults now mentioned before children."
   - version: "3.2"
     date: 2026-11-14
     note: "“Tried and tested” removed from the explanation of the word “catechism”."
