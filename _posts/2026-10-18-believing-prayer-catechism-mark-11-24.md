@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.2"
+    date: 2026-11-14
+    note: "“Tried and tested” removed from the explanation of the word “catechism”."
   - version: "3.1"
     date: 2026-11-14
     note: "The explanation of the word “catechism” reordered, so that it says first what a catechism is, then where the word comes from."
