@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.1"
+    date: 2026-11-14
+    note: "The explanation of the word “catechism” reordered, so that it says first what a catechism is, then where the word comes from."
   - version: "3.0"
     date: 2026-11-14
     note: "New question (Q. 27) distinguishing what God has expressly promised, which believers may be sure of receiving exactly as they ask, from what He has not, which they ask with submission to His will; with the illustration of a promised parcel. Later questions renumbered. Closing note: the comparison with Reformed, Puritan and Lutheran writers recorded."
