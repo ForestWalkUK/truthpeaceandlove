@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.5"
+    date: 2026-11-14
+    note: "The personal note in the explanation of the word “catechism” reworded."
   - version: "3.4"
     date: 2026-11-14
     note: "A personal note added to the explanation of the word “catechism”."
