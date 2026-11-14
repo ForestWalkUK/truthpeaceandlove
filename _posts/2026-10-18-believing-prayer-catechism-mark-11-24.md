@@ -4,6 +4,9 @@ sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "3.7"
+    date: 2026-11-14
+    note: "In the explanation of the word “catechism”, Luke 1:4 now shows that the Greek word behind “instructed” is katēcheō."
   - version: "3.6"
     date: 2026-11-14
     note: "Q. 27 rearranged, so that what God has promised and what He has not are treated in turn, with a sentence added on the time and manner of His answers to both. Q. 28: a sentence added on God sometimes granting what is asked wrongly, to the asker’s sorrow (Psalm 106:15). References added to both."
