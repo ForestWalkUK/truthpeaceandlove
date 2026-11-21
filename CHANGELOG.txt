@@ -5,6 +5,12 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.1 (21st November, A.D. 2026) - Custom domain
+-----------------------------------------------------
+Change: the site is connected to its own domain, truthpeace.love. A CNAME file was added at
+  the root, and in _config.yml baseurl is now empty and url is https://truthpeace.love. No page
+  content was changed.
+
 Version 6.0 (12th November, A.D. 2026) - Catechism accordions
 --------------------------------------------------------------
 Change: the Believing Prayer catechism now uses the TPL Accordion Style (the site's name,
