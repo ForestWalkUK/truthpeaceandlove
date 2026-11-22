@@ -3,7 +3,7 @@ lang: en-GB
 url: "https://truthpeace.love"
 baseurl: ""
 markdown: kramdown
-site_version: "6.1"
+site_version: "6.2"
 strapline: Found in Jesus Christ
 exclude:
   - README.md

@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.2 (22nd November, A.D. 2026) - Fix: LORD’S in small capitals
+---------------------------------------------------------------------
+Fix: the possessive LORD’S now has its ’S inside the small-capitals span, so that it is set in
+  small capitals like LORD itself (the straight-apostrophe form LORD'S is handled the same
+  way). LORD’s with a lower-case s is unchanged. The change is in _layouts/default.html; no
+  page content was changed.
+
 Version 6.1 (21st November, A.D. 2026) - Custom domain
 -----------------------------------------------------
 Change: the site is connected to its own domain, truthpeace.love. A CNAME file was added at
