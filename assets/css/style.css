@@ -261,6 +261,9 @@ details.head[open]>summary{margin-bottom:.4em}
 /* VerseClick: links and pop-ups follow the site theme, light and dark */
 .vcVerseLink{color:var(--ink)!important;border-bottom:1px dotted var(--ink);text-decoration:none!important;white-space:nowrap}
 .vcVerseLink:hover{border-bottom-style:solid}
+/* Scripture links on touch screens (v6.3), from assets/js/references.js */
+.ref-link{color:var(--ink);border-bottom:1px dotted var(--ink);text-decoration:none;white-space:nowrap}
+.ref-link:hover{border-bottom-style:solid}
 .vcPopupVerseText{background-color:var(--pop-bg)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important;line-height:1.5!important;padding:12px 16px!important}
 .vcPopupHeaderText{background-color:var(--pop-head)!important;color:var(--pop-text)!important;font-family:var(--serif)!important;font-size:var(--pop-size)!important}
 
@@ -274,7 +277,7 @@ details.head[open]>summary{margin-bottom:.4em}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}
   a{text-decoration:none}
-  .vcVerseLink{border-bottom:0}
+  .vcVerseLink,.ref-link{border-bottom:0}
   h1,h2,h3{break-after:avoid}
   p{orphans:3;widows:3}
 }

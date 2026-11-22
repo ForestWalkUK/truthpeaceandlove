@@ -89,7 +89,13 @@ var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k
 window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)H[k].open=was[k]});})();
 </script>
 {% unless page.verseclick == false %}
-<script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>
+{% comment %} v6.3: VerseClick only where there is a mouse (hover); touch screens get plain links from references.js. VerseClick's script and address are unchanged. It starts from window.onload, so it must be added while the page is still loading, as here. {% endcomment %}
+<script type="text/javascript">
+(function(){var s=document.createElement("script");s.type="text/javascript";
+var touch=window.matchMedia&&!window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+s.src=touch?"{{ '/assets/js/references.js' | relative_url }}?v={{ site.site_version }}":"https://av1611.com/verseclick/verseclick.js";
+document.body.appendChild(s)})();
+</script>
 {% endunless %}
 </body>
 </html>

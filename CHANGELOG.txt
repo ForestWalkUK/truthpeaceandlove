@@ -5,6 +5,17 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.3 (22nd November, A.D. 2026) - Fix: no pop-up warnings on phones
+---------------------------------------------------------------------------
+Fix: on Android Chrome, scrolling past a Scripture reference could trigger Chrome's blocked
+  pop-up warning, because VerseClick reacts to touch. VerseClick (script and address
+  unchanged) now loads only on devices with a mouse, where its hover pop-ups work. On touch
+  screens a new small script, assets/js/references.js, turns references into ordinary links
+  to Blue Letter Bible (KJV) that open in a new tab on a real tap, each with an aria-label for
+  screen readers. Pages with verseclick: false (the Gospels) have neither. _layouts/default.html
+  and assets/css/style.css changed; CLAUDE.md records the split and the Blue Letter Bible book
+  codes. No page content was changed.
+
 Version 6.2 (22nd November, A.D. 2026) - Fix: LORD’S in small capitals
 ---------------------------------------------------------------------
 Fix: the possessive LORD’S now has its ’S inside the small-capitals span, so that it is set in
