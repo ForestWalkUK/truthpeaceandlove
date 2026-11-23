@@ -3,13 +3,16 @@
 /* Typefaces (SIL Open Font Licence), self-hosted:
    Source Serif 4 for reading (assets/fonts/OFL.txt);
    Inter Extra Bold and Black Italic for hashtags and headings (assets/fonts/Inter-OFL.txt),
-   trimmed to Latin letters and punctuation. */
+   trimmed to Latin letters and punctuation;
+   Source Sans 3 Italic (400 and 700), for the chart labels on #thecut (assets/fonts/SourceSans3-OFL.txt). */
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-Semibold.woff2") format("woff2");font-weight:600 700;font-style:normal;font-display:swap}
 @font-face{font-family:"Source Serif 4";src:url("../fonts/SourceSerif4-SemiboldItalic.woff2") format("woff2");font-weight:600 700;font-style:italic;font-display:swap}
 @font-face{font-family:"Inter";src:url("../fonts/Inter-800-Italic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap}
 @font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-400-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-700-Italic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap}
 
 /* Colours. Dark is the default. The button in the masthead switches between two choices,
    remembered on the reader's device: dark and light. Since v2.5 they are mirror images:

@@ -5,6 +5,22 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.4 (23rd November, A.D. 2026) - New page: #thecut
+----------------------------------------------------------
+New: the interactive page #thecut (thecut.html, at /thecut/). The reader places their own
+  line on a chart of seven bands of people, from the best to the worst, then sees the chart
+  torn in two and God's line drawn down the middle (Matthew 25:32-33), followed by the
+  sections #truth, #nodifference, #fivepeople and #whichside. Its styles are in
+  assets/css/thecut.css and its script in assets/js/thecut.js, loaded only on that page.
+  Colours are the site's own variables, so the page follows the light/dark switch, and the
+  chart's type follows the text-size buttons. Added two self-hosted fonts, Source Sans 3
+  Italic 400 and 700 (SIL Open Font Licence, assets/fonts/SourceSans3-OFL.txt), declared in
+  style.css. _layouts/default.html now loads a page's own "css:" and "js:" files when its
+  front matter names them; other pages are unchanged. The page carries "date:" so that it
+  appears in #whatsnew, and it is a new door on the home page (the second one, after
+  #neverthought, in _data/sections.yml). A <noscript> line tells readers without JavaScript that the chart
+  needs it. No menu entry.
+
 Version 6.3 (22nd November, A.D. 2026) - Fix: no pop-up warnings on phones
 ---------------------------------------------------------------------------
 Fix: on Android Chrome, scrolling past a Scripture reference could trigger Chrome's blocked

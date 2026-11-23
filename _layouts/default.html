@@ -9,7 +9,8 @@
 <link rel="preload" href="{{ '/assets/fonts/SourceSerif4-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/Inter-900-Italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.site_version }}">
-</head>
+{% if page.css %}<link rel="stylesheet" href="{{ page.css | relative_url }}?v={{ site.site_version }}">
+{% endif %}</head>
 <body>
 <a class="skip" href="#main">Skip to the text</a>
 <header class="masthead wrap">
@@ -88,6 +89,8 @@ btn("open all","Open every section",true);btn("close all","Close every section",
 var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k<H.length;k++){was.push(H[k].open);H[k].open=true}});
 window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)H[k].open=was[k]});})();
 </script>
+{% if page.js %}<script src="{{ page.js | relative_url }}?v={{ site.site_version }}"></script>
+{% endif %}
 {% unless page.verseclick == false %}
 {% comment %} v6.3: VerseClick only where there is a mouse (hover); touch screens get plain links from references.js. VerseClick's script and address are unchanged. It starts from window.onload, so it must be added while the page is still loading, as here. {% endcomment %}
 <script type="text/javascript">
