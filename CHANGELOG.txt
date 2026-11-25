@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.6 (25th November, A.D. 2026) - Footer version line names the website
+---------------------------------------------------------------------------
+Change: the footer version line on every page now reads "Truth, Peace and Love Website
+  Version x.y | ©" instead of "Version x.y | ©", so that the number is not mistaken for the
+  version of the Gospel text or of other content above it. Changed in _layouts/default.html
+  only. The page-level version lines and change logs are unaffected.
+
 Version 6.5 (23rd November, A.D. 2026) - Fix: space under the #thecut version line
 -------------------------------------------------------------------------------
 Fix: on /thecut/ the "Version 1.0 · Updated ... · #changelog" line sat directly on the
