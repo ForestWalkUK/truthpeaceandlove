@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.7 (26th November, A.D. 2026) - Hashtag display headings in Knewave
+---------------------------------------------------------------------------
+Feature: hashtag display headings now set in Knewave (self-hosted), 400 weight,
+  no synthetic bold/italic; minimum 24px, smaller text stays Source Serif 4 / Source Sans.
+  Applies to the page hashtag titles (.tag-title), the section-list hashtags (.list-tag)
+  and the home-page door labels (.door-tag). Knewave is self-hosted (assets/fonts, OFL
+  licence included); the rule is in assets/css/style.css (--font-display).
+
 Version 6.6 (25th November, A.D. 2026) - Footer version line names the website
 ---------------------------------------------------------------------------
 Change: the footer version line on every page now reads "Truth, Peace and Love Website

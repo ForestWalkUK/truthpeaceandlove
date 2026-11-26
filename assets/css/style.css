@@ -13,6 +13,7 @@
 @font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-400-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-700-Italic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:"Knewave";src:url("../fonts/Knewave-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
 
 /* Colours. Dark is the default. The button in the masthead switches between two choices,
    remembered on the reader's device: dark and light. Since v2.5 they are mirror images:
@@ -23,6 +24,7 @@
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --display:"Inter","Helvetica Neue",Arial,sans-serif;
+  --font-display:"Knewave",var(--display);
   --paper:#252422;--ink:#dcd8cf;--muted:#a39e94;--gloss:#7f7b73;--rubric:#d98a78;
   --pop-bg:#302e2b;--pop-head:#3b3935;--pop-text:#dcd8cf;
   --hash:var(--ink);
@@ -207,6 +209,13 @@ sup{line-height:0}
   .list-tag.long{font-size:clamp(1.28rem,2.88vw,2.24rem)}
   .hash-heads h2{font-size:clamp(1.4rem,3.04vw,2.4rem)}
 }
+
+/* Knewave display headings (v6.7). Knewave has one style only (Regular 400), so weight, style and
+   synthesis are forced off. Never below 24px. Placed after the desktop block so it wins there. */
+.tag-title,.tag-title.long,.list-tag,.list-tag.long,.door-tag{
+  font-family:var(--font-display);font-weight:400;font-style:normal;letter-spacing:0;font-synthesis:none;line-height:1.05;word-spacing:0}
+.tag-title,.tag-title.long,.list-tag,.list-tag.long{font-size:clamp(34px,5vw,52px)}
+.door-tag{font-size:26px}
 .chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:0 1rem;margin:2rem 0 1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.05rem;font-variant-numeric:lining-nums}
 .chapter-nav.top{margin:.25rem 0 1.25rem}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
