@@ -2,6 +2,9 @@
 title: "Did Jesus Lose His Temper with a Fig Tree?"
 sections: [deeper]
 changes:
+  - version: "1.4"
+    date: 2026-11-26
+    note: "Under ‘A loving Saviour’ there is now a section you can open, explaining why Christians still ask God every day to forgive them, and who may take comfort from it."
   - version: "1.3"
     date: 2026-11-26
     note: "The note on how this article was written is a little shorter."
@@ -53,6 +56,15 @@ But look at the One who spoke the sentence. Only days before, as He came near to
 And He did far more than warn. He came to bear the curse Himself. “Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed *is* every one that hangeth on a tree” (Galatians 3:13). Within days of cursing a tree, He hung upon a tree, made a curse. He who was God manifest in the flesh bore in His soul and body the outpoured wrath of God against sin and sinners, in the place of all who would trust in Him.
 
 This is why it matters so much that He was not bad-tempered that morning. Every sin is a debt we owe to God (Matthew 6:12), and every one of us is bankrupt, with nothing to pay (Luke 7:42). Yet even if our debt were wiped out, we would only be back to nothing, and nothing is not enough to stand before a holy God. We need a perfect record of obedience to God, every moment of the life He has given us, and not one of us has it. Had the Lord Jesus sinned even once, He would have had a debt of His own to answer for, and no perfect record to give. But He never did. Conceived by the Holy Ghost, He never inherited Adam’s fallen nature. He “did no sin, neither was guile found in his mouth” (1 Peter 2:22). On the cross He paid in full the debt of all who would trust in Him. And His own perfect obedience, of infinite worth because He is the Son of God, is put to their account as well (2 Corinthians 5:21). So the moment you repent and believe, you pass once and for all from infinite debt to infinite credit, and there you stand for ever, because “though he was rich, yet for your sakes he became poor, that ye through his poverty might be rich” (2 Corinthians 8:9).
+
+<details class="explainer">
+<summary>If that is so, why do Christians still ask God every day to forgive them? <em>(tap or click to read)</em></summary>
+<p>Because God is both their Judge and their Father. As Judge, He justifies a sinner once and for all, the moment they believe: all their sins are pardoned, and no sin they commit afterwards can ever bring them back into condemnation. “<em>There is</em> therefore now no condemnation to them which are in Christ Jesus” (Romans 8:1), “For by one offering he hath perfected for ever them that are sanctified” (Hebrews 10:14).</p>
+<p>But those whom the Judge has pardoned He also takes into His family as His children, and children can still grieve their Father. When believers sin, they do not fall back under God’s wrath, but they do fall under their Father’s displeasure. He may correct them, “For whom the Lord loveth he chasteneth” (Hebrews 12:6), and for a time they may lose the sense of His smile and the joy of His presence, until they come back to Him humbled and confess their sin. So the Lord Jesus taught His disciples to pray every day, “And forgive us our debts, as we forgive our debtors” (Matthew 6:12). As the Puritan Thomas Watson put it in his exposition of the Lord’s Prayer, “We sin daily, and must ask for daily pardon as well as for daily bread.” And the promise still stands: “If we confess our sins, he is faithful and just to forgive us <em>our</em> sins, and to cleanse us from all unrighteousness” (1 John 1:9).</p>
+<p>King David shows the difference. After his great sin he did not pray to be saved all over again, but “Restore unto me the joy of thy salvation” (Psalm 51:12). The believer’s daily prayer for forgiveness is not a fresh plea to be justified. It is a child coming home to a Father who never stopped being their Father.</p>
+<p>This comfort belongs only to those who truly believe. Not everyone who professes faith has it. Some, like Simon the sorcerer, are baptised and keep company with God’s people for a time, yet were never His children (Acts 8:13, 21): “They went out from us, but they were not of us; for if they had been of us, they would <em>no doubt</em> have continued with us” (1 John 2:19). God’s children are known by this: when they sin, they come back to their Father, grieved and humbled. Anyone who can go on in sin without sorrow, and never return, has good reason to fear that they have never been His child at all (Hebrews 12:8). “Examine yourselves, whether ye be in the faith” (2 Corinthians 13:5).</p>
+<p>The Westminster Confession of Faith puts it this way: “God doth continue to forgive the sins of those that are justified; and, although they can never fall from the state of justification, yet they may, by their sins, fall under God’s fatherly displeasure, and not have the light of his countenance restored unto them, until they humble themselves, confess their sins, beg pardon, and renew their faith and repentance.” (Chapter 11, section 5)</p>
+</details>
 
 ## “Have faith in God”
 
