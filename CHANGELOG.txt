@@ -5,6 +5,18 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.5 (26th November, A.D. 2026) - #thecut: Simon the sorcerer; people in three columns
+---------------------------------------------------------------------------------------------
+Improvement: #thecut now shows six people from the Bible, not five. Simon the sorcerer
+  (Acts 8:18-23) is added as the third, after the rich young ruler and before the publican
+  (Good band, left of God's line), so on wide screens the left side is the top row and the
+  right side the bottom row. The heading (now #sixpeople) and the paragraph under it are
+  updated. His outcome tag sets the translators' supplied word "in" upright (a new
+  .dest em rule in thecut.css).
+Improvement: the people cards are set in at most three columns (they had four on wide
+  windows): the column minimum in thecut.css is now the larger of 280px and a third of the
+  width less the gaps (2 x 22px). Page change log 1.2.
+
 Version 7.4 (26th November, A.D. 2026) - #thecut: fuller title, phone intro, larger chart text
 ----------------------------------------------------------------------------------------------
 Improvement: #thecut has a fuller page title, "Where does God draw the line? Who goes to
