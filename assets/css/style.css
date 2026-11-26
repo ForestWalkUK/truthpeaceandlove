@@ -251,6 +251,9 @@ details.head[open]>summary::after{content:"\2212"}
 @media (hover:hover){details.head>summary:hover h3{text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.18em}}
 details.head[open]{padding-bottom:1.25em}
 details.head[open]>summary{margin-bottom:.4em}
+/* TPL Explainer (v7.1): an optional closed box inside an article or post: <details class="explainer"> with a plain question in its <summary>, ending "(tap or click to read)". Opens for printing (script in default.html). */
+details.explainer{margin:0 0 1em}
+details.explainer>summary{cursor:pointer}
 .accordion-controls{display:flex;flex-wrap:wrap;gap:.4rem}
 
 /* Footer */

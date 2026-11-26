@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.1 (26th November, A.D. 2026) - TPL Explainer boxes
+-------------------------------------------------------------
+Feature: TPL Explainer, an optional closed box ("tap or click to read") for detail
+  inside articles and posts: details.explainer in style.css, opened for printing by a
+  small script in default.html, rules in CLAUDE.md.
+Improvement: the "What is a catechism?" box on the Believing Prayer catechism now uses
+  it. Its temporary inline styles are gone; it looks the same.
+
 Version 7.0 (26th November, A.D. 2026) - Less space above headings in articles and posts
 -------------------------------------------------------------------------------------
 Improvement: the space above section headings in the reading text reduced by about 40%
