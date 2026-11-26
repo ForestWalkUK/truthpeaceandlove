@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.6 (26th November, A.D. 2026) - Drop capitals for second openings and My Story
+---------------------------------------------------------------------------------------
+Improvement: a paragraph can be marked as an opening paragraph by hand with class
+  "opener" ({: .opener} on the line under it in Markdown), and then gets the same drop
+  capital and small-capital first line as an automatic one (style.css selectors widened
+  with :is()). Used on the Halloween post's full article, and on My Story's short
+  version and longer account (My Story's layout has no automatic drop capital).
+
 Version 7.5 (26th November, A.D. 2026) - #thecut: Simon the sorcerer; people in three columns
 ---------------------------------------------------------------------------------------------
 Improvement: #thecut now shows six people from the Bible, not five. Simon the sorcerer

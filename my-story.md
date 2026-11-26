@@ -13,6 +13,7 @@ By Carl Hamblin
 [Read the longer account](#the-longer-account)
 
 From my earliest memories I believed that God existed. I was taken to church as a child, baptised aged seven, and compelled to attend weekly; as soon as I was able, I stopped. Twice, as a boy and again at about thirteen, I made a commitment to Christ, but each time it was soon abandoned.
+{: .opener}
 
 Through my teens and twenties I sought happiness, fulfilment and meaning through work, relationships, music and hobbies, and always ended up empty. I became a regular binge-drinker and a drunkard, and took illegal drugs. I had some surprising career success as an advertising art director and graphic designer in the video game industry, but it only heightened my disillusionment. On a work exchange in San Francisco, I sat on my lunch break with my head in my hands, thinking, ‘Is this it? Is this all there is?’ I began to realise that I was powerfully enslaved to my sins.
 
@@ -40,6 +41,7 @@ Carl Hamblin
 ### Testimony of salvation from sin by the Lord Jesus Christ on 14th May 2004
 
 I instinctively believed in the existence of God, from my earliest memories. I was taken to church as a child, baptised aged 7, and compelled to attend weekly. As soon as I was able however, I stopped going. Whilst I did get some strange comfort in attending, with a certain amount of pride in doing so, I mostly found it boring and irrelevant. I remember finding it strange and confusing that the things of God were not spoken of once out of the worship service. I’d also attended various Christian youth groups, and, on a camping trip had made a commitment to Christ at a young age, but it was quickly forgotten about. Likewise, aged about 13 at a local evangelistic event in the 1980s where Billy Graham was preaching, I was emotionally impacted, stood up, went forward to the front of the large packed church, making a commitment to Christ in prayer, but my profession was, I regret to say, soon abandoned.
+{: .opener}
 
 Years drifted by throughout my teenage years and progressively disillusioned twenties, trying to seek happiness, fulfilment and meaning through work, relationships, music, hobbies—but always ending up back to square one, empty. I became a regular binge-drinker and drunkard. I got into the rave scene and took various illegal drugs.
 
