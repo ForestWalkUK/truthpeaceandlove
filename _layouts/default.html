@@ -90,6 +90,8 @@ var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k
 window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)H[k].open=was[k]});})();
 /* TPL Explainer (v7.1): explainer boxes open for printing and close again afterwards. */
 (function(){var E=document.querySelectorAll("details.explainer");if(!E.length)return;var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k<E.length;k++){was.push(E[k].open);E[k].open=true}});window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)E[k].open=was[k]})})();
+/* TPL Drop cap (v7.7): when the first word of a drop-capital paragraph is a single letter (I, A), add class "drop-word" so that style.css can double the gap after the capital. Same selector as the TPL Drop cap CSS. */
+(function(){try{var P=document.querySelectorAll('.drop>p:not(.standing-note):not(p:not(.standing-note)~p),.prose p.opener');for(var k=0;k<P.length;k++)if(/^[A-Za-z]\s/.test(P[k].textContent.trim()))P[k].classList.add("drop-word")}catch(e){}})();
 </script>
 {% if page.js %}<script src="{{ page.js | relative_url }}?v={{ site.site_version }}"></script>
 {% endif %}

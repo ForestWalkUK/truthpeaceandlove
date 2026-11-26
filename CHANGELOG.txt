@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.7 (26th November, A.D. 2026) - Drop capital: more space after a one-letter first word
+-----------------------------------------------------------------------------------------------
+Improvement: when a drop-capital paragraph begins with a one-letter word (I, A), the gap
+  after the capital is doubled (0.27em to 0.54em where the browser has initial-letter;
+  0.08em to 0.16em in the float fallback), so that "I instinctively" no longer reads as
+  one word. A small script in default.html adds class "drop-word" to such paragraphs
+  (same selector as the TPL Drop cap CSS); style.css does the rest.
+
 Version 7.6 (26th November, A.D. 2026) - Drop capitals for second openings and My Story
 ---------------------------------------------------------------------------------------
 Improvement: a paragraph can be marked as an opening paragraph by hand with class
