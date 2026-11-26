@@ -71,17 +71,23 @@ main > .thecut{max-width:none}
 .thecut .after .btns{margin:0}.thecut .after .btns:first-child{justify-content:flex-end}
 .thecut .edge{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}.thecut .edge path{fill:none;stroke:var(--ink);stroke-width:3}
 
-/* The six people */
+/* #twosides: the six people in two groups, left of God's line (#cardsL) and right (#cardsR) */
+.thecut .later h3.group{margin:1em 0 0;font:700 italic calc(22px*var(--s))/1.25 "Source Sans 3",sans-serif}
+.thecut .later .cards+h3.group{margin-top:2.2em}
 .thecut .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,max(280px,calc((100% - 44px)/3))),1fr));gap:22px;margin-top:16px}
 .thecut .card{border-top:2px solid var(--ink);padding-top:12px;display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:0;align-content:start}
-.thecut .card>*{align-self:start}.thecut .card .dest{justify-self:start}
-.thecut .card h3{margin:0 0 2px;font:700 italic calc(21px*var(--s)) "Source Sans 3",sans-serif}
-.thecut .card .where{font:400 italic calc(15.5px*var(--s)) "Source Sans 3",sans-serif;margin:0 0 6px}
+.thecut .card>*{align-self:start}
+/* name, the two label lines and the note line up across a row; the quotation and its tag (.qt) follow their own length */
+.thecut .card .qt .dest{display:block;width:fit-content;max-width:100%;box-sizing:border-box}
+.thecut .card h4{margin:0 0 2px;font:700 italic calc(21px*var(--s)) "Source Sans 3",sans-serif}
+.thecut .card .rank,.thecut .card .side{font:400 italic calc(15.5px*var(--s)) "Source Sans 3",sans-serif;margin:0}
+.thecut .card .rank b{font-weight:700}
+.thecut .card .side{margin:2px 0 6px}
 .thecut .dest{display:inline-block;margin:0 0 10px!important;padding:3px 12px;background:var(--ink);color:var(--paper);font:700 italic calc(16px*var(--s))/1.3 "Source Sans 3",sans-serif}
 .thecut .dest em{font-style:normal}
 .thecut .dest a,.thecut .stamp a{color:inherit!important}
 .thecut .deck-narrow{display:none}
 
 @media(max-width:820px){.thecut .stage{grid-template-columns:minmax(0,1fr)}.thecut .panel{display:flex;flex-direction:column}.thecut .panel .btns{order:-1;margin:0 0 16px}.thecut .deck-wide{display:none}.thecut .deck-narrow{display:block}.thecut .panel .intro{display:none}}
-@media(max-width:520px){.thecut .lab{padding:8px 8px}.thecut .lab b{font-size:calc(21.25px*var(--s))}.thecut .lab span{font-size:calc(17.5px*var(--s))}.thecut .stamp{font-size:calc(15px*var(--s));padding:6px}.thecut .stamp.small{font-size:calc(13.5px*var(--s));padding:3px 9px}.thecut .foot{font-size:.8em}.thecut .panel{padding-left:14px}}
+@media(max-width:520px){.thecut .lab{padding:8px 8px}.thecut .lab b{font-size:calc(21.25px*var(--s))}.thecut .lab span{font-size:calc(17.5px*var(--s))}.thecut .stamp{font-size:calc(15px*var(--s));padding:6px}.thecut .stamp.small{font-size:calc(13.5px*var(--s));padding:3px 9px}.thecut .foot{font-size:.8em}.thecut .panel{padding-left:14px}.thecut .later h3.group{font-size:calc(19.5px*var(--s))}}
 @media(prefers-reduced-motion:reduce){.thecut *{transition:none!important}}
