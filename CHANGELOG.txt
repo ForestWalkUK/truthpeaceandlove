@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.0 (26th November, A.D. 2026) - Less space above headings in articles and posts
+-------------------------------------------------------------------------------------
+Improvement: the space above section headings in the reading text reduced by about 40%
+  (.prose h2 top margin 2em -> max(1.2em, 2.75rem), written as .prose > h2 so that accordion
+  headings and the #changelog heading are not touched). The 2.75rem minimum keeps phones
+  at roughly twice the paragraph gap above a heading. Paragraph spacing unchanged.
+
 Version 6.9 (26th November, A.D. 2026) - Headings back to the v6.6 design
 ---------------------------------------------------------------------------
 Revert: the Knewave heading changes of v6.7 and v6.8 are undone on the live site; the
