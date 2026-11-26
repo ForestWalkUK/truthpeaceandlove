@@ -30,6 +30,7 @@ section: deeper
 order: 1
 date: 2026-11-06
 permalink: /deeper/sorrowandjoy/
+dropcap: false
 ---
 <p><em>All Scripture quotations are from the Authorised (King James) Version. Words in italics are those supplied by the translators.</em></p>
 <hr>

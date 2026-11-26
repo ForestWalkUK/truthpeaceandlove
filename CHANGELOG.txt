@@ -5,6 +5,16 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.2 (26th November, A.D. 2026) - Drop capitals; explainer text set apart
+--------------------------------------------------------------------------------
+Feature: the first paragraph of every post and article opens with a two-line drop
+  capital in Source Serif 4 (the reading face, in ink), with the rest of the first
+  line in small capitals. Uses initial-letter where the browser has it, a matching
+  float elsewhere. "dropcap: false" in the front matter turns it off; set on the
+  Confession concerning Sorrow, whose first paragraph is its Authorised Version note.
+Improvement: text inside TPL Explainer boxes is indented (2.5em; 1em on phones) with a
+  thin grey rule down its left, to set it apart from the main text.
+
 Version 7.1 (26th November, A.D. 2026) - TPL Explainer boxes
 -------------------------------------------------------------
 Feature: TPL Explainer, an optional closed box ("tap or click to read") for detail

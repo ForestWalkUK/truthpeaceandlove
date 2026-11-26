@@ -7,7 +7,7 @@ layout: default
 <p class="post-date">{{ page.date | date: "%-d %B %Y" }}</p>
 {% include version-line.html %}
 </header>
-<div class="prose post-content">
+<div class="prose post-content{% unless page.dropcap == false %} drop{% endunless %}">
 {% if page.before_note %}{% include {{ page.before_note }} %}{% endif -%}
 {% include standing-note.html %}
 {% capture img_src %}src="{{ site.baseurl }}/assets/{% endcapture %}
