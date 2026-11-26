@@ -4,13 +4,13 @@ sections: [deeper]
 changes:
   - version: "1.1"
     date: 2026-11-26
-    note: "The opening now says plainly what the Bible records, and Mark’s account of the fig tree is set out as a quotation before the first heading. No other wording changed."
+    note: "The opening now says plainly what the Bible records and describes more exactly what troubled the author, speaking of his own impatience rather than everyone’s; and Mark’s account of the fig tree is set out as a quotation before the first heading."
   - version: "1.0"
     date: 2026-11-26
     note: "First published."
 ---
 
-More than twenty years ago, I read in the Bible that Jesus once cursed a fig tree, because He was hungry and it had no fruit on it. I was shocked. Surely the meek and gentle Jesus would not act in such a petulant, bad-tempered way, and in front of His disciples too, set down on the public record for all the world to see! Isn’t that just the kind of thing we know all too well from our own flashes of temper when things don’t go our way? “Surely there must be some mistake here,” I thought. I’m very pleased to tell you there was indeed a mistake, but the mistake was mine, not the Bible’s. If you have ever felt the same, let me show you what I came to see.
+More than twenty years ago, I read in the Bible that Jesus once cursed a fig tree, because He was hungry and it had no fruit on it. I was shocked. Surely the meek and gentle Jesus would not act in such a petulant, bad-tempered way, and in front of His disciples too, set down on the public record for all the world to see! Isn’t that just the kind of impatience I know only too well in myself when things don’t go my way? It troubled me that the Bible itself seemed to record something that reflected badly on Him. I’m very pleased to tell you that the fault lay not with Jesus, nor with the Bible, but with my own understanding. If you have ever felt the same, let me show you what I came to see.
 
 Here is the account, as Mark records it:
 
