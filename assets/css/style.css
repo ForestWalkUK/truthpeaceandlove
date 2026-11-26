@@ -64,18 +64,18 @@ main > .page-head,main > .hero,main > .doors-block,main > .more,main > .post{max
 .reader-controls{order:3;display:flex;gap:.4rem}
 .menu{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;column-gap:1.1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.15rem;letter-spacing:-.02em;font-variant-numeric:normal}
 .menu a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:3px solid transparent}
-.menu a:hover{border-bottom-color:var(--ink)}
+@media (hover:hover){.menu a:hover{border-bottom-color:var(--ink)}}
 .menu a[aria-current]{border-bottom-color:var(--rubric)}
 .ctl{flex:0 0 auto;min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0 .7rem;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);cursor:pointer;font-family:var(--display);font-weight:800;font-style:italic;font-size:1rem;letter-spacing:-.02em}
 .ctl[hidden]{display:none}
-.ctl:hover{background:var(--ink);color:var(--paper)}
-.ctl:hover .hash{color:var(--paper)}
+/* Colour-swapping :hover rules sit inside @media (hover:hover) (v7.9), so a tap on a touch screen does not leave the swapped colours stuck. */
+@media (hover:hover){.ctl:hover{background:var(--ink);color:var(--paper)}.ctl:hover .hash{color:var(--paper)}}
 /* Text size buttons (v3.3): square, beside #dark/#light. At the smallest or largest size the
    button fades and does nothing. */
 .size-btn{width:44px;padding:0}
 .size-btn svg{display:block}
 .size-btn[aria-disabled="true"]{opacity:.35;cursor:default}
-.size-btn[aria-disabled="true"]:hover{background:transparent;color:var(--ink)}
+@media (hover:hover){.size-btn[aria-disabled="true"]:hover{background:transparent;color:var(--ink)}}
 @media (max-width:52em){
   .reader-controls{order:2;margin-left:auto}
   .masthead nav{order:3;margin-left:0;flex-basis:100%}
@@ -160,7 +160,7 @@ body{overflow-x:clip}
    z-index 4: above the #thecut reveal (line 2, roundel 3), below the skip link (5); VerseClick pop-ups (99999) stay on top of it. */
 .float-top{position:fixed;right:calc(1rem + env(safe-area-inset-right,0px));bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:4;width:44px;height:44px;padding:0;display:flex;align-items:center;justify-content:center;border:2px solid var(--ink);border-radius:0;background:var(--ink);color:var(--paper);cursor:pointer}
 .float-top[hidden]{display:none}
-.float-top:hover{background:var(--paper);color:var(--ink)}
+@media (hover:hover){.float-top:hover{background:var(--paper);color:var(--ink)}}
 .float-top svg{display:block}
 /* The AI note at the foot of every page (v2.3): quiet, but readable and kept in print. */
 .ai-note{max-width:34em;margin:clamp(3rem,6vw,4.5rem) 0 0;font-style:italic;font-size:.92em;line-height:1.5;color:var(--muted)}
@@ -203,7 +203,7 @@ sup{line-height:0}
 .chapter-list,.book-list{list-style:none;padding:0;margin:1.25rem 0}
 .chapter-list{display:flex;flex-wrap:wrap;gap:.5rem}
 .chapter-list a{display:inline-block;min-width:3rem;min-height:3rem;line-height:calc(3rem - 4px);text-align:center;border:2px solid var(--ink);text-decoration:none;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.1rem;font-variant-numeric:lining-nums tabular-nums}
-.chapter-list a:hover{background:var(--ink);color:var(--paper)}
+@media (hover:hover){.chapter-list a:hover{background:var(--ink);color:var(--paper)}}
 .book-list{border-top:6px solid var(--ink)}
 .book-list li{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:0 1rem;padding:.9rem 0;border-bottom:2px solid var(--ink)}
 .book-list li:last-child{border-bottom-width:6px}

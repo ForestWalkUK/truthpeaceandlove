@@ -5,6 +5,16 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.9 (26th November, A.D. 2026) - Hover colours only on devices that can hover
+-------------------------------------------------------------------------------------
+Fix: hover colour swaps no longer stick on touch screens after a tap. On a phone, a tapped
+  element kept its :hover style until the next tap, so the floating up button stayed
+  paper-coloured after use. The colour-swapping hover rules (.ctl and its #, the size
+  buttons' disabled state, .float-top, the chapter-number links and the menu's
+  bottom-border colour) are now inside
+  @media (hover:hover), declarations unchanged. Underline-only hover rules and the
+  :focus-visible styles are untouched.
+
 Version 7.8 (26th November, A.D. 2026) - Back to #top and a floating up button; #thecut two sides
 ------------------------------------------------------------------------------------------------
 New: every page now ends with a "Back to #top" link (in default.html, after the AI note),
