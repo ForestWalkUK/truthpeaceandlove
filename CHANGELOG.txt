@@ -5,6 +5,13 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.9 (26th November, A.D. 2026) - Headings back to the v6.6 design
+---------------------------------------------------------------------------
+Revert: the Knewave heading changes of v6.7 and v6.8 are undone on the live site; the
+  headings, sizes and fonts are as they were in v6.6, and the self-hosted Knewave files
+  are removed from the live site. The Knewave work continues on the local branch
+  offline-dev/knewave and will come back in a later version once it is ready.
+
 Version 6.8 (26th November, A.D. 2026) - Knewave on every heading of 24px or more
 ------------------------------------------------------------------------------
 Fix and feature: Knewave now on every heading of 24px or more, including the home

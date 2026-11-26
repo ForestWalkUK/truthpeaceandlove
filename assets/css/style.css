@@ -13,7 +13,6 @@
 @font-face{font-family:"Inter";src:url("../fonts/Inter-900-Italic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-400-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Sans 3";src:url("../fonts/SourceSans3-700-Italic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap}
-@font-face{font-family:"Knewave";src:url("../fonts/Knewave-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
 
 /* Colours. Dark is the default. The button in the masthead switches between two choices,
    remembered on the reader's device: dark and light. Since v2.5 they are mirror images:
@@ -24,7 +23,6 @@
   --pop-size:1.10rem;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --display:"Inter","Helvetica Neue",Arial,sans-serif;
-  --font-display:"Knewave",var(--display);
   --paper:#252422;--ink:#dcd8cf;--muted:#a39e94;--gloss:#7f7b73;--rubric:#d98a78;
   --pop-bg:#302e2b;--pop-head:#3b3935;--pop-text:#dcd8cf;
   --hash:var(--ink);
@@ -119,9 +117,9 @@ body{overflow-x:clip}
 .whatsnew-h{margin:0 0 .75rem;font-weight:900;font-size:clamp(1.9rem,4.4vw,3.4rem);line-height:1;letter-spacing:-.045em}
 .whatsnew .list-big{border-top-width:2px}
 .whatsnew .list-big li:last-child{border-bottom-width:2px}
-.whatsnew .list-title{font-size:max(24px,clamp(1.25rem,2.4vw,1.8rem))}
+.whatsnew .list-title{font-size:clamp(1.25rem,2.4vw,1.8rem)}
 .doors-block{margin-top:clamp(3.5rem,8vw,6.5rem)}
-.doors-h{margin:0 0 1.25rem;font-weight:800;font-size:max(24px,clamp(1.4rem,2.6vw,2.2rem));letter-spacing:-.03em;line-height:1.1}
+.doors-h{margin:0 0 1.25rem;font-weight:800;font-size:clamp(1.4rem,2.6vw,2.2rem);letter-spacing:-.03em;line-height:1.1}
 .doors,.list-big{list-style:none;margin:0;padding:0;border-top:6px solid var(--ink)}
 .doors li,.list-big li{border-bottom:2px solid var(--ink)}
 .doors li:last-child,.list-big li:last-child{border-bottom-width:6px}
@@ -136,10 +134,10 @@ body{overflow-x:clip}
 /* Lists of pages in a section, and the blog */
 .list-tag{flex:1 1 26rem;min-width:0;font-weight:900;font-size:clamp(1.9rem,4.4vw,3.4rem);line-height:1;letter-spacing:-.045em;overflow-wrap:anywhere}
 .list-tag.long{font-size:clamp(1.6rem,3.6vw,2.8rem)}
-.list-title{flex:1 1 100%;font-weight:900;font-size:max(24px,clamp(1.45rem,3vw,2.3rem));line-height:1.05;letter-spacing:-.035em}
+.list-title{flex:1 1 100%;font-weight:900;font-size:clamp(1.45rem,3vw,2.3rem);line-height:1.05;letter-spacing:-.035em}
 .prose .list-big{margin:1.5rem 0}
 .more{margin-top:clamp(3.5rem,7vw,6rem)}
-.more-h{margin:0 0 .75rem;font-weight:800;font-size:max(24px,clamp(1.2rem,2vw,1.6rem));letter-spacing:-.02em;color:var(--ink)}
+.more-h{margin:0 0 .75rem;font-weight:800;font-size:clamp(1.2rem,2vw,1.6rem);letter-spacing:-.02em;color:var(--ink)}
 .more-h a{color:var(--ink);text-decoration:none}
 .more-h a:hover{text-decoration:underline}
 .empty{max-width:34em;margin-top:2rem}
@@ -206,18 +204,9 @@ sup{line-height:0}
   .tag-title.long{font-size:clamp(1.76rem,6.4vw,5.76rem)}
   .door-tag{font-size:clamp(1.76rem,5.6vw,4.8rem)}
   .list-tag,.whatsnew-h{font-size:clamp(1.52rem,3.52vw,2.72rem)}
-  .list-tag.long{font-size:max(24px,clamp(1.28rem,2.88vw,2.24rem))}
-  .hash-heads h2{font-size:max(24px,clamp(1.4rem,3.04vw,2.4rem))}
+  .list-tag.long{font-size:clamp(1.28rem,2.88vw,2.24rem)}
+  .hash-heads h2{font-size:clamp(1.4rem,3.04vw,2.4rem)}
 }
-
-/* Knewave display headings (v6.8): every heading that can be 24px or more. Knewave has one style only
-   (Regular 400), so weight, style and synthesis are forced off, and the Inter letter-spacing is reset.
-   Accordion headings (details > summary), prose h3, the wordmark and small text are not included.
-   Anything that could fall under 24px is floored with max(24px, ...) in its own size rule above. */
-h1,:not(summary)>h2,.hero-title,.tag-title,.tag-title.long,.door-tag,.list-tag,.list-tag.long,.list-title,.doors-h,.whatsnew-h,.more-h,.book-list a{
-  font-family:var(--font-display);font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
-/* Knewave has descenders (g, y, p): line-height under 1 becomes 1.05 */
-h1,.hero-title,.tag-title,.tag-title.long,.door-tag,.post-head .post-title{line-height:1.05}
 .chapter-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:0 1rem;margin:2rem 0 1rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.05rem;font-variant-numeric:lining-nums}
 .chapter-nav.top{margin:.25rem 0 1.25rem}
 .chapter-nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
