@@ -2,6 +2,9 @@
 title: "Did Jesus Lose His Temper with a Fig Tree?"
 sections: [deeper]
 changes:
+  - version: "1.3"
+    date: 2026-11-26
+    note: "The note on how this article was written is a little shorter."
   - version: "1.2"
     date: 2026-11-26
     note: "Under ‘Look closer’ there is now a section you can open, showing how we know that the fig tree and the temple explain each other. Near the end, the picture of a gun is replaced by the sword of God’s justice (Zechariah 13:7), and the passage on prayer now says how God answers, in line with the catechism. A few other sentences are clearer or more exact, including the verse given for the Lord’s resurrection."
@@ -73,4 +76,4 @@ The One who cursed the fig tree, and then hung upon a tree, rose again and is al
 
 ## How this article was written
 
-Carl H wrote the first draft of this article himself, without AI help, and planned what it should say. Claude, an AI assistant made by Anthropic, helped him shorten and reorder it, drafted much of the present wording under his direction, and checked every Scripture quotation against the Authorised Version. Carl H then went through it line by line and chose every change.
+Carl H wrote the first draft of this article himself, and planned what it should say. Claude, an AI assistant made by Anthropic, helped him shorten and reorder it, drafted much of the present wording under his direction, and checked every Scripture quotation against the Authorised Version. Carl H then went through it line by line and chose every change.
