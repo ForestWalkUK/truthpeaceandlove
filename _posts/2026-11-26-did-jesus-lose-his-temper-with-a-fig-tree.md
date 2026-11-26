@@ -2,16 +2,21 @@
 title: "Did Jesus Lose His Temper with a Fig Tree?"
 sections: [deeper]
 changes:
+  - version: "1.1"
+    date: 2026-11-26
+    note: "The opening now says plainly what the Bible records, and Mark’s account of the fig tree is set out as a quotation before the first heading. No other wording changed."
   - version: "1.0"
     date: 2026-11-26
     note: "First published."
 ---
 
-When I first read this passage over twenty years ago, I was shocked. Jesus cursing a tree because He was hungry and it had no fruit on it? Surely the meek and gentle Jesus would not act in such a petulant, bad-tempered way, and in front of His disciples too, set down on the public record in the Bible for all the world to see! Isn’t that just the kind of thing we know all too well from our own flashes of temper when things don’t go our way? “Surely there must be some mistake here,” I thought. I’m very pleased to tell you there was indeed a mistake, but the mistake was mine, not the Bible’s. If you have ever felt the same, let me show you what I came to see.
+More than twenty years ago, I read in the Bible that Jesus once cursed a fig tree, because He was hungry and it had no fruit on it. I was shocked. Surely the meek and gentle Jesus would not act in such a petulant, bad-tempered way, and in front of His disciples too, set down on the public record for all the world to see! Isn’t that just the kind of thing we know all too well from our own flashes of temper when things don’t go our way? “Surely there must be some mistake here,” I thought. I’m very pleased to tell you there was indeed a mistake, but the mistake was mine, not the Bible’s. If you have ever felt the same, let me show you what I came to see.
+
+Here is the account, as Mark records it:
+
+> “And on the morrow, when they were come from Bethany, he was hungry: And seeing a fig tree afar off having leaves, he came, if haply he might find any thing thereon: and when he came to it, he found nothing but leaves; for the time of figs was not *yet*. And Jesus answered and said unto it, No man eat fruit of thee hereafter for ever. And his disciples heard *it*.” (Mark 11:12-14)
 
 ## Look closer
-
-“And on the morrow, when they were come from Bethany, he was hungry: And seeing a fig tree afar off having leaves, he came, if haply he might find any thing thereon: and when he came to it, he found nothing but leaves; for the time of figs was not *yet*. And Jesus answered and said unto it, No man eat fruit of thee hereafter for ever. And his disciples heard *it*.” (Mark 11:12-14)
 
 His hunger was real. He is truly man as well as truly God, and He “was in all points tempted like as *we are, yet* without sin” (Hebrews 4:15). Hunger is no sin. But this is the One who twice fed thousands in the wilderness from a few loaves and fishes. When His disciples once urged Him, “Master, eat”, He answered, “My meat is to do the will of him that sent me, and to finish his work.” (John 4:31, 34). Whatever He was doing at the fig tree, He was not sulking over a missed breakfast.
 
