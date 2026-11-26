@@ -5,6 +5,14 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.3 (26th November, A.D. 2026) - "Posted by" byline
+-------------------------------------------------------------
+Feature: a "Posted by Carl H" line under the title of every post (after the date) and
+  every article (_includes/byline.html). "Posted by" rather than "By", so that it
+  does not claim sole authorship; each piece's own note says who wrote what.
+  "posted_by:" in the front matter changes the name; "byline: false" turns it off.
+  Pages such as My Story, Notes and the section pages have no byline.
+
 Version 7.2 (26th November, A.D. 2026) - Drop capitals; explainer text set apart
 --------------------------------------------------------------------------------
 Feature: the first paragraph of every post and article opens with a two-line drop

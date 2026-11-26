@@ -2,7 +2,7 @@
 layout: default
 ---
 {% comment %} An article inside a section. In the text, "## words" becomes a hashtag sub-heading (#words). {% endcomment %}
-{% include page-head.html %}
+{% include page-head.html byline=true %}
 <div class="prose hash-heads{% unless page.dropcap == false %} drop{% endunless %}">
 {% include standing-note.html %}
 {{ content }}

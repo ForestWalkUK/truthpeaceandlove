@@ -1,0 +1,2 @@
+{% comment %} "Posted by" line under the title of posts and articles (v7.3). The name comes from "posted_by" in the front matter, default "Carl H"; "byline: false" turns the line off. "Posted by" says who put the piece on the site, not who wrote every word: each piece's own note says that. {% endcomment %}
+{% unless page.byline == false %}<p class="byline">Posted by {{ page.posted_by | default: "Carl H" }}</p>{% endunless %}
