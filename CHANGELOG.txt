@@ -5,6 +5,18 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 6.8 (26th November, A.D. 2026) - Knewave on every heading of 24px or more
+------------------------------------------------------------------------------
+Fix and feature: Knewave now on every heading of 24px or more, including the home
+  title. Restored the earlier heading sizes that v6.7 shrank (door labels had been fixed
+  at 26px, page hashtag titles capped at 52px).
+  Knewave never below 24px; letter-spacing reset to 0.
+  Diagnosis: no overriding rule was found. On the live site (v6.7) the computed font of
+  .tag-title was already Knewave; the likeliest cause is a stylesheet cached on the
+  reader's device, which the version number in the stylesheet address (now ?v=6.8) refreshes.
+  Headings that could fall under 24px are floored with max(24px, ...). Left as they were:
+  the accordion headings, prose h3, the wordmark and small text.
+
 Version 6.7 (26th November, A.D. 2026) - Hashtag display headings in Knewave
 ---------------------------------------------------------------------------
 Feature: hashtag display headings now set in Knewave (self-hosted), 400 weight,
