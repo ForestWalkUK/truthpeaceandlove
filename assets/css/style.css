@@ -151,6 +151,17 @@ body{overflow-x:clip}
 .back{margin-top:3rem;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.3rem}
 .back a{text-decoration:none}
 .back a:hover{text-decoration:underline}
+/* Back to #top (v7.8): a link at the end of every page, in the manner of the "Back to #..." lead-ins (.more-h). */
+.to-top{margin:clamp(2.5rem,5vw,3.5rem) 0 0;font-family:var(--display);font-weight:800;font-style:italic;font-size:1.15rem;letter-spacing:-.02em;font-variant-numeric:lining-nums;word-spacing:.08em}
+.to-top a{color:var(--ink);text-decoration:none}
+.to-top a:hover{text-decoration:underline}
+#top:focus{outline:none}
+/* Floating up button (v7.8): bottom right, shown by the script in default.html after two screens of scrolling.
+   z-index 4: above the #thecut reveal (line 2, roundel 3), below the skip link (5); VerseClick pop-ups (99999) stay on top of it. */
+.float-top{position:fixed;right:calc(1rem + env(safe-area-inset-right,0px));bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:4;width:44px;height:44px;padding:0;display:flex;align-items:center;justify-content:center;border:2px solid var(--ink);border-radius:0;background:var(--ink);color:var(--paper);cursor:pointer}
+.float-top[hidden]{display:none}
+.float-top:hover{background:var(--paper);color:var(--ink)}
+.float-top svg{display:block}
 /* The AI note at the foot of every page (v2.3): quiet, but readable and kept in print. */
 .ai-note{max-width:34em;margin:clamp(3rem,6vw,4.5rem) 0 0;font-style:italic;font-size:.92em;line-height:1.5;color:var(--muted)}
 .ai-note a{color:var(--ink)}
@@ -294,7 +305,7 @@ details.explainer[open]{margin-bottom:1em}
   :root,:root[data-theme]{--paper:#fff;--ink:#000;--muted:#333;--gloss:#888;--rubric:#000;color-scheme:light}
   body{font-size:11pt;line-height:1.45}
   .wrap{max-width:none;padding:0}
-  .masthead nav,.reader-controls,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back,details.part>summary::after,details.head>summary::after,.accordion-controls{display:none!important}
+  .masthead nav,.reader-controls,.ecg,.verses,.chapter-nav,.skip,.doors-block,.more,.back,.to-top,.float-top,details.part>summary::after,details.head>summary::after,.accordion-controls{display:none!important}
   .hero-title,.tag-title,.tag-title.long{font-size:40pt}
   h1{font-size:28pt;margin-top:12pt}
   h2{font-size:16pt}

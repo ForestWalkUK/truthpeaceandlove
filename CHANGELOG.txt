@@ -5,6 +5,24 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.8 (26th November, A.D. 2026) - Back to #top and a floating up button; #thecut two sides
+------------------------------------------------------------------------------------------------
+New: every page now ends with a "Back to #top" link (in default.html, after the AI note),
+  styled like the site's other "Back to #..." lead-ins. It is a plain link to
+  <body id="top">, so it works with JavaScript switched off. It is not printed.
+New: a small floating up-arrow button, bottom right (44 x 44px, ink with a paper-coloured
+  arrow, square corners, clear of phone safe areas). It appears once the reader is more
+  than two screen heights down the page, and hides near the top and whenever the Back to
+  #top link or the footer is on screen. A click scrolls to the top (instantly when the
+  reader prefers reduced motion) and moves keyboard focus to the top of the page. It sits
+  above the #thecut reveal and below VerseClick's pop-ups, and is not printed.
+Improvement: #thecut's people section is now #twosides. Its opening paragraph says what
+  it shows; the six people are set out in two groups, left and right of God's line,
+  each card giving "Where we'd put him" and "God's line" lines, with the outcome tag
+  directly under its own quotation. The Pharisee's note adds Luke 18:9, a closing
+  sentence follows the cards, and "bands" is now "levels" in all reader-facing text.
+  Page change log 1.6.
+
 Version 7.7 (26th November, A.D. 2026) - Drop capital: more space after a one-letter first word
 -----------------------------------------------------------------------------------------------
 Improvement: when a drop-capital paragraph begins with a one-letter word (I, A), the gap

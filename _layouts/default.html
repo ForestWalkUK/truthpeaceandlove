@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.site_version }}">
 {% if page.css %}<link rel="stylesheet" href="{{ page.css | relative_url }}?v={{ site.site_version }}">
 {% endif %}</head>
-<body>
+<body id="top">
 <a class="skip" href="#main">Skip to the text</a>
 <header class="masthead wrap">
 <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">tpl</a>
@@ -37,7 +37,10 @@
 {% assign ai_line = site.data.ai_notes[page.ai_note] %}{% if ai_line %}
 <p class="ai-note">{{ ai_line }} <a href="{{ '/how-this-site-is-written/' | relative_url }}">How this site is written</a>.</p>
 {% endif %}
+{% comment %} Back to #top (v7.8): on every page; a plain link to <body id="top">, so it works without JavaScript. {% endcomment %}
+<p class="to-top"><a href="#top">Back to <span class="hash">#</span>top</a></p>
 </main>
+<button type="button" class="float-top" id="float-top" aria-label="Back to the top" hidden><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 14V3M3 8l5-5 5 5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square"/></svg></button>
 <footer class="site-footer wrap">
 <p class="footer-links">{% for item in site.data.sections.footer %}{% assign target = site.pages | where: "url", item.url | first %}{% if target %}<a href="{{ item.url | relative_url }}" aria-label="{{ item.name }}"><span class="hash" aria-hidden="true">#</span>{{ item.tag }}</a> {% endif %}{% endfor %}</p>
 {% unless page.verseclick == false %}
@@ -92,6 +95,20 @@ window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)H[k
 (function(){var E=document.querySelectorAll("details.explainer");if(!E.length)return;var was=[];window.addEventListener("beforeprint",function(){was=[];for(var k=0;k<E.length;k++){was.push(E[k].open);E[k].open=true}});window.addEventListener("afterprint",function(){for(var k=0;k<was.length;k++)E[k].open=was[k]})})();
 /* TPL Drop cap (v7.7): when the first word of a drop-capital paragraph is a single letter (I, A), add class "drop-word" so that style.css can double the gap after the capital. Same selector as the TPL Drop cap CSS. */
 (function(){try{var P=document.querySelectorAll('.drop>p:not(.standing-note):not(p:not(.standing-note)~p),.prose p.opener');for(var k=0;k<P.length;k++)if(/^[A-Za-z]\s/.test(P[k].textContent.trim()))P[k].classList.add("drop-word")}catch(e){}})();
+/* Floating up button (v7.8): shown once the reader is more than two screen heights down the page, and hidden
+   near the top and whenever the Back to #top link or the footer is on screen, so it never covers them.
+   A click scrolls to the top (instantly if the reader prefers reduced motion) and moves keyboard focus to
+   the top of the page, so the next Tab reaches the skip link. */
+(function(){try{var b=document.getElementById("float-top");if(!b||!window.IntersectionObserver)return;
+var seen={},T=document.querySelectorAll(".to-top,.site-footer");
+function upd(){var near=false;for(var k in seen)if(seen[k])near=true;b.hidden=near||window.scrollY<=2*window.innerHeight}
+var io=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)seen[es[k].target.className]=es[k].isIntersecting;upd()});
+for(var k=0;k<T.length;k++)io.observe(T[k]);
+var q=false;window.addEventListener("scroll",function(){if(!q){q=true;requestAnimationFrame(function(){q=false;upd()})}},{passive:true});
+window.addEventListener("resize",upd);
+b.addEventListener("click",function(){var still=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches,t=document.body;
+t.setAttribute("tabindex","-1");t.focus({preventScroll:true});window.scrollTo({top:0,behavior:still?"auto":"smooth"})});
+upd()}catch(e){}})();
 </script>
 {% if page.js %}<script src="{{ page.js | relative_url }}?v={{ site.site_version }}"></script>
 {% endif %}
