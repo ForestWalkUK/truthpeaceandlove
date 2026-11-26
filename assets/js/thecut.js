@@ -15,7 +15,7 @@ const PEOPLE=[
   v:"And he answered and said unto him, Master, all these have I observed from my youth. Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me. And he was sad at that saying, and went away grieved: for he had great possessions. And Jesus looked round about, and saith unto his disciples, How hardly shall they that have riches enter into the kingdom of God! And the disciples were astonished at his words. But Jesus answereth again, and saith unto them, Children, how hard is it for them that trust in riches to enter into the kingdom of God!"},
  {band:4,side:"R",outcome:"Justified (Luke 18:14)",name:"The publican",note:"A tax collector working for Rome; such men were often cheats, and were despised.",ref:"Luke 18:13-14",
   v:"And the publican, standing afar off, would not lift up so much as <em>his</em> eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner. I tell you, this man went down to his house justified <em>rather</em> than the other: for every one that exalteth himself shall be abased; and he that humbleth himself shall be exalted."},
- {band:5,side:"R",outcome:"With Christ in paradise (Luke 23:43)",name:"The dying thief",note:"A criminal crucified beside Jesus, who turned to him in his last hours.",ref:"Luke 23:42-43",
+ {band:5,side:"R",outcome:"With Christ in paradise (Luke 23:43)",name:"The dying thief",note:"A criminal crucified beside Jesus, who turned to Him in his last hours.",ref:"Luke 23:42-43",
   v:"And he said unto Jesus, Lord, remember me when thou comest into thy kingdom. And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise."},
  {band:6,side:"R",outcome:"Saved (2 Timothy 4:8)",name:"Saul of Tarsus",note:"He hunted down Christians and voted for their deaths, before Christ met him; afterwards known as the apostle Paul.",ref:"Acts 26:10",
   v:"Which thing I also did in Jerusalem: and many of the saints did I shut up in prison, having received authority from the chief priests; and when they were put to death, I gave my voice against <em>them</em>."}];
@@ -38,13 +38,13 @@ function placeLine(){
  $('cUp').style.display=cut===0?'none':'';$('cDn').style.display=cut===7?'none':'';
 }
 function describe(c){
- if(c===0)return "You think: no one goes to heaven.";
- if(c===7)return "You think: everyone goes to heaven.";
- return `You think: Heaven for ${BANDS[0][0]}${c>1?' to '+BANDS[c-1][0]:''}; hell for ${BANDS[c][0]}${c<6?' to '+BANDS[6][0]:''}.`;
+ if(c===0)return "Your line: no one goes to heaven.";
+ if(c===7)return "Your line: everyone goes to heaven.";
+ return `Your line: Heaven for ${BANDS[0][0]}${c>1?' to '+BANDS[c-1][0]:''}; hell for ${BANDS[c][0]}${c<6?' to '+BANDS[6][0]:''}.`;
 }
 function render(){
- if(stage===1)panel.innerHTML=`<p class="step">Step 1 of 2</p><p><span class="wide">Here</span><span class="narrow">Above</span> are seven bands of people, from the best to the worst. Move the line to where you think God makes the cut: everyone above it goes to heaven, everyone below it goes to hell. Tap a band, or drag the round handle.</p><p class="readout" id="readout">${describe(cut)}</p><div class="btns"><button class="go" id="next">This is my line</button></div>`;
- if(stage===2)panel.innerHTML=`<p class="step">Step 2 of 2</p><p class="readout">${describe(cut)}</p><p>That is your line. Now see where God draws his.</p><div class="btns"><button class="go" id="next">Now see God’s line</button><button class="go alt" id="back">Move my line</button></div>`;
+ if(stage===1)panel.innerHTML=`<p class="step">Step 1 of 2</p><p class="intro">Here are seven bands of people, from the best to the worst. Move the line to where you think God makes the cut: everyone above it goes to heaven, everyone below it goes to hell. Tap a band, or drag the round handle.</p><p class="readout" id="readout">${describe(cut)}</p><div class="btns"><button class="go" id="next">This is my line</button></div>`;
+ if(stage===2)panel.innerHTML=`<p class="step">Step 2 of 2</p><p class="readout">${describe(cut)}</p><p>Now see where God draws His.</p><div class="btns"><button class="go" id="next">Now see God’s line</button><button class="go alt" id="back">Move my line</button></div>`;
  over.classList.toggle('locked',stage===2);
  const n=$('next'),b=$('back');
  if(n)n.onclick=()=>{if(stage===1){stage=2;render()}else reveal()};

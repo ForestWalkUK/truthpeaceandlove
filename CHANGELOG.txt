@@ -5,6 +5,26 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.4 (26th November, A.D. 2026) - #thecut: fuller title, phone intro, larger chart text
+----------------------------------------------------------------------------------------------
+Improvement: #thecut has a fuller page title, "Where does God draw the line? Who goes to
+  heaven and who goes to hell?" (shown in #whatsnew, the browser tab and the screen-reader
+  text of the heading; the visible heading is still #thecut). The deck under the heading and
+  the door line on the home page are reworded to match (the door keeps "Draw yours first.").
+Feature: optional "deck_narrow" front-matter key, handled in _includes/page-head.html (the
+  deck is then printed twice, as deck-wide and deck-narrow). Used only on /thecut/: on
+  screens up to 820px thecut.css shows the fuller deck_narrow instead of the deck, and hides
+  the "Here are seven bands of people..." paragraph under the chart, which the fuller intro
+  replaces. The meta description and section lists still use "deck" only.
+Improvement: chart text 25% larger. Row minimum height 66px to 82.5px; band names 19px to
+  23.75px (17px to 21.25px under 520px wide); band descriptions 15.5px to 19.5px (14px to
+  17.5px under 520px wide). Padding, stamps, chips and feet unchanged.
+Improvement: the readout now says "Your line:" instead of "You think:"; step 2 reads "Now
+  see where God draws His."; He and Him capitalised where they mean the Lord (the dying
+  thief's note; the #whichside section). Scripture text unchanged.
+Cleanup: the .wide and .narrow classes in thecut.css and thecut.js are no longer used and
+  are removed. Page change log 1.1.
+
 Version 7.3 (26th November, A.D. 2026) - "Posted by" byline
 -------------------------------------------------------------
 Feature: a "Posted by Carl H" line under the title of every post (after the date) and
