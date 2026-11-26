@@ -73,3 +73,13 @@ Long lines in the terminal can be garbled when Carl copies them: characters are 
 2. After any edit made from text Carl has supplied, compare the result automatically, character for character, against the intended text (allowing for straight quotes becoming curly), and report whether it matched exactly. Don't ask Carl to check by eye alone.
 3. If a prompt from Carl seems to stop mid-sentence or mid-step, it has probably been cut off when pasted. Say so, do only the steps that arrived complete, and ask for the rest rather than guessing. Carl may send long prompts as a text file instead (for example in his Downloads folder); read and follow it as if he had typed it.
 4. Carl often pastes your replies into another chat for checking, and copying them from the terminal garbles them. So at the end of every reply that reports work done or asks Carl for a decision, also put the whole reply on the Windows clipboard, in UTF-8 as in point 1, and end the reply with the line "(This reply is on your clipboard.)". Keep the clipboard text exactly the same as the reply shown in the terminal. Also save the same reply, in UTF-8, to C:\Users\carlh\Downloads\cc-reply.txt, overwriting any earlier copy, so Carl can upload it if the clipboard is lost.
+
+## Local development branches (offline-dev/)
+
+- Branches named offline-dev/... are LOCAL ONLY. Never push them, never set an upstream for them, never publish them.
+- Everyday content changes are committed on main and pushed; then merge main into each offline-dev/ branch (using a temporary worktree if a checkout is blocked by untracked files) so they stay current. Never push them.
+- Work on them is previewed locally with:
+    bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml
+  and viewed at the localhost address Jekyll prints. (_config_dev.yml stops the github-pages gem adding the default Primer theme, whose style.css would overwrite ours.)
+- Merge an offline-dev/ branch into main ONLY when Carl explicitly approves the work. Then: switch to main, merge the branch, bump the site version, add the CHANGELOG.txt entry, give Carl the commit lines, commit, and push main.
+- Never merge, push or delete an offline-dev/ branch without Carl's explicit instruction.
