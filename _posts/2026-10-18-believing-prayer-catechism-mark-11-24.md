@@ -1,9 +1,12 @@
 ---
-title: "Believing Prayer: A Catechism on Mark 11:24"
+title: "Believing Prayer: A Question-and-Answer Study on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
 before_note: catechism-meaning.html
 changes:
+  - version: "4.4"
+    date: 2026-11-26
+    note: "The title is now plainer: ‘A Question-and-Answer Study on Mark 11:24’, in place of ‘A Catechism on Mark 11:24’."
   - version: "4.3"
     date: 2026-11-15
     note: "Q. 46: the two paragraphs on which nations the covenants bind are now in a tap-or-click arrow (“Covenants?”), and the arrow at the top now reads “What is a catechism?”. No wording of the paragraphs changed."
