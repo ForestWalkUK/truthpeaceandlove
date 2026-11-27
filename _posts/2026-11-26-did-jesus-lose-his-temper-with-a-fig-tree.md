@@ -2,6 +2,9 @@
 title: "Did Jesus Lose His Temper with a Fig Tree?"
 sections: [deeper]
 changes:
+  - version: "1.8"
+    date: 2026-11-27
+    note: "Under ‘A solemn warning’, the fig tree is now said to picture the nation of Israel. The earlier wording, “God’s people at that time”, wrongly suggested that God has cast Israel away (Romans 11:1-2, 29)."
   - version: "1.7"
     date: 2026-11-27
     note: "The first mention of the Old Testament now says what it is: the first part of the Bible, written before Christ came."
@@ -54,7 +57,7 @@ Then look at where Mark places it. The tree was cursed on the way into Jerusalem
 
 ## A solemn warning
 
-The fig tree was the picture the Old Testament prophets used for Israel, God’s people at that time (Jeremiah 8:13), and the Lord had already told a parable about a fig tree that bore nothing year after year: “cut it down; why cumbereth it the ground?” (Luke 13:7). Now, days before the cross, He acted that parable out. As the Bible commentator Matthew Henry put it, “He made this fig-tree an example, not to the trees, but to the men of that generation.” (Concise Commentary, on Mark 11:12-18). The withered tree was God’s sentence on a religion with leaves and no fruit. Within forty years, in A.D. 70, the Romans destroyed the temple. Multitudes were slain, and many of the survivors were led away captive, just as the Lord had foretold (Luke 21:24).
+The fig tree was the picture the Old Testament prophets used for the nation of Israel (Jeremiah 8:13), and the Lord had already told a parable about a fig tree that bore nothing year after year: “cut it down; why cumbereth it the ground?” (Luke 13:7). Now, days before the cross, He acted that parable out. As the Bible commentator Matthew Henry put it, “He made this fig-tree an example, not to the trees, but to the men of that generation.” (Concise Commentary, on Mark 11:12-18). The withered tree was God’s sentence on a religion with leaves and no fruit. Within forty years, in A.D. 70, the Romans destroyed the temple. Multitudes were slain, and many of the survivors were led away captive, just as the Lord had foretold (Luke 21:24).
 
 But the fig tree speaks to us too. Every one of us is a tree from which God looks for fruit, and not one of us has given Him what is His due. God has told us plainly what He looks for. His law is summed up in the Ten Commandments (Exodus 20:1-17), and “sin is the transgression of the law” (1 John 3:4): every breaking of those commandments, and every failure to keep them, in thought, word or deed. We may think our own sins are small beside the terrible crimes in the news. Yet the Lord Jesus traced murder back to anger, and adultery back to a look (Matthew 5:22, 28). And the weight of a wrong is measured by the one it is done against. To strike a stranger is a crime; to strike the king is treason. Every sin, even the ones we call “little”, is done against the infinitely holy God, and “our God *is* a consuming fire” (Hebrews 12:29). That is the terrible side of the fig tree, and we must not look away from it.
 
