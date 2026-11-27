@@ -5,6 +5,19 @@ Note: from now on, every version bump carries its own entry in this file, added 
 commit that raises site_version. This file is not published (it is in the exclude list in
 _config.yml).
 
+Version 7.10.0 (27th November, A.D. 2026) - Three-part version numbers; optional label for the Important note
+-------------------------------------------------------------------------------------------------------------
+New: the site version now has three parts, major.minor.fix, from this version on. 7.9
+  counts as 7.9.0, and this is the first minor step after it. The rule is in CLAUDE.md.
+  Article and post change logs keep their own two-part numbers.
+New: an optional "document_label:" in a page's front matter changes the first word of the
+  Important note (_includes/standing-note.html), "This ... was drawn up by me", and nothing
+  else. Without it the note is unchanged; a before-and-after build showed every other page,
+  including the Sorrow and Joy Confession, rendering exactly as before.
+Change: the Mark 11:24 study (now "A Question-and-Answer Study") uses document_label: study,
+  so its Important note opens "This study was drawn up by me"; it keeps document: catechism
+  and still reads "not the catechism of any church". Its change log is at 4.6.
+
 Version 7.9 (26th November, A.D. 2026) - Hover colours only on devices that can hover
 -------------------------------------------------------------------------------------
 Fix: hover colour swaps no longer stick on touch screens after a tap. On a phone, a tapped

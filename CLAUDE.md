@@ -11,7 +11,11 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - Carl plans changes in a separate chat and pastes the agreed instructions here. Do exactly what an instruction asks. If something else looks wrong or could be improved, mention it rather than changing it.
 - Before every commit, show the diff and wait for Carl's OK. When an instruction has several tasks (TASK 1, TASK 2 ...), make a separate commit for each, in order, each waiting for his OK.
 - Use the commit Summary and Description given in the instruction.
-- For code or design changes, bump site_version in _config.yml by 0.1 (it drives the footer "Version" line and the CSS cache-buster), and add a CHANGELOG.txt entry in the same commit, in the existing style. Small wording fixes need no version bump.
+- For code or design changes, bump site_version in _config.yml (it drives the footer "Version" line and the CSS cache-buster), and add a CHANGELOG.txt entry in the same commit, in the existing style. Since v7.10.0 the version has three parts, major.minor.fix (7.9 counts as 7.9.0):
+    - fix (+0.0.1): a correction to code or design with no new capability.
+    - minor (+0.1.0, fix resets to 0): a new feature, page type, include option or visible design change.
+    - major (+1.0.0, the others reset to 0): a redesign of the whole site.
+  Content-only wording changes still need no bump. site_version stays in quotes ("7.10.0"). Article and post change-log versions (such as 1.6 and 4.6) keep their own two-part numbers.
 - Never delete, move or rename anything in _posts/ unless explicitly asked. Before committing, check git status for unexpected deletions.
 - Never read, print, copy or change credentials, tokens or Git credential settings.
 - When a convention in this file changes, Carl's instruction will say so; update this file in the same commit.
@@ -31,7 +35,7 @@ Guidance for Claude Code working in this repository. This repository is public: 
 - The Gospels use the Geneva Bible, 1599 edition, with modernised spelling (from a public domain eBible.org text). Do not alter the Gospel text unless asked.
 - Every post and article ends with a worded note, in the text itself, saying what Carl did and what Claude did. Do not use dots, ratings or percentages for the role of AI.
 - Never claim for any writing on this site a standing it does not have. It is a private Christian's witness, not a church's determination: acknowledge borrowings from the Westminster Standards or other writers plainly, but never describe site writing as standing in continuity with, or sharing the authority of, the Confessional standards or any church. Scripture alone establishes the truth; the site seeks only to bear witness to it.
-- Every Confession or catechism must have "document: Confession" or "document: catechism" in its front matter. This prints the "Important note" at the top of the text (_includes/standing-note.html). Never remove it.
+- Every Confession or catechism must have "document: Confession" or "document: catechism" in its front matter. This prints the "Important note" at the top of the text (_includes/standing-note.html). Never remove it. An optional "document_label:" (since v7.10.0) changes only the first word of the note, "This … was drawn up" (the Mark 11:24 study uses document_label: study); "document:" itself stays.
 - Every article and post has a public change log in its front matter, newest first:
     changes:
       - version: "1.1"

@@ -2,8 +2,12 @@
 title: "Believing Prayer: A Question-and-Answer Study on Mark 11:24"
 sections: [otherbeliefs, deeper]
 document: catechism
+document_label: study
 before_note: catechism-meaning.html
 changes:
+  - version: "4.6"
+    date: 2026-11-27
+    note: "In the Important note, ‘This catechism’ now reads ‘This study’."
   - version: "4.5"
     date: 2026-11-26
     note: "Plainer wording for readers new to the Bible: names such as Abraham, Job and Paul are explained, church words such as ‘saved’, ‘repented’, ‘glory’ and ‘covenant’ are explained, and ‘catechism’ is replaced by ‘study’ in the introduction and the closing note. The box at the top is now headed ‘Why questions and answers?’ and still explains the word ‘catechism’. No question was added or removed."
